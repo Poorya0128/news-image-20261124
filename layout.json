@@ -1,0 +1,2925 @@
+{
+  "meta": {
+    "phase": "v3 port (v2 content on 1cec3843 design)",
+    "spec": "v3_port_spec_a10.md",
+    "stories": 35,
+    "regions": 9,
+    "region_counts": {
+      "Middle East": 8,
+      "North America": 4,
+      "East Asia": 5,
+      "Global": 1,
+      "South & SE Asia": 6,
+      "Africa": 2,
+      "Europe": 6,
+      "South America": 2,
+      "Oceania": 1
+    },
+    "note": "geometry per spec Sec 2; feature dek slot 24 + dek offset +3/+2 (Sec 9 ink audit, see make_layout_v3.py)"
+  },
+  "palette": {
+    "paper": {
+      "rgb": [
+        247,
+        243,
+        233
+      ],
+      "hex": "#f7f3e9"
+    },
+    "paper2": {
+      "rgb": [
+        240,
+        234,
+        219
+      ],
+      "hex": "#f0eadb"
+    },
+    "card": {
+      "rgb": [
+        255,
+        253,
+        247
+      ],
+      "hex": "#fffdf7"
+    },
+    "card_edge": {
+      "rgb": [
+        205,
+        198,
+        180
+      ],
+      "hex": "#cdc6b4"
+    },
+    "ink": {
+      "rgb": [
+        26,
+        26,
+        26
+      ],
+      "hex": "#1a1a1a"
+    },
+    "ink_soft": {
+      "rgb": [
+        55,
+        52,
+        48
+      ],
+      "hex": "#373430"
+    },
+    "grey": {
+      "rgb": [
+        100,
+        95,
+        86
+      ],
+      "hex": "#645f56"
+    },
+    "rule": {
+      "rgb": [
+        60,
+        56,
+        50
+      ],
+      "hex": "#3c3832"
+    },
+    "navy": {
+      "rgb": [
+        27,
+        52,
+        92
+      ],
+      "hex": "#1b345c"
+    },
+    "navy_light": {
+      "rgb": [
+        52,
+        84,
+        138
+      ],
+      "hex": "#34548a"
+    },
+    "red": {
+      "rgb": [
+        178,
+        24,
+        24
+      ],
+      "hex": "#b21818"
+    },
+    "red_dark": {
+      "rgb": [
+        140,
+        18,
+        18
+      ],
+      "hex": "#8c1212"
+    },
+    "gold": {
+      "rgb": [
+        176,
+        141,
+        52
+      ],
+      "hex": "#b08d34"
+    },
+    "gold_light": {
+      "rgb": [
+        216,
+        178,
+        84
+      ],
+      "hex": "#d8b254"
+    },
+    "up": {
+      "rgb": [
+        18,
+        105,
+        45
+      ],
+      "hex": "#12692d"
+    },
+    "down": {
+      "rgb": [
+        178,
+        24,
+        24
+      ],
+      "hex": "#b21818"
+    },
+    "white": {
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "hex": "#ffffff"
+    }
+  },
+  "region_colors": {
+    "Europe": {
+      "rgb": [
+        27,
+        52,
+        92
+      ],
+      "hex": "#1b345c"
+    },
+    "Middle East": {
+      "rgb": [
+        140,
+        18,
+        18
+      ],
+      "hex": "#8c1212"
+    },
+    "Africa": {
+      "rgb": [
+        20,
+        102,
+        46
+      ],
+      "hex": "#14662e"
+    },
+    "East Asia": {
+      "rgb": [
+        91,
+        45,
+        142
+      ],
+      "hex": "#5b2d8e"
+    },
+    "South & SE Asia": {
+      "rgb": [
+        11,
+        107,
+        106
+      ],
+      "hex": "#0b6b6a"
+    },
+    "North America": {
+      "rgb": [
+        154,
+        71,
+        12
+      ],
+      "hex": "#9a470c"
+    },
+    "South America": {
+      "rgb": [
+        122,
+        74,
+        33
+      ],
+      "hex": "#7a4a21"
+    },
+    "Oceania": {
+      "rgb": [
+        31,
+        111,
+        178
+      ],
+      "hex": "#1f6fb2"
+    },
+    "Central Asia": {
+      "rgb": [
+        110,
+        59,
+        94
+      ],
+      "hex": "#6e3b5e"
+    },
+    "Global": {
+      "rgb": [
+        74,
+        74,
+        74
+      ],
+      "hex": "#4a4a4a"
+    }
+  },
+  "contrast_report": [
+    {
+      "pair": "ink on paper",
+      "fg": [
+        26,
+        26,
+        26
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 15.71,
+      "passes_4_5": true,
+      "use": "body text"
+    },
+    {
+      "pair": "ink on card",
+      "fg": [
+        26,
+        26,
+        26
+      ],
+      "bg": [
+        255,
+        253,
+        247
+      ],
+      "ratio": 17.11,
+      "passes_4_5": true,
+      "use": "body text"
+    },
+    {
+      "pair": "ink_soft on paper",
+      "fg": [
+        55,
+        52,
+        48
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 11.17,
+      "passes_4_5": true,
+      "use": "secondary text"
+    },
+    {
+      "pair": "grey on paper",
+      "fg": [
+        100,
+        95,
+        86
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 5.72,
+      "passes_4_5": true,
+      "use": "captions/tags"
+    },
+    {
+      "pair": "red on paper",
+      "fg": [
+        178,
+        24,
+        24
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 6.24,
+      "passes_4_5": true,
+      "use": "kickers/accents/subhead"
+    },
+    {
+      "pair": "white on navy",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        27,
+        52,
+        92
+      ],
+      "ratio": 12.41,
+      "passes_4_5": true,
+      "use": "section headers / chips"
+    },
+    {
+      "pair": "white on red",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        178,
+        24,
+        24
+      ],
+      "ratio": 6.92,
+      "passes_4_5": true,
+      "use": "tags / number chips"
+    },
+    {
+      "pair": "gold_light on navy",
+      "fg": [
+        216,
+        178,
+        84
+      ],
+      "bg": [
+        27,
+        52,
+        92
+      ],
+      "ratio": 6.15,
+      "passes_4_5": true,
+      "use": "labels on navy"
+    },
+    {
+      "pair": "gold on navy",
+      "fg": [
+        176,
+        141,
+        52
+      ],
+      "bg": [
+        27,
+        52,
+        92
+      ],
+      "ratio": 3.96,
+      "passes_4_5": false,
+      "use": "DECORATION ONLY (rules) - never text"
+    },
+    {
+      "pair": "up on paper",
+      "fg": [
+        18,
+        105,
+        45
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 6.14,
+      "passes_4_5": true,
+      "use": "market gains"
+    },
+    {
+      "pair": "down on paper",
+      "fg": [
+        178,
+        24,
+        24
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 6.24,
+      "passes_4_5": true,
+      "use": "market losses"
+    },
+    {
+      "pair": "navy on paper",
+      "fg": [
+        27,
+        52,
+        92
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 11.2,
+      "passes_4_5": true,
+      "use": "headlines/labels"
+    },
+    {
+      "pair": "white on region:Europe",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        27,
+        52,
+        92
+      ],
+      "ratio": 12.41,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:Middle East",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        140,
+        18,
+        18
+      ],
+      "ratio": 9.5,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:Africa",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        20,
+        102,
+        46
+      ],
+      "ratio": 7.07,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:East Asia",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        91,
+        45,
+        142
+      ],
+      "ratio": 9.5,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:South & SE Asia",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        11,
+        107,
+        106
+      ],
+      "ratio": 6.31,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:North America",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        154,
+        71,
+        12
+      ],
+      "ratio": 6.4,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:South America",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        122,
+        74,
+        33
+      ],
+      "ratio": 7.42,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:Oceania",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        31,
+        111,
+        178
+      ],
+      "ratio": 5.28,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:Central Asia",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        110,
+        59,
+        94
+      ],
+      "ratio": 8.57,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "white on region:Global",
+      "fg": [
+        255,
+        255,
+        255
+      ],
+      "bg": [
+        74,
+        74,
+        74
+      ],
+      "ratio": 8.86,
+      "passes_4_5": true,
+      "use": "region chip text"
+    },
+    {
+      "pair": "status CONFIRMED navy on paper",
+      "fg": [
+        27,
+        52,
+        92
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 11.2,
+      "passes_4_5": true,
+      "use": "status tags"
+    },
+    {
+      "pair": "status OFFICIAL green on paper",
+      "fg": [
+        18,
+        105,
+        45
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 6.14,
+      "passes_4_5": true,
+      "use": "status tags"
+    },
+    {
+      "pair": "status REPORTED grey on paper",
+      "fg": [
+        100,
+        95,
+        86
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 5.72,
+      "passes_4_5": true,
+      "use": "status tags"
+    },
+    {
+      "pair": "status CLAIM red on paper",
+      "fg": [
+        178,
+        24,
+        24
+      ],
+      "bg": [
+        247,
+        243,
+        233
+      ],
+      "ratio": 6.24,
+      "passes_4_5": true,
+      "use": "status tags"
+    }
+  ],
+  "type_scale": {
+    "masthead_kicker": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 12,
+      "leading": 14,
+      "case": "upper",
+      "tracking": "letterspaced"
+    },
+    "masthead_date": {
+      "family": "Liberation Serif",
+      "weight": "Bold",
+      "size": 40,
+      "leading": 42
+    },
+    "masthead_subhead": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 14,
+      "leading": 16
+    },
+    "claim_line": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13,
+      "case": "upper"
+    },
+    "chip": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13,
+      "case": "upper"
+    },
+    "timeline_time": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13
+    },
+    "timeline_label": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 13
+    },
+    "section_header": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 13,
+      "leading": 16,
+      "case": "upper"
+    },
+    "card_kicker": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13,
+      "case": "upper"
+    },
+    "status_tag": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 10,
+      "leading": 12,
+      "case": "upper"
+    },
+    "lead_headline": {
+      "family": "Liberation Serif",
+      "weight": "Bold",
+      "size": 23,
+      "leading": 24
+    },
+    "lead_dek": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 12,
+      "leading": 13
+    },
+    "lead_chip": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 21,
+      "leading": 24,
+      "case": "upper"
+    },
+    "card_headline": {
+      "family": "Liberation Serif",
+      "weight": "Bold",
+      "size": 17,
+      "leading": 18
+    },
+    "card_dek": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 12,
+      "leading": 13
+    },
+    "card_chip": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 13,
+      "leading": 15,
+      "case": "upper"
+    },
+    "markets_row": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 12
+    },
+    "markets_num": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 12
+    },
+    "source_line": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 10,
+      "leading": 12
+    },
+    "brief_num": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13
+    },
+    "brief_item": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 17,
+      "note": "pitch 17px"
+    },
+    "brief_leadin": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 17
+    },
+    "brief_source": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 10,
+      "leading": 12
+    },
+    "datecheck": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 13
+    },
+    "datecheck_label": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 12,
+      "leading": 14,
+      "case": "upper"
+    },
+    "legend": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 13
+    },
+    "map_legend": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 14
+    },
+    "caption": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 11,
+      "leading": 13
+    },
+    "numbers_numeral": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 19,
+      "leading": 20
+    },
+    "numbers_caption": {
+      "family": "Liberation Sans",
+      "weight": "Regular",
+      "size": 10,
+      "leading": 11
+    },
+    "numbers_label": {
+      "family": "Liberation Sans",
+      "weight": "Bold",
+      "size": 11,
+      "leading": 13,
+      "case": "upper"
+    }
+  },
+  "blocks": [
+    {
+      "id": "masthead",
+      "kind": "masthead",
+      "x": 20,
+      "y": 16,
+      "w": 984,
+      "h": 73,
+      "content": "Row 1: kicker 'THE WORLD IN ONE DAY' (red, letterspaced, left) + claim line (navy, right). Giant date 'Tuesday 24 November 2026' (Serif Bold 40, centred, EXACT string, no comma - G-04). Red subhead (Sans Bold 14, centred) naming the 3 leads: Riyadh tower strike / Huawei guilty / Shanghai chief probe (A9 copy).",
+      "budgets": {
+        "kicker": {
+          "style": "masthead_kicker",
+          "text": "THE WORLD IN ONE DAY",
+          "fixed": true
+        },
+        "date": {
+          "style": "masthead_date",
+          "text": "Tuesday 24 November 2026",
+          "fixed": true,
+          "note": "exact string, no comma (G-04)"
+        },
+        "claim_line": {
+          "style": "claim_line",
+          "text_width_px": 620,
+          "chars_per_line": 112,
+          "lines": 1,
+          "max_chars": 112,
+          "text": "35 DATED STORIES · 9 REGIONS · ALL FROM TUE 24 NOV 2026",
+          "note": "counts computed from final assignment; must stay true"
+        },
+        "subhead": {
+          "style": "masthead_subhead",
+          "text_width_px": 944,
+          "chars_per_line": 134,
+          "lines": 1,
+          "max_chars": 134
+        }
+      }
+    },
+    {
+      "id": "region_chips",
+      "kind": "region_chips",
+      "x": 20,
+      "y": 101,
+      "w": 984,
+      "h": 20,
+      "content": "10 color-coded region chips with story counts (visible breadth proof). White Sans Bold 11 text on region color; chip widths from text metrics; 8px gaps between chips inside the band. Counts MUST match assignments.",
+      "budgets": {
+        "chip_text": {
+          "style": "chip",
+          "note": "per-chip: 'REGION N' measured individually"
+        }
+      },
+      "chips": [
+        {
+          "region": "Europe",
+          "count": 6,
+          "color_rgb": [
+            27,
+            52,
+            92
+          ],
+          "text": "EUROPE 6"
+        },
+        {
+          "region": "Middle East",
+          "count": 8,
+          "color_rgb": [
+            140,
+            18,
+            18
+          ],
+          "text": "MIDDLE EAST 8"
+        },
+        {
+          "region": "South & SE Asia",
+          "count": 6,
+          "color_rgb": [
+            11,
+            107,
+            106
+          ],
+          "text": "SOUTH & SE ASIA 6"
+        },
+        {
+          "region": "East Asia",
+          "count": 5,
+          "color_rgb": [
+            91,
+            45,
+            142
+          ],
+          "text": "EAST ASIA 5"
+        },
+        {
+          "region": "North America",
+          "count": 4,
+          "color_rgb": [
+            154,
+            71,
+            12
+          ],
+          "text": "NORTH AMERICA 4"
+        },
+        {
+          "region": "Africa",
+          "count": 2,
+          "color_rgb": [
+            20,
+            102,
+            46
+          ],
+          "text": "AFRICA 2"
+        },
+        {
+          "region": "Global",
+          "count": 1,
+          "color_rgb": [
+            74,
+            74,
+            74
+          ],
+          "text": "GLOBAL 1"
+        },
+        {
+          "region": "Oceania",
+          "count": 1,
+          "color_rgb": [
+            31,
+            111,
+            178
+          ],
+          "text": "OCEANIA 1"
+        },
+        {
+          "region": "South America",
+          "count": 2,
+          "color_rgb": [
+            122,
+            74,
+            33
+          ],
+          "text": "SOUTH AMERICA 2"
+        }
+      ]
+    },
+    {
+      "id": "timeline_numbers",
+      "kind": "timeline_numbers",
+      "x": 20,
+      "y": 133,
+      "w": 984,
+      "h": 47,
+      "content": "Merged UTC timeline + numbers zone (A10 Sec 5): line 1 = timed items as text ('TUESDAY UTC — 01:00 ... · 21:00 ...'); axis 00:00-24:00, 6px tall, dots at TRUE UTC positions (x = X0 + minutes/1440*984), 3h ticks, NO hour numerals; numbers row: navy label cell 'THE DAY / IN NUMBERS' (84px) + 6 figure cells x 150px, figures reused ONLY from stories already on the page (copy.json numbers_strip). A11 draws axis; A8 owns pin accuracy (G-15).",
+      "budgets": {
+        "strip_text": {
+          "style": "timeline_label",
+          "text_width_px": 874,
+          "chars_per_line": 168,
+          "lines": 1,
+          "max_chars": 168
+        },
+        "pin_time": {
+          "style": "timeline_time",
+          "fixed": "HH:MM"
+        },
+        "pin_label": {
+          "style": "timeline_label",
+          "text_width_px": 150,
+          "chars_per_line": 28,
+          "lines": 1,
+          "max_chars": 28
+        },
+        "numbers_numeral": {
+          "style": "numbers_numeral",
+          "text_width_px": 140,
+          "chars_per_line": 14,
+          "lines": 1,
+          "max_chars": 14
+        },
+        "numbers_caption": {
+          "style": "numbers_caption",
+          "text_width_px": 140,
+          "chars_per_line": 29,
+          "lines": 1,
+          "max_chars": 29
+        }
+      },
+      "pins": [
+        {
+          "utc": "01:00",
+          "label": "Hanoi blast",
+          "story_id": "a5-06"
+        },
+        {
+          "utc": "01:32",
+          "label": "Nepal quake",
+          "story_id": "a5-07"
+        },
+        {
+          "utc": "10:16",
+          "label": "Iran 7 conditions",
+          "story_id": "a4-03"
+        },
+        {
+          "utc": "13:00",
+          "label": "Cartagena siege",
+          "story_id": "a3-04"
+        },
+        {
+          "utc": "21:00",
+          "label": "US markets close",
+          "story_id": "a6-01"
+        }
+      ],
+      "numbers": {
+        "label_w_px": 84,
+        "cell_w_px": 150,
+        "cells": 6,
+        "label_lines": [
+          "THE DAY",
+          "IN NUMBERS"
+        ],
+        "note": "figures + captions in copy.json numbers_strip; numeral at (cell_x+10, y+18), caption at (cell_x+10, y+38) (Sec 9 nudge from spec y+19/y+36)"
+      }
+    },
+    {
+      "id": "lead_1",
+      "kind": "lead_card",
+      "x": 20,
+      "y": 192,
+      "w": 320,
+      "h": 187,
+      "content": "LEAD #1 a4-01: number badge '1' + kicker 'RIYADH · WAR' (region color) + status tag CONFIRMED (top-right). Scene 300x82 (A11, largest on page) with bold number chip '11 WOUNDED'. Serif headline (2 lines), dek (2 lines), dual source line. Largest scene: Riyadh skyline with PIF Tower, drone + strike burst; chip '11 WOUNDED', sub-chip '2ND STRIKE IN A WEEK'.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 206,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "text_ref": "RIYADH · WAR",
+          "note": "width after badge (18) + status-tag reserve (76)"
+        },
+        "headline": {
+          "style": "lead_headline",
+          "text_width_px": 300,
+          "chars_per_line": 27,
+          "lines": 2,
+          "max_chars": 54
+        },
+        "dek": {
+          "style": "lead_dek",
+          "text_width_px": 300,
+          "chars_per_line": 52,
+          "lines": 2,
+          "max_chars": 104
+        },
+        "number_chip": {
+          "style": "lead_chip",
+          "text_width_px": 280,
+          "chars_per_line": 26,
+          "lines": 1,
+          "max_chars": 26,
+          "text": "2ND STRIKE IN A WEEK"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 300,
+          "chars_per_line": 63,
+          "lines": 1,
+          "max_chars": 63
+        }
+      },
+      "story_id": "a4-01",
+      "number": 1,
+      "status_tag": "CONFIRMED",
+      "status_tag_position": "top_right",
+      "number_chip": "2ND STRIKE IN A WEEK",
+      "region": "Middle East",
+      "field": "War",
+      "kicker_ref": "RIYADH · WAR",
+      "sources": [
+        "The Wall Street Journal",
+        "Reuters"
+      ],
+      "sources_display": [
+        "Reuters",
+        "WSJ"
+      ],
+      "scene_area_px": [
+        300,
+        76
+      ],
+      "map_pin": {
+        "number": 1,
+        "lon": 46.68,
+        "lat": 24.71
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 76,
+        "gap2": 3,
+        "headline": 48,
+        "gap_hd": 2,
+        "dek": 26,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Houthi drone strikes Riyadh's PIF Tower, wounding 11",
+      "story_dek_ref": "Second attack on the Saudi capital's financial district in under a week",
+      "copy_key": "lead_dominant"
+    },
+    {
+      "id": "lead_2",
+      "kind": "lead_card",
+      "x": 352,
+      "y": 192,
+      "w": 320,
+      "h": 187,
+      "content": "LEAD #2 a6-04: number badge '2' + kicker 'BROOKLYN · TECH' (region color) + status tag OFFICIAL (top-right). Scene 300x82 (A11, largest on page) with bold number chip 'GUILTY 10 OF 12'. Serif headline (2 lines), dek (2 lines), dual source line. Brooklyn courthouse / gavel scene; chip 'GUILTY 10 OF 12'. Acquitted of racketeering - dek must carry it.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 206,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "text_ref": "BROOKLYN · COURTS",
+          "note": "width after badge (18) + status-tag reserve (76)"
+        },
+        "headline": {
+          "style": "lead_headline",
+          "text_width_px": 300,
+          "chars_per_line": 27,
+          "lines": 2,
+          "max_chars": 54
+        },
+        "dek": {
+          "style": "lead_dek",
+          "text_width_px": 300,
+          "chars_per_line": 52,
+          "lines": 2,
+          "max_chars": 104
+        },
+        "number_chip": {
+          "style": "lead_chip",
+          "text_width_px": 280,
+          "chars_per_line": 26,
+          "lines": 1,
+          "max_chars": 26,
+          "text": "GUILTY 10 OF 12"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 300,
+          "chars_per_line": 63,
+          "lines": 1,
+          "max_chars": 63
+        }
+      },
+      "story_id": "a6-04",
+      "number": 2,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "top_right",
+      "number_chip": "GUILTY 10 OF 12",
+      "region": "North America",
+      "field": "Technology",
+      "kicker_ref": "BROOKLYN · COURTS",
+      "sources": [
+        "Reuters",
+        "CNN"
+      ],
+      "sources_display": [
+        "Reuters",
+        "WSJ"
+      ],
+      "scene_area_px": [
+        300,
+        76
+      ],
+      "map_pin": {
+        "number": 2,
+        "lon": -73.99,
+        "lat": 40.69
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 76,
+        "gap2": 3,
+        "headline": 48,
+        "gap_hd": 2,
+        "dek": 26,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Huawei convicted in US trial over Iran business and stolen trade secrets",
+      "story_dek_ref": "A Brooklyn federal jury found Huawei guilty on 10 of 12 counts including bank fraud and conspiring to steal trade secrets, but acquitted it of racketeering conspiracy.",
+      "copy_key": "lead_sec_1"
+    },
+    {
+      "id": "lead_3",
+      "kind": "lead_card",
+      "x": 684,
+      "y": 192,
+      "w": 320,
+      "h": 187,
+      "content": "LEAD #3 gap-01: number badge '3' + kicker 'SHANGHAI · POLITICS' (region color) + status tag OFFICIAL (top-right). Scene 300x82 (A11, largest on page) with bold number chip '4TH POLITBURO PROBE'. Serif headline (2 lines), dek (2 lines), dual source line. Shanghai skyline scene with investigation motif; chip '4TH POLITBURO PROBE'. Chen Jining, 62, Shanghai party chief since Oct 2022; CCDI probe announced 24 Nov (Xinhua/Reuters/CNN).",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 206,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "text_ref": "SHANGHAI · POLITICS",
+          "note": "width after badge (18) + status-tag reserve (76)"
+        },
+        "headline": {
+          "style": "lead_headline",
+          "text_width_px": 300,
+          "chars_per_line": 27,
+          "lines": 2,
+          "max_chars": 54
+        },
+        "dek": {
+          "style": "lead_dek",
+          "text_width_px": 300,
+          "chars_per_line": 52,
+          "lines": 2,
+          "max_chars": 104
+        },
+        "number_chip": {
+          "style": "lead_chip",
+          "text_width_px": 280,
+          "chars_per_line": 26,
+          "lines": 1,
+          "max_chars": 26,
+          "text": "4TH SINCE 2025"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 300,
+          "chars_per_line": 63,
+          "lines": 1,
+          "max_chars": 63
+        }
+      },
+      "story_id": "gap-01",
+      "number": 3,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "top_right",
+      "number_chip": "4TH SINCE 2025",
+      "region": "East Asia",
+      "field": "Politics",
+      "kicker_ref": "SHANGHAI · POLITICS",
+      "sources": [
+        "Reuters",
+        "CNN"
+      ],
+      "sources_display": [
+        "Reuters",
+        "CNN"
+      ],
+      "scene_area_px": [
+        300,
+        76
+      ],
+      "map_pin": {
+        "number": 3,
+        "lon": 121.47,
+        "lat": 31.23
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 76,
+        "gap2": 3,
+        "headline": 48,
+        "gap_hd": 2,
+        "dek": 26,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Shanghai party chief Chen Jining placed under corruption investigation",
+      "story_dek_ref": "Politburo member probed for 'suspected serious violations' — the fourth top leader to fall since 2025.",
+      "copy_key": "lead_sec_2"
+    },
+    {
+      "id": "feature_4",
+      "kind": "feature_card",
+      "x": 20,
+      "y": 391,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #4 a6-01: badge '4' + kicker 'WORLD · MARKETS'; status tag CONFIRMED as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Mini close-table (6 rows x 12px) + 1-line headline, no dek. Dual source line. MARKETS CARD VARIANT: no scene; 6-row close table (Dow, S&P 500, Nasdaq, Nikkei, Brent, Gold) + chip. Figures exact from a6-01 key_numbers.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "GLOBAL · MARKETS",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 1,
+          "max_chars": 22
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored): 'CONFIRMED — AP · WSJ Market Data'"
+        },
+        "table_rows": {
+          "rows": 6,
+          "row_pitch_px": 12,
+          "row_style": "markets_row",
+          "num_style": "markets_num",
+          "instruments": [
+            "Dow Jones",
+            "S&P 500",
+            "Nasdaq",
+            "Nikkei 225",
+            "Brent crude",
+            "Gold Dec-26"
+          ],
+          "note": "exact closes + % from a6-01 key_numbers; A6 owns figures; no dek on this card (table carries the content)"
+        }
+      },
+      "story_id": "a6-01",
+      "number": 4,
+      "status_tag": "CONFIRMED",
+      "status_tag_position": "sources_line_prefix",
+      "region": "Global",
+      "field": "Markets",
+      "kicker_ref": "GLOBAL · MARKETS",
+      "sources": [
+        "Admiral Markets (AP via La Nación)",
+        "Motley Fool"
+      ],
+      "sources_display": [
+        "AP",
+        "WSJ"
+      ],
+      "variant": "markets_table",
+      "scene_area_px": [
+        172,
+        36
+      ],
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "headline": 18,
+        "gap2": 2,
+        "table_6_rows": 72,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Dow reclaims 50,000 as AI sell-off hits Nasdaq; Nikkei jumps 3.9%",
+      "story_dek_ref": "US stocks closed mixed on Tuesday 24 November 2026: the Dow rose 0.85% above 50,000 while the Nasdaq fell 1.48% and the S&P 500 slipped 0.50% as Monday's Nvidia-driven rally unwound. Europe eased, Japan surged, oil rebounded and metals sold off.",
+      "copy_key": "feature_4"
+    },
+    {
+      "id": "feature_5",
+      "kind": "feature_card",
+      "x": 220,
+      "y": 391,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #5 a6-02: badge '5' + kicker 'CALIFORNIA · TECH'; status tag CONFIRMED as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Chip-stock scene: falling chart arrow over chip; chip '-5.9%'.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "CALIFORNIA · TECH",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "CHIP INDEX -7.88%"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a6-02",
+      "number": 5,
+      "status_tag": "CONFIRMED",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "CHIP INDEX -7.88%",
+      "region": "North America",
+      "field": "Technology",
+      "kicker_ref": "CALIFORNIA · TECH",
+      "sources": [
+        "BigGo Finance",
+        "LeapRate"
+      ],
+      "sources_display": [
+        "Reuters",
+        "Motley Fool"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 5,
+        "lon": -122.42,
+        "lat": 37.77
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Nvidia rally fizzles in a day: shares fall 5.9% as chip sell-off erases $250bn",
+      "story_dek_ref": "One session after Jensen Huang's reinstatement as CEO sparked a record 31.5% surge, Nvidia gave back 5.86% on Tuesday and the Philadelphia Semiconductor Index plunged 7.88%, dragging the Nasdaq lower.",
+      "copy_key": "feature_5",
+      "chip_font_px": 13
+    },
+    {
+      "id": "feature_6",
+      "kind": "feature_card",
+      "x": 420,
+      "y": 391,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #6 a5-03: badge '6' + kicker 'MALAYSIA · POLITICS'; status tag CONFIRMED as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Return scene: navy vessel + aircraft; chip '6,803 TO RETURN'. Note AFP >6,500 Rohingya figure in dek if used.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "MALAYSIA · POLITICS",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "RETURNS IN DEC"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a5-03",
+      "number": 6,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "RETURNS IN DEC",
+      "region": "South & SE Asia",
+      "field": "Politics",
+      "kicker_ref": "MALAYSIA · POLITICS",
+      "sources": [
+        "Associated Press",
+        "AFP"
+      ],
+      "sources_display": [
+        "AP",
+        "AFP"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 6,
+        "lon": 101.69,
+        "lat": 3.14
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Malaysia to repatriate 6,803 Myanmar nationals in December",
+      "story_dek_ref": "Anwar announces returns days after ICJ genocide ruling; rights groups say most are Rohingya",
+      "copy_key": "feature_6",
+      "chip_font_px": 12
+    },
+    {
+      "id": "feature_7",
+      "kind": "feature_card",
+      "x": 620,
+      "y": 391,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #7 a5-01: badge '7' + kicker 'BEIJING · TRADE'; status tag OFFICIAL as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Export-controls pause scene: container port + gallium/germanium/antimony symbols; chip 'PAUSED TO 27 JAN 2027'.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "BEIJING · TRADE",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "PAUSED TO 27 JAN"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a5-01",
+      "number": 7,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "PAUSED TO 27 JAN",
+      "region": "East Asia",
+      "field": "Trade",
+      "kicker_ref": "BEIJING · TRADE",
+      "sources": [
+        "Xinhua",
+        "Reuters"
+      ],
+      "sources_display": [
+        "Reuters",
+        "Xinhua"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 7,
+        "lon": 116.4,
+        "lat": 39.9
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "China extends suspension of dual-use export controls on US-bound shipments",
+      "story_dek_ref": "MOFCOM prolongs the pause on gallium, germanium, antimony and superhard-materials controls until 27 January 2027",
+      "copy_key": "feature_7",
+      "chip_font_px": 11
+    },
+    {
+      "id": "feature_8",
+      "kind": "feature_card",
+      "x": 820,
+      "y": 391,
+      "w": 184,
+      "h": 124,
+      "content": "FEATURE #8 a4-03: badge '8' + kicker 'TEHRAN · DIPLOMACY'; status tag OFFICIAL as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 168x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Parliament scene: speaker podium + 7-item list motif; chip '7 CONDITIONS'.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 150,
+          "chars_per_line": 26,
+          "lines": 1,
+          "max_chars": 26,
+          "text_ref": "TEHRAN · DIPLOMACY",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 168,
+          "chars_per_line": 21,
+          "lines": 2,
+          "max_chars": 42
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 168,
+          "chars_per_line": 29,
+          "lines": 2,
+          "max_chars": 58
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 152,
+          "chars_per_line": 22,
+          "lines": 1,
+          "max_chars": 22,
+          "text": "GHALIBAF SPEAKS"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 168,
+          "chars_per_line": 36,
+          "lines": 1,
+          "max_chars": 36,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a4-03",
+      "number": 8,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "GHALIBAF SPEAKS",
+      "region": "Middle East",
+      "field": "Diplomacy",
+      "kicker_ref": "TEHRAN · DIPLOMACY",
+      "sources": [
+        "Argus Media",
+        "Kayhan"
+      ],
+      "sources_display": [
+        "AP",
+        "Argus Media"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        168,
+        30
+      ],
+      "map_pin": {
+        "number": 8,
+        "lon": 51.42,
+        "lat": 35.69
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Iran: no US talks until seven conditions met, Ghalibaf tells parliament",
+      "story_dek_ref": "Speaker restates demands — sanctions lift, end of naval blockade, frozen assets",
+      "copy_key": "feature_8",
+      "chip_font_px": 11
+    },
+    {
+      "id": "feature_9",
+      "kind": "feature_card",
+      "x": 20,
+      "y": 527,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #9 a4-05: badge '9' + kicker 'GAZA · WAR'; status tag CONFIRMED as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Gaza strike scene (generic, no photoreal people); chip '7 KILLED' (Reuters count LOCKED by A7: Abu Nahel and six others; AP's wider 9+ not used).",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "GAZA · WAR",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "7 KILLED"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a4-05",
+      "number": 9,
+      "status_tag": "CONFIRMED",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "7 KILLED",
+      "region": "Middle East",
+      "field": "War",
+      "kicker_ref": "GAZA · WAR",
+      "sources": [
+        "Reuters",
+        "SOFX (citing Times of Israel, Jerusalem Post, Al Jazeera)"
+      ],
+      "sources_display": [
+        "Reuters",
+        "Times of Israel"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 9,
+        "lon": 34.47,
+        "lat": 31.5
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Israeli strike kills Hamas internal security chief in Gaza City",
+      "story_dek_ref": "Naeem Abu Nahel, in post two months, killed with six others, medics say",
+      "copy_key": "feature_9",
+      "chip_font_px": 13,
+      "sources_two_line": true
+    },
+    {
+      "id": "feature_10",
+      "kind": "feature_card",
+      "x": 220,
+      "y": 527,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #10 a6-07: badge '10' + kicker 'CONGO · HEALTH'; status tag OFFICIAL as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Vaccine scene: vial + Congo map motif; chip '1.5M DOSES'. Conditional on trial results - dek must say so.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "CONGO · HEALTH",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "BUNDIBUGYO"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a6-07",
+      "number": 10,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "BUNDIBUGYO",
+      "region": "Africa",
+      "field": "Health",
+      "kicker_ref": "CONGO · HEALTH",
+      "sources": [
+        "Gavi, the Vaccine Alliance (official release)",
+        "Reuters (via Daily Fox News)"
+      ],
+      "sources_display": [
+        "Reuters",
+        "Gavi"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 10,
+        "lon": 30.046,
+        "lat": 1.935
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Gavi secures up to 1.5 million Ebola vaccine doses for Congo outbreak",
+      "story_dek_ref": "Gavi signed an advance purchase commitment for the Oxford-Serum Institute Bundibugyo vaccine ChAdOx1 BDBV, conditional on trial results, as Congo's Ebola death toll passed 5,700.",
+      "copy_key": "feature_10",
+      "chip_font_px": 13
+    },
+    {
+      "id": "feature_11",
+      "kind": "feature_card",
+      "x": 420,
+      "y": 527,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #11 gap-04: badge '11' + kicker 'ZAPORIZHZHIA · WAR'; status tag CONFIRMED as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Zaporizhzhia dawn-strike scene: city skyline at dawn + strike burst (generic, no people, no gore); chip '48 WOUNDED'. AP final figure 48 (Reuters snapshot 40); 2 killed, 4 children among wounded in dek.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "ZAPORIZHZHIA · WAR",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "48 WOUNDED"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "gap-04",
+      "number": 11,
+      "status_tag": "CONFIRMED",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "48 WOUNDED",
+      "region": "Europe",
+      "field": "War",
+      "kicker_ref": "ZAPORIZHZHIA · WAR",
+      "sources": [
+        "Associated Press (via Compuserve)",
+        "Reuters (via Devdiscourse)"
+      ],
+      "sources_display": [
+        "Reuters",
+        "AP"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 11,
+        "lon": 35.14,
+        "lat": 47.84
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Russian dawn strike on Zaporizhzhia kills 2, wounds 48",
+      "story_dek_ref": "Glide bombs hit homes in the Voznesenivskyi district before dawn; four children, including a baby under one, among the wounded, officials say.",
+      "copy_key": "feature_11",
+      "chip_font_px": 13
+    },
+    {
+      "id": "feature_12",
+      "kind": "feature_card",
+      "x": 620,
+      "y": 527,
+      "w": 188,
+      "h": 124,
+      "content": "FEATURE #12 gap-02: badge '12' + kicker 'PARIS · BUSINESS'; status tag OFFICIAL as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 172x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Pharma deal scene: Paris HQ + pill/vial motif; chip '$41BN'. $175/share cash, boards approved, close H1 2027 in dek.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 154,
+          "chars_per_line": 27,
+          "lines": 1,
+          "max_chars": 27,
+          "text_ref": "PARIS · BUSINESS",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 172,
+          "chars_per_line": 22,
+          "lines": 2,
+          "max_chars": 44
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 172,
+          "chars_per_line": 30,
+          "lines": 2,
+          "max_chars": 60
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 156,
+          "chars_per_line": 23,
+          "lines": 1,
+          "max_chars": 23,
+          "text": "$175 A SHARE"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 172,
+          "chars_per_line": 37,
+          "lines": 1,
+          "max_chars": 37,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "gap-02",
+      "number": 12,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "$175 A SHARE",
+      "region": "Europe",
+      "field": "Business",
+      "kicker_ref": "PARIS · BUSINESS",
+      "sources": [
+        "Sanofi (official press release)",
+        "Wall Street Journal"
+      ],
+      "sources_display": [
+        "WSJ",
+        "Sanofi"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        172,
+        30
+      ],
+      "map_pin": {
+        "number": 12,
+        "lon": 2.35,
+        "lat": 48.86
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "Sanofi agrees to buy US drugmaker Insmed for $41 billion",
+      "story_dek_ref": "Largest pharma deal of 2026: $175 a share in cash to refill the pipeline ahead of Dupixent's patent loss.",
+      "copy_key": "feature_12",
+      "chip_font_px": 13
+    },
+    {
+      "id": "feature_13",
+      "kind": "feature_card",
+      "x": 820,
+      "y": 527,
+      "w": 184,
+      "h": 124,
+      "content": "FEATURE #13 a6-06: badge '13' + kicker 'CHINA · SPACE'; status tag OFFICIAL as colored prefix on the sources line (feature cards are too narrow for a top-right tag). Scene 168x36 (A11) with number chip. Serif headline (2 lines), dek (2 lines). Dual source line. Tiangong scene: station + crew of 3; chip '1ST FOREIGN CREW'. BORDERLINE: crew UNVEILED 24 Nov only; launch 25 Nov 00:18 UTC must not be dated 24 Nov.",
+      "budgets": {
+        "kicker": {
+          "style": "card_kicker",
+          "text_width_px": 150,
+          "chars_per_line": 26,
+          "lines": 1,
+          "max_chars": 26,
+          "text_ref": "CHINA · SPACE",
+          "note": "full inner width after badge; status tag sits on sources line"
+        },
+        "headline": {
+          "style": "card_headline",
+          "text_width_px": 168,
+          "chars_per_line": 21,
+          "lines": 2,
+          "max_chars": 42
+        },
+        "dek": {
+          "style": "card_dek",
+          "text_width_px": 168,
+          "chars_per_line": 29,
+          "lines": 2,
+          "max_chars": 58
+        },
+        "number_chip": {
+          "style": "card_chip",
+          "text_width_px": 152,
+          "chars_per_line": 22,
+          "lines": 1,
+          "max_chars": 22,
+          "text": "1ST FOREIGN ASTRONAUT"
+        },
+        "source_line": {
+          "style": "source_line",
+          "text_width_px": 168,
+          "chars_per_line": 36,
+          "lines": 1,
+          "max_chars": 36,
+          "note": "prefixed by status tag word (colored), e.g. 'OFFICIAL — Gavi · Reuters'; use sources_display short names"
+        }
+      },
+      "story_id": "a6-06",
+      "number": 13,
+      "status_tag": "OFFICIAL",
+      "status_tag_position": "sources_line_prefix",
+      "number_chip": "1ST FOREIGN ASTRONAUT",
+      "region": "East Asia",
+      "field": "Science & Space",
+      "kicker_ref": "CHINA · SPACE",
+      "sources": [
+        "Nature",
+        "Associated Press (via Phys.org)"
+      ],
+      "sources_display": [
+        "Reuters",
+        "AP"
+      ],
+      "variant": "standard",
+      "scene_area_px": [
+        168,
+        30
+      ],
+      "map_pin": {
+        "number": 13,
+        "lon": 100.29,
+        "lat": 40.96
+      },
+      "stack_px": {
+        "pad_top": 4,
+        "kicker_row": 13,
+        "gap1": 2,
+        "scene": 30,
+        "gap2": 2,
+        "headline": 36,
+        "dek": 24,
+        "sources": 11,
+        "pad_bottom": 2
+      },
+      "story_headline_ref": "China unveils Shenzhou-24 crew with first foreign astronaut for Tiangong",
+      "story_dek_ref": "At a 24 November press conference in Jiuquan, China introduced Pakistani pilot Muhammad Zeeshan Ali as the first foreign astronaut to visit its Tiangong space station, launching Wednesday.",
+      "date_constraint": "Same as a5-02: CMSA press conference 24 Nov (Nature; AP 'Tuesday, Nov. 24, 2026'; Reuters Jiuquan Nov 24). Launch Wed 25 Nov 08:18 Beijing = 00:18 UTC 25 Nov. Keep only as crew unveiling. DUPLICATE of a5-02 - publish one only.",
+      "copy_key": "feature_13",
+      "chip_font_px": 9
+    },
+    {
+      "id": "world_map",
+      "kind": "world_map",
+      "x": 20,
+      "y": 663,
+      "w": 320,
+      "h": 258,
+      "content": "Header 'WHERE IT HAPPENED — SCENES 1-13'. World map (A11, dotted or filled, own execution) with numbered pins 1-13 = lead+feature card numbers at true lon/lat (see each card's map_pin). Region legend below: color dot + region + count (same 10 regions/counts as chips). Caption: 'Pins 1-13 locate the illustrated stories; all 38 stories color-coded by region.'",
+      "budgets": {
+        "header": {
+          "style": "section_header",
+          "text_width_px": 304,
+          "chars_per_line": 47,
+          "lines": 1,
+          "max_chars": 47
+        },
+        "legend_item": {
+          "style": "map_legend",
+          "text_width_px": 150,
+          "chars_per_line": 28,
+          "lines": 1,
+          "max_chars": 28
+        },
+        "caption": {
+          "style": "caption",
+          "text_width_px": 304,
+          "chars_per_line": 58,
+          "lines": 1,
+          "max_chars": 58
+        }
+      },
+      "map_area_px": [
+        304,
+        112
+      ],
+      "legend": [
+        {
+          "region": "Europe",
+          "count": 6,
+          "color_rgb": [
+            27,
+            52,
+            92
+          ]
+        },
+        {
+          "region": "Middle East",
+          "count": 8,
+          "color_rgb": [
+            140,
+            18,
+            18
+          ]
+        },
+        {
+          "region": "South & SE Asia",
+          "count": 6,
+          "color_rgb": [
+            11,
+            107,
+            106
+          ]
+        },
+        {
+          "region": "East Asia",
+          "count": 5,
+          "color_rgb": [
+            91,
+            45,
+            142
+          ]
+        },
+        {
+          "region": "North America",
+          "count": 4,
+          "color_rgb": [
+            154,
+            71,
+            12
+          ]
+        },
+        {
+          "region": "Africa",
+          "count": 2,
+          "color_rgb": [
+            20,
+            102,
+            46
+          ]
+        },
+        {
+          "region": "Global",
+          "count": 1,
+          "color_rgb": [
+            74,
+            74,
+            74
+          ]
+        },
+        {
+          "region": "Oceania",
+          "count": 1,
+          "color_rgb": [
+            31,
+            111,
+            178
+          ]
+        },
+        {
+          "region": "South America",
+          "count": 2,
+          "color_rgb": [
+            122,
+            74,
+            33
+          ]
+        }
+      ],
+      "pins": [
+        {
+          "number": 1,
+          "story_id": "a4-01",
+          "lon": 46.68,
+          "lat": 24.71
+        },
+        {
+          "number": 2,
+          "story_id": "a6-04",
+          "lon": -73.99,
+          "lat": 40.69
+        },
+        {
+          "number": 3,
+          "story_id": "gap-01",
+          "lon": 121.47,
+          "lat": 31.23
+        },
+        {
+          "number": 5,
+          "story_id": "a6-02",
+          "lon": -122.42,
+          "lat": 37.77
+        },
+        {
+          "number": 6,
+          "story_id": "a5-03",
+          "lon": 101.69,
+          "lat": 3.14
+        },
+        {
+          "number": 7,
+          "story_id": "a5-01",
+          "lon": 116.4,
+          "lat": 39.9
+        },
+        {
+          "number": 8,
+          "story_id": "a4-03",
+          "lon": 51.42,
+          "lat": 35.69
+        },
+        {
+          "number": 9,
+          "story_id": "a4-05",
+          "lon": 34.47,
+          "lat": 31.5
+        },
+        {
+          "number": 10,
+          "story_id": "a6-07",
+          "lon": 30.046,
+          "lat": 1.935
+        },
+        {
+          "number": 11,
+          "story_id": "gap-04",
+          "lon": 35.14,
+          "lat": 47.84
+        },
+        {
+          "number": 12,
+          "story_id": "gap-02",
+          "lon": 2.35,
+          "lat": 48.86
+        },
+        {
+          "number": 13,
+          "story_id": "a6-06",
+          "lon": 100.29,
+          "lat": 40.96
+        }
+      ]
+    },
+    {
+      "id": "briefs",
+      "kind": "briefs",
+      "x": 352,
+      "y": 663,
+      "w": 652,
+      "h": 258,
+      "content": "Header 'ALSO ON TUESDAY — 25 MORE STORIES' + right-aligned code legend 'C = 2+ outlets · O = on record · R = single wire · CL = one side's claim'. Two columns (13 + 12) of single-line briefs, pitch 17px: number badge (region color) + bold lead-in (UTC prefix where verified) + terse fact + right-aligned source tag + Ø13px confidence-code circle (C/O/R/CL, A10 Sec 7.4). BORDERLINE briefs only in A8 wording (see wording_constraint per brief).",
+      "budgets": {
+        "header": {
+          "style": "section_header",
+          "text_width_px": 636,
+          "lines": 1
+        },
+        "brief_text": {
+          "style": "brief_item",
+          "text_width_px": 302,
+          "lines": 1,
+          "note": "line 1: leadin Bold + text Regular at col_x+18"
+        },
+        "brief_source": {
+          "style": "brief_source",
+          "text_width_px": 302,
+          "lines": 1,
+          "note": "line 2: status WORD Bold 10 (status colour) + ' · ' + sources, right-aligned"
+        }
+      },
+      "items": [
+        {
+          "number": 14,
+          "story_id": "a3-02",
+          "col": 0,
+          "row": 0,
+          "x": 352,
+          "y": 678,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Europe",
+          "sources_display": [
+            "Fox News"
+          ]
+        },
+        {
+          "number": 15,
+          "story_id": "a3-05",
+          "col": 0,
+          "row": 1,
+          "x": 352,
+          "y": 700,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Europe",
+          "sources_display": [
+            "Reuters",
+            "The Times"
+          ]
+        },
+        {
+          "number": 16,
+          "story_id": "a3-06",
+          "col": 0,
+          "row": 2,
+          "x": 352,
+          "y": 722,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Europe",
+          "sources_display": [
+            "Le Monde"
+          ]
+        },
+        {
+          "number": 17,
+          "story_id": "a4-04",
+          "col": 0,
+          "row": 3,
+          "x": 352,
+          "y": 744,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CLAIM",
+          "region": "Middle East",
+          "sources_display": [
+            "Middle East Eye"
+          ]
+        },
+        {
+          "number": 18,
+          "story_id": "a4-10",
+          "col": 0,
+          "row": 4,
+          "x": 352,
+          "y": 766,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "Middle East",
+          "sources_display": [
+            "Reuters",
+            "Aviation Today"
+          ]
+        },
+        {
+          "number": 19,
+          "story_id": "a4-13",
+          "col": 0,
+          "row": 5,
+          "x": 352,
+          "y": 788,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Africa",
+          "sources_display": [
+            "IMF"
+          ]
+        },
+        {
+          "number": 20,
+          "story_id": "a5-04",
+          "col": 0,
+          "row": 6,
+          "x": 352,
+          "y": 810,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South & SE Asia",
+          "sources_display": [
+            "Reuters",
+            "AP"
+          ]
+        },
+        {
+          "number": 21,
+          "story_id": "a5-10",
+          "col": 0,
+          "row": 7,
+          "x": 352,
+          "y": 832,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "East Asia",
+          "sources_display": [
+            "Yonhap",
+            "JoongAng Daily"
+          ]
+        },
+        {
+          "number": 22,
+          "story_id": "a5-06",
+          "col": 0,
+          "row": 8,
+          "x": 352,
+          "y": 854,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South & SE Asia",
+          "sources_display": [
+            "Reuters",
+            "AP"
+          ]
+        },
+        {
+          "number": 23,
+          "story_id": "a5-07",
+          "col": 0,
+          "row": 9,
+          "x": 352,
+          "y": 876,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South & SE Asia",
+          "sources_display": [
+            "Reuters",
+            "USGS"
+          ]
+        },
+        {
+          "number": 24,
+          "story_id": "a5-11",
+          "col": 0,
+          "row": 10,
+          "x": 352,
+          "y": 898,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CLAIM",
+          "region": "South & SE Asia",
+          "sources_display": [
+            "Xinhua"
+          ]
+        },
+        {
+          "number": 25,
+          "story_id": "a3-04",
+          "col": 1,
+          "row": 0,
+          "x": 684,
+          "y": 678,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South America",
+          "sources_display": [
+            "Reuters",
+            "iHeart"
+          ]
+        },
+        {
+          "number": 26,
+          "story_id": "a6-09",
+          "col": 1,
+          "row": 1,
+          "x": 684,
+          "y": 700,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Europe",
+          "sources_display": [
+            "UEFA",
+            "Reuters"
+          ]
+        },
+        {
+          "number": 27,
+          "story_id": "a4-02",
+          "col": 1,
+          "row": 2,
+          "x": 684,
+          "y": 722,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "Middle East",
+          "sources_display": [
+            "Reuters",
+            "AFP"
+          ]
+        },
+        {
+          "number": 28,
+          "story_id": "a5-05",
+          "col": 1,
+          "row": 3,
+          "x": 684,
+          "y": 744,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South & SE Asia",
+          "sources_display": [
+            "AP",
+            "Xinhua"
+          ]
+        },
+        {
+          "number": 29,
+          "story_id": "a6-03",
+          "col": 1,
+          "row": 4,
+          "x": 684,
+          "y": 766,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "North America",
+          "sources_display": [
+            "Reuters",
+            "MarketWatch"
+          ]
+        },
+        {
+          "number": 30,
+          "story_id": "a3-09",
+          "col": 1,
+          "row": 5,
+          "x": 684,
+          "y": 788,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "South America",
+          "sources_display": [
+            "Reuters",
+            "WSJ"
+          ]
+        },
+        {
+          "number": 31,
+          "story_id": "a4-12",
+          "col": 1,
+          "row": 6,
+          "x": 684,
+          "y": 810,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Middle East",
+          "sources_display": [
+            "UN News",
+            "Arab News"
+          ]
+        },
+        {
+          "number": 32,
+          "story_id": "a5-09",
+          "col": 1,
+          "row": 7,
+          "x": 684,
+          "y": 832,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "East Asia",
+          "sources_display": [
+            "Reuters"
+          ]
+        },
+        {
+          "number": 33,
+          "story_id": "a5-15",
+          "col": 1,
+          "row": 8,
+          "x": 684,
+          "y": 854,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Oceania",
+          "sources_display": [
+            "Dept of Industry",
+            "pm.gov.au"
+          ]
+        },
+        {
+          "number": 34,
+          "story_id": "a4-14",
+          "col": 1,
+          "row": 9,
+          "x": 684,
+          "y": 876,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "OFFICIAL",
+          "region": "Middle East",
+          "sources_display": [
+            "Reuters"
+          ]
+        },
+        {
+          "number": 35,
+          "story_id": "a3-07",
+          "col": 1,
+          "row": 10,
+          "x": 684,
+          "y": 898,
+          "w": 320,
+          "pitch_px": 22,
+          "status_word": "CONFIRMED",
+          "region": "North America",
+          "sources_display": [
+            "Reuters",
+            "USA Today"
+          ]
+        }
+      ],
+      "header_h": 15,
+      "pitch_px": 17
+    },
+    {
+      "id": "datecheck",
+      "kind": "date_check",
+      "x": 20,
+      "y": 933,
+      "w": 984,
+      "h": 24,
+      "content": "Full-width band, red label 'DATE CHECK — NOT 24 NOV' at left (118px) + 8 notable exclusions with true dates (from A8's 15; the 8 most notable that fit the 2-line budget - BepiColombo orbit 21 Nov and Mamdani surgery news 23 Nov held in reserve), 2 lines at 12px. Every story above happened or was first reported on Tue 24 Nov 2026 (UTC) - state this in the band intro if space allows after A9 trim. A8 owns accuracy (G-15). A9 may swap in a reserve item only at equal/shorter length; never drop dates.",
+      "budgets": {
+        "label": {
+          "style": "datecheck_label",
+          "text": "DATE CHECK — NOT 24 NOV",
+          "fixed": true
+        },
+        "items_text": {
+          "style": "datecheck",
+          "text_width_px": 858,
+          "lines": 1
+        }
+      },
+      "items": [
+        {
+          "story": "Russian corvette Merkury sunk at Benghazi",
+          "true_date": "Sun 22 Nov",
+          "short_label": "Merkury sunk"
+        },
+        {
+          "story": "Ukraine drone strike on Sparta II (the strike itself)",
+          "true_date": "Sat 21 Nov",
+          "short_label": "Sparta II strike"
+        },
+        {
+          "story": "Iran flogs singer Parastoo Ahmadi (74 lashes)",
+          "true_date": "Mon 23 Nov",
+          "short_label": "Ahmadi flogged"
+        },
+        {
+          "story": "WFP chief: wars could add $727m in costs",
+          "true_date": "Mon 23 Nov",
+          "short_label": "WFP cost warning"
+        },
+        {
+          "story": "Shenzhou-24 launch (only the 24 Nov crew unveiling is on this page)",
+          "true_date": "Wed 25 Nov",
+          "short_label": "Shenzhou-24 launch"
+        }
+      ],
+      "rendered_text_ref": "Merkury sunk — Sun 22 Nov · Sparta II strike — Sat 21 Nov · Ahmadi flogged — Mon 23 Nov · WFP cost warning — Mon 23 Nov · Shenzhou-24 launch — Wed 25 Nov",
+      "source": "date_audit_a8.json date_check_box (15 items; 8 selected + 2 reserve)"
+    },
+    {
+      "id": "footer",
+      "kind": "confidence_footer",
+      "x": 20,
+      "y": 969,
+      "w": 984,
+      "h": 39,
+      "content": "Rule + 2 lines. Line 1 (confidence legend): 'HOW SURE: CONFIRMED = 2+ outlets · OFFICIAL = on record · REPORTED = single wire · CLAIM = one side's account'. Line 2: 'Sources: <outlets> · Scenes drawn in code, not photographs · All times UTC'.",
+      "budgets": {
+        "line": {
+          "style": "legend",
+          "text_width_px": 968,
+          "chars_per_line": 187,
+          "lines": 1,
+          "max_chars": 187
+        }
+      },
+      "sources_list": [
+        "Reuters",
+        "WSJ",
+        "CNN",
+        "AP",
+        "Motley Fool",
+        "AFP",
+        "Xinhua",
+        "Argus Media",
+        "Times of Israel",
+        "Gavi",
+        "Sanofi",
+        "Fox News",
+        "The Times",
+        "Le Monde",
+        "Middle East Eye",
+        "Aviation Today",
+        "IMF",
+        "Yonhap",
+        "JoongAng Daily",
+        "USGS",
+        "iHeart",
+        "UEFA",
+        "MarketWatch",
+        "UN News",
+        "Arab News",
+        "Dept of Industry",
+        "pm.gov.au",
+        "USA Today"
+      ],
+      "legend_text": "HOW SURE: CONFIRMED = 2+ outlets · OFFICIAL = on record · REPORTED = single wire · CLAIM = one side's account"
+    }
+  ]
+}

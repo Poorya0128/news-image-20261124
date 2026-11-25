@@ -1,0 +1,787 @@
+{
+  "meta": {
+    "owner": "A9 Chief Copy Editor & Headline Writer",
+    "phase": "v3 port build (v2 content on 1cec3843 design, 35 stories, certainty in words)",
+    "date_exact": "Tuesday 24 November 2026",
+    "notes": [
+      "Every string verified against v3_port_spec_a10.md budgets (glyph width) by check_copy.py.",
+      "Facts/sources/certainty per v2_verification_a7.md (A7/A8); Huawei dek verbatim per v2_micro_a7.md R-1.",
+      "R-7 FOR A12 (layout): map pin 10 (a6-07 Congo) = Mongbwalu, Ituri Province, lat 1.935, lon 30.046. Never 0.5,29.5, never Kinshasa.",
+      "Certainty in words on every item (A7 Sec 6: 16 CONFIRMED / 17 OFFICIAL / 0 REPORTED / 2 CLAIM); CONFIRMED displays two outlets.",
+      "Footer sources generated from displayed set in make_copy.py (A4 equality asserted) = 28 outlets incl. USGS (displayed for a5-07 per A7 certainty table); A7 sign-off (v2_signoff_a7.md §1): 28 stands.",
+      "Display-name shortenings (A7-approved): 'JoongAng Daily' (Korea JoongAng Daily), 'Dept of Industry' (Department of Industry). Footer uses displayed forms (equality).",
+      "Chen badge: A1 ruling — '4TH SINCE 2025' (A7-approved, v2_signoff_a7.md §3).",
+      "Numbers strip: 6 NEW figures (A7 Sec 5), none printed elsewhere; Gavi dek does not print $40m; Venezuela caption does not print end-2025.",
+      "DATE CHECK: 5 items (D6), NBSP-bound dates so wrap never splits a date.",
+      "v3 port (v3_port_spec_a10.md): v2 content on 1cec3843 design. Leads: status word in tag, sources ' · '.join. Features: sources 'STATUS — A · B' (feature_9 two-line wrap at outlet boundary). Briefs two-line pitch 22, 2 cols.",
+      "Badge shortenings for chip focal clearance (spec Sec 6.2) — A7 SIGN-OFF PENDING: f6 'RETURNS IN DEC' (pure abbreviation of December), f7 'PAUSED TO 27 JAN' (year dropped — spec: A7 call), f8 'GHALIBAF SPEAKS' (venue 'parliament' dropped), f10 'BUNDIBUGYO' ('VACCINE' dropped). f13 badge '1ST FOREIGN ASTRONAUT' unchanged (A5-literal; A1 ruling: chip @9px + rocket shift).",
+      "f9 dek 'Naeem Abu Nahel, six others' (comma form, 155.4px 1 line, spec Sec 6.2) — A7 SIGN-OFF PENDING (spec R-1)."
+    ]
+  },
+  "masthead": {
+    "kicker": "THE WORLD IN ONE DAY",
+    "date": "Tuesday 24 November 2026",
+    "claim_line": "35 DATED STORIES · 9 REGIONS · ALL FROM TUE 24 NOV 2026",
+    "subhead": "Houthi drone hits Riyadh tower · Huawei found guilty in US · Shanghai chief under probe"
+  },
+  "region_chips": {
+    "chips": [
+      {
+        "region": "Europe",
+        "count": 6,
+        "text": "EUROPE 6"
+      },
+      {
+        "region": "Middle East",
+        "count": 8,
+        "text": "MIDDLE EAST 8"
+      },
+      {
+        "region": "South & SE Asia",
+        "count": 6,
+        "text": "SOUTH & SE ASIA 6"
+      },
+      {
+        "region": "East Asia",
+        "count": 5,
+        "text": "EAST ASIA 5"
+      },
+      {
+        "region": "North America",
+        "count": 4,
+        "text": "NORTH AMERICA 4"
+      },
+      {
+        "region": "Africa",
+        "count": 2,
+        "text": "AFRICA 2"
+      },
+      {
+        "region": "Global",
+        "count": 1,
+        "text": "GLOBAL 1"
+      },
+      {
+        "region": "Oceania",
+        "count": 1,
+        "text": "OCEANIA 1"
+      },
+      {
+        "region": "South America",
+        "count": 2,
+        "text": "SOUTH AMERICA 2"
+      }
+    ]
+  },
+  "timeline": {
+    "pins": [
+      {
+        "utc": "01:00",
+        "label": "Hanoi blast",
+        "story_id": "a5-06"
+      },
+      {
+        "utc": "01:32",
+        "label": "Nepal quake",
+        "story_id": "a5-07"
+      },
+      {
+        "utc": "10:16",
+        "label": "Iran 7 conditions",
+        "story_id": "a4-03"
+      },
+      {
+        "utc": "13:00",
+        "label": "Cartagena siege",
+        "story_id": "a3-04"
+      },
+      {
+        "utc": "21:00",
+        "label": "US markets close",
+        "story_id": "a6-01"
+      }
+    ],
+    "strip_text": "TUESDAY UTC — 01:00 Hanoi blast · 01:32 Nepal quake · 10:16 Iran 7 conditions · 13:00 Cartagena siege · 21:00 US markets close"
+  },
+  "numbers_strip": {
+    "label": [
+      "THE DAY",
+      "IN NUMBERS"
+    ],
+    "figures": [
+      {
+        "numeral": "364,000",
+        "caption": "Yemen displaced since August",
+        "story_id": "a4-12"
+      },
+      {
+        "numeral": "$81.91",
+        "caption": "Anthropic close vs $83 IPO",
+        "story_id": "a6-03"
+      },
+      {
+        "numeral": "$40m",
+        "caption": "Gavi Ebola vaccine fund",
+        "story_id": "a6-07"
+      },
+      {
+        "numeral": "242%",
+        "caption": "Venezuela debt vs GDP",
+        "story_id": "a3-09"
+      },
+      {
+        "numeral": "32.9%",
+        "caption": "SA jobless rate (IMF)",
+        "story_id": "a4-13"
+      },
+      {
+        "numeral": "$82.05",
+        "caption": "WTI crude settlement",
+        "story_id": "a6-01"
+      }
+    ]
+  },
+  "lead_dominant": {
+    "story_id": "a4-01",
+    "number": 1,
+    "kicker": "RIYADH · WAR",
+    "status_word": "CONFIRMED",
+    "badge": "2ND STRIKE IN A WEEK",
+    "headline": "Houthi drone hits Riyadh tower, wounds 11",
+    "dek": "Second strike on the PIF Tower in under a week, in the Saudi capital's financial district.",
+    "sources": [
+      "Reuters",
+      "WSJ"
+    ],
+    "source_line": "Reuters · WSJ",
+    "source_lines": [
+      "Reuters · WSJ"
+    ]
+  },
+  "lead_sec_1": {
+    "story_id": "a6-04",
+    "number": 2,
+    "kicker": "BROOKLYN · COURTS",
+    "status_word": "OFFICIAL",
+    "badge": "GUILTY 10 OF 12",
+    "headline": "Huawei convicted in US over Iran business",
+    "dek": "Cleared: racketeering, obstruction; sentencing 14 Sep 2027",
+    "sources": [
+      "Reuters",
+      "WSJ"
+    ],
+    "source_line": "Reuters · WSJ",
+    "source_lines": [
+      "Reuters · WSJ"
+    ]
+  },
+  "lead_sec_2": {
+    "story_id": "gap-01",
+    "number": 3,
+    "kicker": "SHANGHAI · POLITICS",
+    "status_word": "OFFICIAL",
+    "badge": "4TH SINCE 2025",
+    "headline": "China probes Shanghai chief Chen Jining",
+    "dek": "The 62-year-old faces a CCDI corruption investigation",
+    "sources": [
+      "Reuters",
+      "CNN"
+    ],
+    "source_line": "Reuters · CNN",
+    "source_lines": [
+      "Reuters · CNN"
+    ]
+  },
+  "feature_4": {
+    "story_id": "a6-01",
+    "number": 4,
+    "kicker": "GLOBAL · MARKETS",
+    "status_word": "CONFIRMED",
+    "headline": "Dow back above 50,000",
+    "table_rows": [
+      {
+        "instrument": "Dow Jones",
+        "value": "50,018.70",
+        "change": "+0.85%"
+      },
+      {
+        "instrument": "S&P 500",
+        "value": "7,201.09",
+        "change": "-0.50%"
+      },
+      {
+        "instrument": "Nasdaq",
+        "value": "23,733.54",
+        "change": "-1.48%"
+      },
+      {
+        "instrument": "Nikkei 225",
+        "value": "58,644.63",
+        "change": "+3.91%"
+      },
+      {
+        "instrument": "Brent crude",
+        "value": "$91.40",
+        "change": "+2.27%"
+      },
+      {
+        "instrument": "Gold Dec-26",
+        "value": "$3,561.90",
+        "change": "-2.45%"
+      }
+    ],
+    "sources": [
+      "AP",
+      "WSJ"
+    ],
+    "source_line": "CONFIRMED — AP · WSJ",
+    "source_lines": [
+      "CONFIRMED — AP · WSJ"
+    ]
+  },
+  "feature_5": {
+    "story_id": "a6-02",
+    "number": 5,
+    "kicker": "CALIFORNIA · TECH",
+    "status_word": "CONFIRMED",
+    "badge": "CHIP INDEX -7.88%",
+    "headline": "Nvidia falls 5.9% as rally unwinds",
+    "dek": "Close $155.38, down 5.86%",
+    "sources": [
+      "Reuters",
+      "Motley Fool"
+    ],
+    "source_line": "CONFIRMED — Reuters · Motley Fool",
+    "source_lines": [
+      "CONFIRMED — Reuters · Motley Fool"
+    ]
+  },
+  "feature_6": {
+    "story_id": "a5-03",
+    "number": 6,
+    "kicker": "MALAYSIA · POLITICS",
+    "status_word": "OFFICIAL",
+    "badge": "RETURNS IN DEC",
+    "headline": "Myanmar nationals: 6,803 to return",
+    "dek": "AFP: most are Rohingya",
+    "sources": [
+      "AP",
+      "AFP"
+    ],
+    "source_line": "OFFICIAL — AP · AFP",
+    "source_lines": [
+      "OFFICIAL — AP · AFP"
+    ]
+  },
+  "feature_7": {
+    "story_id": "a5-01",
+    "number": 7,
+    "kicker": "BEIJING · TRADE",
+    "status_word": "OFFICIAL",
+    "badge": "PAUSED TO 27 JAN",
+    "headline": "China extends US export-control pause",
+    "dek": "Gallium, germanium, antimony",
+    "sources": [
+      "Reuters",
+      "Xinhua"
+    ],
+    "source_line": "OFFICIAL — Reuters · Xinhua",
+    "source_lines": [
+      "OFFICIAL — Reuters · Xinhua"
+    ]
+  },
+  "feature_8": {
+    "story_id": "a4-03",
+    "number": 8,
+    "kicker": "TEHRAN · DIPLOMACY",
+    "status_word": "OFFICIAL",
+    "badge": "GHALIBAF SPEAKS",
+    "headline": "Iran: no US talks until 7 conditions met",
+    "dek": "Sanctions lift, frozen assets",
+    "sources": [
+      "AP",
+      "Argus Media"
+    ],
+    "source_line": "OFFICIAL — AP · Argus Media",
+    "source_lines": [
+      "OFFICIAL — AP · Argus Media"
+    ]
+  },
+  "feature_9": {
+    "story_id": "a4-05",
+    "number": 9,
+    "kicker": "GAZA · WAR",
+    "status_word": "CONFIRMED",
+    "badge": "7 KILLED",
+    "headline": "Israeli strike kills Hamas security chief",
+    "dek": "Naeem Abu Nahel, six others",
+    "sources": [
+      "Reuters",
+      "Times of Israel"
+    ],
+    "source_line": "CONFIRMED — Reuters · Times of Israel",
+    "source_lines": [
+      "CONFIRMED — Reuters ·",
+      "Times of Israel"
+    ]
+  },
+  "feature_10": {
+    "story_id": "a6-07",
+    "number": 10,
+    "kicker": "CONGO · HEALTH",
+    "status_word": "OFFICIAL",
+    "badge": "BUNDIBUGYO",
+    "headline": "Gavi secures up to 1.5m Ebola doses",
+    "dek": "Conditional on trial results.",
+    "sources": [
+      "Reuters",
+      "Gavi"
+    ],
+    "source_line": "OFFICIAL — Reuters · Gavi",
+    "source_lines": [
+      "OFFICIAL — Reuters · Gavi"
+    ]
+  },
+  "feature_11": {
+    "story_id": "gap-04",
+    "number": 11,
+    "kicker": "ZAPORIZHZHIA · WAR",
+    "status_word": "CONFIRMED",
+    "badge": "48 WOUNDED",
+    "headline": "Russian strike kills 2 in Zaporizhzhia",
+    "dek": "4 children among the wounded",
+    "sources": [
+      "Reuters",
+      "AP"
+    ],
+    "source_line": "CONFIRMED — Reuters · AP",
+    "source_lines": [
+      "CONFIRMED — Reuters · AP"
+    ]
+  },
+  "feature_12": {
+    "story_id": "gap-02",
+    "number": 12,
+    "kicker": "PARIS · BUSINESS",
+    "status_word": "OFFICIAL",
+    "badge": "$175 A SHARE",
+    "headline": "Sanofi to buy Insmed for $41bn",
+    "dek": "Close expected in H1 2027",
+    "sources": [
+      "WSJ",
+      "Sanofi"
+    ],
+    "source_line": "OFFICIAL — WSJ · Sanofi",
+    "source_lines": [
+      "OFFICIAL — WSJ · Sanofi"
+    ]
+  },
+  "feature_13": {
+    "story_id": "a6-06",
+    "number": 13,
+    "kicker": "CHINA · SPACE",
+    "status_word": "OFFICIAL",
+    "badge": "1ST FOREIGN ASTRONAUT",
+    "headline": "First foreign astronaut joins China crew",
+    "dek": "Pakistani pilot unveiled",
+    "sources": [
+      "Reuters",
+      "AP"
+    ],
+    "source_line": "OFFICIAL — Reuters · AP",
+    "source_lines": [
+      "OFFICIAL — Reuters · AP"
+    ]
+  },
+  "world_map": {
+    "header": "WHERE IT HAPPENED",
+    "legend": [
+      {
+        "region": "Europe",
+        "text": "Europe"
+      },
+      {
+        "region": "Middle East",
+        "text": "Middle East"
+      },
+      {
+        "region": "South & SE Asia",
+        "text": "South & SE Asia"
+      },
+      {
+        "region": "East Asia",
+        "text": "East Asia"
+      },
+      {
+        "region": "North America",
+        "text": "North America"
+      },
+      {
+        "region": "Africa",
+        "text": "Africa"
+      },
+      {
+        "region": "Global",
+        "text": "Global"
+      },
+      {
+        "region": "Oceania",
+        "text": "Oceania"
+      },
+      {
+        "region": "South America",
+        "text": "South America"
+      }
+    ],
+    "caption": "Pins = numbered stories above"
+  },
+  "briefs": {
+    "header": "ALSO ON TUESDAY — 22 MORE STORIES",
+    "items": [
+      {
+        "number": 14,
+        "story_id": "a3-02",
+        "leadin": "Poland:",
+        "text": "drone overnight into Tuesday",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Fox News"
+        ],
+        "full_text": "Poland: drone overnight into Tuesday",
+        "label_line": "OFFICIAL · Fox News"
+      },
+      {
+        "number": 15,
+        "story_id": "a3-05",
+        "leadin": "UK",
+        "text": "warns Ukraine suppliers: sabotage",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Reuters",
+          "The Times"
+        ],
+        "full_text": "UK warns Ukraine suppliers: sabotage",
+        "label_line": "OFFICIAL · Reuters · The Times"
+      },
+      {
+        "number": 16,
+        "story_id": "a3-06",
+        "leadin": "France:",
+        "text": "Sarkozy to stand trial",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Le Monde"
+        ],
+        "full_text": "France: Sarkozy to stand trial",
+        "label_line": "OFFICIAL · Le Monde"
+      },
+      {
+        "number": 17,
+        "story_id": "a4-04",
+        "leadin": "Iran",
+        "text": "says ship hit mine off Khasab",
+        "status_word": "CLAIM",
+        "sources": [
+          "Middle East Eye"
+        ],
+        "full_text": "Iran says ship hit mine off Khasab",
+        "label_line": "CLAIM · Middle East Eye"
+      },
+      {
+        "number": 18,
+        "story_id": "a4-10",
+        "leadin": "Turkey",
+        "text": "helicopter crash kills five",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "Aviation Today"
+        ],
+        "full_text": "Turkey helicopter crash kills five",
+        "label_line": "CONFIRMED · Reuters · Aviation Today"
+      },
+      {
+        "number": 19,
+        "story_id": "a4-13",
+        "leadin": "IMF:",
+        "text": "South Africa growth 1.0%",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "IMF"
+        ],
+        "full_text": "IMF: South Africa growth 1.0%",
+        "label_line": "OFFICIAL · IMF"
+      },
+      {
+        "number": 20,
+        "story_id": "a5-04",
+        "leadin": "Hasina",
+        "text": "plans return on 16 Dec",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "AP"
+        ],
+        "full_text": "Hasina plans return on 16 Dec",
+        "label_line": "CONFIRMED · Reuters · AP"
+      },
+      {
+        "number": 21,
+        "story_id": "a5-10",
+        "leadin": "Seoul",
+        "text": "to return North Korean boat",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Yonhap",
+          "JoongAng Daily"
+        ],
+        "full_text": "Seoul to return North Korean boat",
+        "label_line": "CONFIRMED · Yonhap · JoongAng Daily"
+      },
+      {
+        "number": 22,
+        "story_id": "a5-06",
+        "leadin": "01:00 Hanoi",
+        "text": "eatery blast kills six",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "AP"
+        ],
+        "full_text": "01:00 Hanoi eatery blast kills six",
+        "label_line": "CONFIRMED · Reuters · AP"
+      },
+      {
+        "number": 23,
+        "story_id": "a5-07",
+        "leadin": "01:32 Nepal",
+        "text": "quake mag. 5.3 (USGS)",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "USGS"
+        ],
+        "full_text": "01:32 Nepal quake mag. 5.3 (USGS)",
+        "label_line": "CONFIRMED · Reuters · USGS"
+      },
+      {
+        "number": 24,
+        "story_id": "a5-11",
+        "leadin": "Pakistan",
+        "text": "raids kill 8 suspected",
+        "status_word": "CLAIM",
+        "sources": [
+          "Xinhua"
+        ],
+        "full_text": "Pakistan raids kill 8 suspected",
+        "label_line": "CLAIM · Xinhua"
+      },
+      {
+        "number": 25,
+        "story_id": "a3-04",
+        "leadin": "13:00 Cartagena",
+        "text": "25 hostages still held",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "iHeart"
+        ],
+        "full_text": "13:00 Cartagena 25 hostages still held",
+        "label_line": "CONFIRMED · Reuters · iHeart"
+      },
+      {
+        "number": 26,
+        "story_id": "a6-09",
+        "leadin": "Madrid",
+        "text": "5-1 PSV; City, Arsenal held",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "UEFA",
+          "Reuters"
+        ],
+        "full_text": "Madrid 5-1 PSV; City, Arsenal held",
+        "label_line": "OFFICIAL · UEFA · Reuters"
+      },
+      {
+        "number": 27,
+        "story_id": "a4-02",
+        "leadin": "Houthis",
+        "text": "60 km from Aden, army says",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "AFP"
+        ],
+        "full_text": "Houthis 60 km from Aden, army says",
+        "label_line": "CONFIRMED · Reuters · AFP"
+      },
+      {
+        "number": 28,
+        "story_id": "a5-05",
+        "leadin": "Indonesia",
+        "text": "probes factory fire; toll 26",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "AP",
+          "Xinhua"
+        ],
+        "full_text": "Indonesia probes factory fire; toll 26",
+        "label_line": "CONFIRMED · AP · Xinhua"
+      },
+      {
+        "number": 29,
+        "story_id": "a6-03",
+        "leadin": "Anthropic",
+        "text": "slips below IPO price",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "MarketWatch"
+        ],
+        "full_text": "Anthropic slips below IPO price",
+        "label_line": "CONFIRMED · Reuters · MarketWatch"
+      },
+      {
+        "number": 30,
+        "story_id": "a3-09",
+        "leadin": "Venezuela",
+        "text": "puts debt at $237.5bn",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "WSJ"
+        ],
+        "full_text": "Venezuela puts debt at $237.5bn",
+        "label_line": "CONFIRMED · Reuters · WSJ"
+      },
+      {
+        "number": 31,
+        "story_id": "a4-12",
+        "leadin": "UN:",
+        "text": "350,000 in Taiz missed shots",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "UN News",
+          "Arab News"
+        ],
+        "full_text": "UN: 350,000 in Taiz missed shots",
+        "label_line": "OFFICIAL · UN News · Arab News"
+      },
+      {
+        "number": 32,
+        "story_id": "a5-09",
+        "leadin": "North Korea",
+        "text": "threatens Swiss office",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Reuters"
+        ],
+        "full_text": "North Korea threatens Swiss office",
+        "label_line": "OFFICIAL · Reuters"
+      },
+      {
+        "number": 33,
+        "story_id": "a5-15",
+        "leadin": "Australia",
+        "text": "PM's science prize shared",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Dept of Industry",
+          "pm.gov.au"
+        ],
+        "full_text": "Australia PM's science prize shared",
+        "label_line": "OFFICIAL · Dept of Industry · pm.gov.au"
+      },
+      {
+        "number": 34,
+        "story_id": "a4-14",
+        "leadin": "Baghdad",
+        "text": "orders Kurdish oil control",
+        "status_word": "OFFICIAL",
+        "sources": [
+          "Reuters"
+        ],
+        "full_text": "Baghdad orders Kurdish oil control",
+        "label_line": "OFFICIAL · Reuters"
+      },
+      {
+        "number": 35,
+        "story_id": "a3-07",
+        "leadin": "Trump",
+        "text": "awards Giuliani top medal",
+        "status_word": "CONFIRMED",
+        "sources": [
+          "Reuters",
+          "USA Today"
+        ],
+        "full_text": "Trump awards Giuliani top medal",
+        "label_line": "CONFIRMED · Reuters · USA Today"
+      }
+    ]
+  },
+  "datecheck": {
+    "label": "DATE CHECK — NOT 24 NOV",
+    "items": [
+      {
+        "story": "Russian corvette Merkury sunk at Benghazi",
+        "true_date": "Sun 22 Nov",
+        "short_label": "Merkury sunk"
+      },
+      {
+        "story": "Ukraine drone strike on Sparta II (the strike itself)",
+        "true_date": "Sat 21 Nov",
+        "short_label": "Sparta II strike"
+      },
+      {
+        "story": "Iran flogs singer Parastoo Ahmadi (74 lashes)",
+        "true_date": "Mon 23 Nov",
+        "short_label": "Ahmadi flogged"
+      },
+      {
+        "story": "WFP chief: wars could add $727m in costs",
+        "true_date": "Mon 23 Nov",
+        "short_label": "WFP cost warning"
+      },
+      {
+        "story": "Shenzhou-24 launch (only the 24 Nov crew unveiling is on this page)",
+        "true_date": "Wed 25 Nov",
+        "short_label": "Shenzhou-24 launch"
+      }
+    ],
+    "items_text": "Merkury sunk — Sun 22 Nov · Sparta II strike — Sat 21 Nov · Ahmadi flogged — Mon 23 Nov · WFP cost warning — Mon 23 Nov · Shenzhou-24 launch — Wed 25 Nov"
+  },
+  "footer": {
+    "line1": "HOW SURE: CONFIRMED = 2+ outlets · OFFICIAL = on record · REPORTED = single wire · CLAIM = one side's account",
+    "sources": [
+      "Reuters",
+      "WSJ",
+      "CNN",
+      "AP",
+      "Motley Fool",
+      "AFP",
+      "Xinhua",
+      "Argus Media",
+      "Times of Israel",
+      "Gavi",
+      "Sanofi",
+      "Fox News",
+      "The Times",
+      "Le Monde",
+      "Middle East Eye",
+      "Aviation Today",
+      "IMF",
+      "Yonhap",
+      "JoongAng Daily",
+      "USGS",
+      "iHeart",
+      "UEFA",
+      "MarketWatch",
+      "UN News",
+      "Arab News",
+      "Dept of Industry",
+      "pm.gov.au",
+      "USA Today"
+    ],
+    "line2": "Sources: Reuters, WSJ, CNN, AP, Motley Fool, AFP, Xinhua, Argus Media, Times of Israel, Gavi, Sanofi, Fox News, The Times, Le Monde, Middle East Eye, Aviation Today, IMF, Yonhap, JoongAng Daily, USGS, iHeart, UEFA, MarketWatch, UN News, Arab News, Dept of Industry, pm.gov.au, USA Today"
+  }
+}

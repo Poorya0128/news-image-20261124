@@ -1,0 +1,3407 @@
+[
+  {
+    "attribution": "claims",
+    "brief": "President Volodymyr Zelenskyy said on 24 November that Ukraine was responsible for a drone strike on the Russian cargo ship Sparta II in the Gulf of Finland, calling the vessel a legitimate target because it carried weapons. The strike itself occurred on 21 November; the ship drifted burning into Finnish waters before being towed away. On 22 November Ukrainian sea drones sank the Russian corvette Merkury at Benghazi, Libya, and hit the cargo vessel MV Angara. Bloomberg said it could not independently verify Zelenskyy's claim that Sparta II was carrying weapons; the Kremlin said the strike raised tensions in the Baltic.",
+    "dek": "Kyiv acknowledges Baltic drone strike days after sea drones sank a Russian corvette off Libya, widening the maritime war.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "The 24 Nov event is Zelenskyy's public confirmation, reported by Bloomberg on Nov 24, 2026 ('Nov 24, 2026 (Bloomberg) – President Volodymyr Zelenskyy said Ukraine was responsible...'). The underlying strikes occurred 21 Nov (Sparta II, Gulf of Finland) and 22 Nov (Merkury, Benghazi) per WSJ and Vigil Consilium timelines. Russia's transport ministry also stated on 24 Nov that the Sparta II tow had reached an anchorage at St Petersburg.",
+    "field": "war",
+    "headline": "Zelenskyy confirms Ukraine struck Russian ship in Gulf of Finland",
+    "id": "a3-01",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "WSJ, citing Zelenskyy",
+        "unit": "naval drones used against Merkury",
+        "value": "7"
+      },
+      {
+        "source": "WSJ",
+        "unit": "seas struck within days (Baltic, Mediterranean)",
+        "value": "2"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb"
+      },
+      {
+        "independent": true,
+        "outlet": "Bloomberg (via europesays.com)",
+        "url": "https://www.europesays.com/ukraine/75839/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[seas struck]",
+        "filed_value": "2",
+        "correct_value": "2 (Baltic + Mediterranean). No Black Sea strike on 24 Nov is evidenced anywhere in the pool; the earlier build's 'three seas' lead is unsupported.",
+        "source": "WSJ; Bloomberg via europesays"
+      }
+    ],
+    "a8_reasoning": "Underlying strikes are NOT 24 Nov: Sparta II hit Sat 21 Nov (Bloomberg/Reuters/Kyiv Independent agree), Merkury sunk Sun 22 Nov, Zelenskyy claimed Merkury Mon 23 Nov. The only 24 Nov event is Zelenskyy's Bloomberg-interview acknowledgment of the Sparta II strike (published 24 Nov). Eligible ONLY as a brief worded 'Zelenskyy confirms Ukraine struck Sparta II on 21 Nov', tagged CLAIM. The Merkury sinking must NOT appear as a 24 Nov story (DATE CHECK, 22 Nov). See lead_ruling.",
+    "date_constraint": "CLAIM brief only: Zelenskyy confirms Sparta II strike (21 Nov). No three-seas framing. Merkury -> DATE CHECK (22 Nov)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "A Russian drone briefly entered Polish airspace overnight into 24 November during strikes on Ukraine, Poland's military said. Polish forces tracked it and received authorization to shoot it down but held fire after it changed course east, citing risk to civilians. Deputy Defence Minister Pawel Zalewski said authorities assumed the incursion was deliberate. Poland's charge d'affaires in Washington, Bogdan Klich, said Tuesday he had briefed the US National Security Council and renewed Warsaw's call for a permanent US military presence. NATO had authorised forward deployment of an AWACS aircraft to Poland after the 20 November missile incursion.",
+    "dek": "Second Russian airspace incursion in four days after three Kh-101 missiles fell in Poland on 20 November.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Polish Armed Forces Operational Command statement and Deputy Defence Minister Zalewski's remarks were made on Tuesday 24 Nov; the incursion occurred overnight 23-24 Nov. Fox News and europesays (published 2026-11-24T10:44Z) both report the overnight-into-Nov-24 timing and Poland's Tuesday announcement.",
+    "field": "war",
+    "headline": "Russian drone briefly enters Polish airspace; Warsaw renews push for permanent US troops",
+    "id": "a3-02",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Fox News, citing Polish prosecutors",
+        "unit": "Russian Kh-101 missiles that fell in Poland on 20 Nov",
+        "value": "3"
+      },
+      {
+        "source": "Fox News",
+        "unit": "Russian airspace incursions in four days",
+        "value": "2"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Fox News",
+        "url": "https://foxnews.com/world/nato-jet-cleared-shoot-russian-missile-poland-warsaw-pushes-us-troops"
+      },
+      {
+        "independent": true,
+        "outlet": "europesays.com",
+        "url": "https://www.europesays.com/poland/39559/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Incursion occurred overnight 23-24 Nov (straddles UTC midnight); Polish military statement and Zalewski remarks are 24 Nov. The event cannot be proven to have occurred on 24 Nov UTC. Keep only worded as 'overnight into Tuesday' with the 24 Nov official statements as the dated facts.",
+    "date_constraint": "Incursion occurred overnight 23-24 Nov (straddles UTC midnight); Polish military statement and Zalewski remarks are 24 Nov. The event cannot be proven to have occurred on 24 Nov UTC. Keep only worded as 'overnight into Tuesday' with the 24 Nov official statements as the dated facts."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "A federal jury in Brooklyn convicted China's Huawei Technologies on Tuesday 24 November in a sprawling US criminal case, finding it guilty on 10 of 12 counts including bank fraud, wire fraud, sanctions violations and conspiring to steal trade secrets. The jury acquitted Huawei of racketeering conspiracy and conspiracy to obstruct justice. The case, begun in 2018, alleged Huawei deceived banks about its Iran business and stole trade secrets from US companies over two decades. Sentencing is set for 14 September 2027.",
+    "dek": "Brooklyn jury finds Huawei guilty on 10 of 12 counts but acquits it of racketeering conspiracy.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Verdict delivered Tuesday 24 Nov 2026 in Brooklyn federal court; Reuters story is dated 2026-11-24 and WSJ/CNN both report the jury convicted 'on Tuesday'.",
+    "field": "law",
+    "headline": "Huawei convicted in US criminal trial over Iran business and stolen trade secrets",
+    "id": "a3-03",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Reuters",
+        "unit": "criminal counts on which Huawei was convicted",
+        "value": "10 of 12"
+      },
+      {
+        "source": "Reuters",
+        "unit": "prosecution witnesses at trial",
+        "value": "60+"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": "A7: Duplicate of a6-04 (same Huawei verdict). a6-04 is stronger: three sources (Reuters/CNN/WSJ), names the banks (HSBC, Standard Chartered, BNP Paribas), Skycom, Judge Ann Donnelly, and the 60+/15 witness counts.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/business/telecom/chinas-huawei-convicted-of-fraud-in-u-s-criminal-trial-20e17ac3"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Verdict delivered Tuesday 24 Nov in Brooklyn federal court; Reuters story dated 2026-11-24, WSJ/CNN confirm 'on Tuesday'. The courtroom event itself is 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Masked gunmen took about 30 people hostage at an Exito supermarket in Cartagena's La Castellana neighborhood on Tuesday 24 November after a failed bid to hijack an armored car ferrying cash from a mall, according to Colombian police and President Abelardo de la Espriella. Ten captives were released during Tuesday. Security forces stormed the store in the early hours of Wednesday 25 November, freeing all remaining hostages and killing one captor, the president said.",
+    "dek": "Day-long siege at an Exito store in La Castellana; 10 hostages released Tuesday, rest freed in overnight rescue.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Siege began Tuesday 24 Nov (reported as starting around 8 a.m. local time, UTC-5); Reuters/AFP and iHeart reports state the day-long siege began on Tuesday (November 24) and ended early Wednesday 25 Nov with the rescue. The hostage-taking event itself occurred 24 Nov.",
+    "field": "crime",
+    "headline": "Gunmen seize Cartagena supermarket, take about 30 hostages after failed armored-car robbery",
+    "id": "a3-04",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters/AFP, citing President de la Espriella",
+        "unit": "approximate hostages initially taken",
+        "value": "30"
+      },
+      {
+        "source": "Reuters/AFP",
+        "unit": "hostages released during Tuesday",
+        "value": "10"
+      },
+      {
+        "source": "Reuters/AFP",
+        "unit": "captor killed in the rescue",
+        "value": "1"
+      }
+    ],
+    "region": "South America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters (AFP reporting)",
+        "url": "https://www.reuters.com/world/americas/all-hostages-held-colombian-supermarket-freed-afp-reports-2026-11-25/"
+      },
+      {
+        "independent": true,
+        "outlet": "NewsRadio 967 (iHeart)",
+        "url": "https://newsradio967.iheart.com/content/2026-11-25-colombia-supermarket-hostages-rescued-in-cartagena/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T13:00:00Z",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[approximate hostages initially taken].source",
+        "filed_value": "Reuters/AFP, citing President de la Espriella",
+        "correct_value": "iHeart recap (30 taken initially). Reuters' figure is 25 still held after 5 releases. Print: 'about 30 hostages taken; 25 still held Tuesday evening (Reuters)'.",
+        "source": "Reuters via LinkedIn post 2026-11-24T18:14Z; NewsRadio 967 iHeart 2026-11-25"
+      }
+    ],
+    "a8_reasoning": "Siege began Tue 24 Nov ~08:00 local (UTC-5) = ~13:00 UTC; hostage-taking is a 24 Nov event. The rescue in the early hours of Wed 25 Nov must not be dated 24 Nov in copy."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Britain's Ministry of Defence and the National Protective Security Authority, part of MI5, issued a highly unusual public alert on Tuesday 24 November warning companies that supply Ukraine's military that they face an increased sabotage threat from Russia. The alert said Russia has increased attempts to conduct sabotage against European defence-related facilities in recent months, typically through proxies using low-sophistication methods such as arson, and urged firms to improve security. Closed briefings for defence-sector executives were held on 24 November.",
+    "dek": "MoD and MI5's protective-security arm tell defence firms they could be targets of proxy arson attacks.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters story dated 2026-11-24 reports the alert was issued 'on Tuesday'; Breaking Defense timestamp 2026-11-24T19:29Z; The Times reports the joint alert was 'issued on Tuesday' with MoD briefings the same day.",
+    "field": "security",
+    "headline": "Britain issues rare public alert warning Ukraine suppliers of Russian sabotage threat",
+    "id": "a3-05",
+    "importance": 3,
+    "key_numbers": [],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/uk-warns-russian-sabotage-threat-companies-that-supply-ukraine-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "The Times",
+        "url": "https://www.thetimes.com/uk/defence/article/mi5-warns-defence-companies-to-prepare-for-russian-sabotage-qbc2vvqq6"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Joint MoD/NPSA alert issued Tuesday 24 Nov; Reuters dated 2026-11-24, Breaking Defense 2026-11-24T19:29Z, MoD briefings same day."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "French investigating judges on Tuesday 24 November ordered former President Nicolas Sarkozy, his wife Carla Bruni and nine others to stand trial over allegations that an attempt was made to pay a key witness, Ziad Takieddine, to withdraw claims that Libya's Muammar Gaddafi financed Sarkozy's 2007 election campaign. The couple face charges including criminal conspiracy and benefiting from witness tampering, carrying a maximum of 10 years in prison and a 150,000-euro fine. An initial pre-trial hearing is set for 1 April 2027, with trial expected in late 2027. Sarkozy separately awaits an appeal ruling on 30 November in the main Libyan-financing case.",
+    "dek": "Eleven defendants sent to trial after five-year probe into alleged bid to retract Libya-funding testimony.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Le Monde (article dated 2026/11/24) reports: 'On Tuesday, November 24, after five years of investigation, the investigating judges ordered all 11 people involved to stand trial.' Euro Weekly News update timestamped 24/11/2026 21:43h confirms the decision was issued Tuesday November 24.",
+    "field": "politics",
+    "headline": "French judges order Sarkozy and Carla Bruni to stand trial in witness-tampering case",
+    "id": "a3-06",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Le Monde",
+        "unit": "defendants ordered to stand trial",
+        "value": "11"
+      },
+      {
+        "source": "Euro Weekly News",
+        "unit": "years maximum prison sentence",
+        "value": "10"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Le Monde",
+        "url": "https://www.lemonde.fr/en/france/article/2026/11/24/nicolas-sarkozy-and-carla-bruni-will-stand-trial-in-witness-tampering-case_6787704_7.html"
+      },
+      {
+        "independent": true,
+        "outlet": "Euro Weekly News",
+        "url": "https://euroweeklynews.oacloud.es/world-news/european-news/nicolas-sarkozy-and-carla-bruni-face-ten-years-in-prison-over-alleged-witness-tampering.html"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Investigating judges' order issued Tuesday 24 Nov (Le Monde dated 2026/11/24; Euro Weekly News update 24/11/2026 21:43). Judicial decision is a 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "President Donald Trump on Tuesday 24 November awarded the Presidential Medal of Freedom, the country's highest civilian honor, to Rudy Giuliani in a private Oval Office ceremony. Giuliani, 82, rose to national prominence as New York mayor after the September 11, 2001 attacks and later helped Trump try to overturn his 2020 election defeat. Trump had announced the award in September 2025 after Giuliani was seriously injured in a car crash.",
+    "dek": "Former New York mayor receives highest US civilian honor in private Oval Office ceremony.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters story dated 2026-11-24: 'President Donald Trump on Tuesday awarded the Medal of Freedom... to Rudy Giuliani.' USA Today story URL dated 2026/11/24; NY Post photo caption: 'Tuesday, Nov. 24, 2026'.",
+    "field": "politics",
+    "headline": "Trump awards Rudy Giuliani the Presidential Medal of Freedom",
+    "id": "a3-07",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "DailyFoxNews/Newsmax report",
+        "unit": "years, Giuliani's age",
+        "value": "82"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/us/trump-awards-rudy-giuliani-medal-freedom-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/2026/11/24/trump-rudy-giuliani-medal-freedom/92939924007/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Medal awarded Tuesday 24 Nov in Oval Office ceremony; Reuters dated 2026-11-24, NY Post caption 'Tuesday, Nov. 24, 2026'."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The US Department of Justice on Tuesday 24 November announced what Attorney General Todd Blanche called the largest anti-scam enforcement surge in history, saying more than 800 defendants have been charged and over $8 billion in intended victim losses recovered. The actions include more than 400 criminal cases across 85 federal districts since President Trump's March executive order on fraud. FBI Director Kash Patel said Operation Blackout has seized nearly $17 billion in illicit funds and dismantled 29 scam compounds across four continents.",
+    "dek": "Attorney General Blanche says 400+ cases filed across 85 federal districts since March executive order.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Press conference held Tuesday Nov 24, 2026 in Washington (NY Post photo caption: 'on Nov. 24, 2026'); Fox News and NY Post both report Blanche 'announced Tuesday'. Figures are the DOJ's own, announced that day.",
+    "field": "crime",
+    "headline": "DOJ announces largest anti-scam surge in history: 800+ charged, $8 billion recovered",
+    "id": "a3-08",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "DOJ via NY Post",
+        "unit": "defendants charged",
+        "value": "800+"
+      },
+      {
+        "source": "DOJ via Fox News",
+        "unit": "intended victim losses recovered",
+        "value": "$8 billion"
+      },
+      {
+        "source": "DOJ via NY Post",
+        "unit": "criminal cases across 85 federal districts",
+        "value": "400+"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "New York Post",
+        "url": "https://nypost.com/2026/11/24/us-news/doj-recovers-over-8b-charges-more-than-800-suspects-in-largest-anti-scam-surge-in-history/"
+      },
+      {
+        "independent": true,
+        "outlet": "Fox News",
+        "url": "https://foxnews.com/politics/doj-recovers-8b-charges-more-than-800-suspects-largest-anti-scam-surge-history"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "24 Nov event is the DOJ press conference announcing cumulative enforcement (400+ cases filed since March). The underlying charges/recoveries span months. Keep only framed as an announcement of cumulative totals ('DOJ says 800+ charged since March'), never as 24 Nov raids or arrests.",
+    "date_constraint": "24 Nov event is the DOJ press conference announcing cumulative enforcement (400+ cases filed since March). The underlying charges/recoveries span months. Keep only framed as an announcement of cumulative totals ('DOJ says 800+ charged since March'), never as 24 Nov raids or arrests."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Venezuela's interim government on Tuesday 24 November published a long-awaited macroeconomic framework putting total public debt at $237.5 billion, or 242% of GDP at end-2025, far above the roughly $180 billion analysts had estimated. The nearly 200-page document, titled 'Venezuela Reborn', calls the debt unsustainable and in protracted default, and projects GDP roughly doubling to $200.9 billion within five years. Venezuela's defaulted bonds rose about 4 cents on the dollar after the release.",
+    "dek": "Disclosure paves way for one of the largest sovereign-debt restructurings in modern history.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters (Nov 24 dateline, story dated 2026-11-24): 'Venezuela's government published its long-awaited macroeconomic framework on Tuesday.' WSJ likewise reports the disclosure was made 'Tuesday'.",
+    "field": "economy",
+    "headline": "Venezuela puts public debt at $237.5 billion in long-awaited framework",
+    "id": "a3-09",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters, citing Venezuelan government framework",
+        "unit": "total public debt",
+        "value": "$237.5 billion"
+      },
+      {
+        "source": "Reuters",
+        "unit": "debt as share of GDP at end-2025",
+        "value": "242%"
+      },
+      {
+        "source": "Reuters",
+        "unit": "projected GDP within five years",
+        "value": "$200.9 billion"
+      }
+    ],
+    "region": "South America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/americas/venezuela-unveils-long-awaited-economic-framework-puts-debt-2375-billion-2026-11-24/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Framework published Tuesday 24 Nov (Reuters Nov 24 dateline; WSJ 'Tuesday'). Publication of the $237.5bn figure is the 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The US Army announced on Tuesday 24 November that it would conduct a controlled in-place detonation of about 68 deteriorating barrels of lead azide, more than 9,700 pounds of degraded explosive, at the Iowa Army Ammunition Plant in Middletown on Wednesday 25 November. Federal, state and local officials spent Tuesday alerting residents, FEMA began supporting relocation of residents within a five-mile cone southwest of the plant, and cellphone imminent-threat alerts were sent Tuesday. The Army says the stockpile is too unstable to move and risks spontaneous detonation.",
+    "dek": "Evacuation alerts issued Tuesday ahead of Wednesday blast at Iowa Army Ammunition Plant.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Army announcement dated November 24, 2026 (Army Communications and Outreach Office release); CNN (2026/11/24) reports Acting Army Secretary Adam Telle spoke at a Tuesday news conference in Middletown and that residents received imminent-threat alerts on Tuesday, November 24. The detonation itself occurred Wednesday 25 Nov; the 24 Nov events are the announcement, alerts and start of relocation.",
+    "field": "environment",
+    "headline": "Iowa town braces as Army prepares to detonate 68 barrels of unstable lead azide",
+    "id": "a3-10",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "US Army release",
+        "unit": "barrels/drums of lead azide",
+        "value": "68"
+      },
+      {
+        "source": "US Army release",
+        "unit": "pounds net explosive weight",
+        "value": "9,700+"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "CNN",
+        "url": "https://www.cnn.com/2026/11/24/us/iowa-lead-detonation-army?cid=external-feeds_iluminar_meta"
+      },
+      {
+        "independent": true,
+        "outlet": "US Army (official release via GlobalSecurity.org)",
+        "url": "https://www.globalsecurity.org/military/library/news/2026/11/mil-261124-army01.htm?_m=3n.002a.4620.dc0ao46khp.4b1x"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Army announcement, news conference, imminent-threat alerts and start of relocation are 24 Nov; the detonation itself occurred Wed 25 Nov. Keep only as 'Army warns/prepares' with the blast explicitly dated 25 Nov. Headline must not imply the explosion happened on 24 Nov.",
+    "date_constraint": "Army announcement, news conference, imminent-threat alerts and start of relocation are 24 Nov; the detonation itself occurred Wed 25 Nov. Keep only as 'Army warns/prepares' with the blast explicitly dated 25 Nov. Headline must not imply the explosion happened on 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Wisconsin health officials reported the state's third measles-related death on 24 November, one day after Pennsylvania confirmed its ninth, bringing the US measles death toll for 2026 to 13 by state figures. Pennsylvania, the hardest-hit state, has recorded 1,638 confirmed cases across 46 counties with 330 hospitalisations. The CDC has reported only six measles-associated deaths, a discrepancy with state counts. The US has recorded 5,838 confirmed cases as of 19 November, the most since 1991, and lost its measles-elimination status on 17 November.",
+    "dek": "Pennsylvania has 1,638 cases across 46 counties and nine deaths; CDC counts only six US deaths.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Becker's Hospital Review: 'Wisconsin health officials reported the state's third measles-related death Nov. 24, one day after Pennsylvania reported its ninth.' Pennsylvania's ninth death was confirmed by the PA Department of Health in a Nov. 23 news release; the Wisconsin report on Nov. 24 is the day's event.",
+    "field": "health",
+    "headline": "Wisconsin reports third measles death as US toll reaches 13; Pennsylvania hardest hit",
+    "id": "a3-11",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "Becker's Hospital Review",
+        "unit": "US measles deaths in 2026 (state figures)",
+        "value": "13"
+      },
+      {
+        "source": "PA Department of Health via Becker's",
+        "unit": "confirmed cases in Pennsylvania across 46 counties",
+        "value": "1,638"
+      },
+      {
+        "source": "CDC via HealthAndMe",
+        "unit": "confirmed US cases as of 19 Nov (CDC)",
+        "value": "5,838"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Becker's Hospital Review",
+        "url": "https://www.beckershospitalreview.com/quality/public-health/pennsylvania-reports-9th-measles-death-as-outbreak-tops-1600-cases/"
+      },
+      {
+        "independent": true,
+        "outlet": "HealthAndMe",
+        "url": "https://www.healthandme.com/health-news/pennsylvania-reports-9th-measles-death-us-outbreak-surges-as-total-cases-near-6000-article-156558113"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a7_corrections": [
+      {
+        "field": "headline + key_numbers[US measles deaths]",
+        "filed_value": "13",
+        "correct_value": "14 (9 Pennsylvania + 3 Wisconsin + 1 Virginia + 1 New York = 14). Becker's 13 is an undercount; Reuters, CIDRAP and the Milwaukee Journal Sentinel all total 14.",
+        "source": "Reuters 2026-11-24/25 via SRN/DailyFoxNews; CIDRAP 2026-11-24; jsonline.com 2026-11-24"
+      }
+    ],
+    "a8_reasoning": "Wisconsin's third death was REPORTED 24 Nov (death date itself not 24 Nov); Pennsylvania's ninth death was confirmed 23 Nov (see a6-14, OFF_DATE). Keep only worded as a 24 Nov report ('Wisconsin reports third measles death'); the Pennsylvania element must be dated 23 Nov or cut. 'US toll 13' is state figures only (CDC counts 6) and must be attributed.",
+    "date_constraint": "Wisconsin's third death was REPORTED 24 Nov (death date itself not 24 Nov); Pennsylvania's ninth death was confirmed 23 Nov (see a6-14, OFF_DATE). Keep only worded as a 24 Nov report ('Wisconsin reports third measles death'); the Pennsylvania element must be dated 23 Nov or cut. 'US toll 13' is state figures only (CDC counts 6) and must be attributed."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "King tides amplified by El Nino pushed San Francisco Bay water levels to 8.23 feet at the Crissy Field gauge at 10:06 a.m. on Tuesday 24 November, breaking the November record of 7.97 feet set on 30 November 1982, according to the National Weather Service. Flooding closed roads across Marin County and other Bay Area communities, a woman was rescued from floodwaters in Mill Valley, and forecasters warned Wednesday morning could bring even higher water ahead of the Thanksgiving travel rush.",
+    "dek": "Water level hit 8.23 feet at Crissy Field, eclipsing a record that stood since 1982.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "NWS gauge reading at Crissy Field: 8.23 feet at 10:06 a.m. local (PST, UTC-8 = 18:06 UTC) on Tuesday Nov 24, 2026, reported by NY Post and KION with dated photos from Nov. 24, 2026.",
+    "field": "weather",
+    "headline": "King tides break San Francisco November record, flood Bay Area roads",
+    "id": "a3-12",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "National Weather Service via NY Post",
+        "unit": "feet, San Francisco water level at Crissy Field",
+        "value": "8.23"
+      },
+      {
+        "source": "National Weather Service via KION",
+        "unit": "feet, previous November record (30 Nov 1982)",
+        "value": "7.97"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "New York Post",
+        "url": "https://nypost.com/2026/11/24/us-news/california-king-tides-smash-beachfront-homes-flood-roads-and-threaten-thanksgiving-travel/"
+      },
+      {
+        "independent": true,
+        "outlet": "KION Central Coast",
+        "url": "https://kioncentralcoast.com/news/2026/11/24/significant-flooding-from-king-tides-expected-across-san-francisco-bay-area/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T18:06:00Z",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "NWS gauge reading 8.23 ft at 10:06 PST = 18:06 UTC Tue 24 Nov; flooding same day. Physical event with a confirmed UTC timestamp."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The Federal Aviation Administration forecast the busiest Thanksgiving holiday skies in 16 years, with more than 417,000 flights over the nine-day holiday period and Tuesday 24 November expected to be the busiest day with more than 52,000 flights (52,345 per Fox Business). The TSA expects to screen about 17.6 million air travelers between Nov. 24 and 29. The FAA release is dated Tuesday, November 24, 2026.",
+    "dek": "More than 417,000 flights forecast over nine days, busiest holiday skies in 16 years.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "FAA newsroom release dated Tuesday, November 24, 2026 states the forecast was 'today released'; Tuesday 24 Nov was itself the forecast busiest travel day. (The DOT briefing-room copy is dated Monday Nov 23; the FAA copy is dated Nov 24.)",
+    "field": "society",
+    "headline": "FAA: Tuesday the busiest day of record Thanksgiving travel week",
+    "id": "a3-13",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "FAA",
+        "unit": "flights forecast over nine-day holiday period",
+        "value": "417,000+"
+      },
+      {
+        "source": "Fox Business, citing FAA",
+        "unit": "flights expected Tuesday 24 Nov",
+        "value": "52,345"
+      },
+      {
+        "source": "Fox Business, citing TSA",
+        "unit": "air travelers TSA expects to screen Nov 24-29",
+        "value": "17.6 million"
+      }
+    ],
+    "region": "North America",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Federal Aviation Administration (official)",
+        "url": "https://www.faa.gov/newsroom/trumps-transportation-department-announces-record-breaking-thanksgiving-air-travel-2026"
+      },
+      {
+        "independent": true,
+        "outlet": "Fox Business",
+        "url": "https://foxbusiness.com/fox-news-travel/tsa-forecasts-nearly-18-million-air-travelers-during-thanksgiving-week"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "FAA release dated Tue 24 Nov but the DOT briefing-room copy is dated Mon 23 Nov - release-date conflict. The story is a forecast, and Tue 24 Nov was itself the forecast busiest day. Keep only as a forecast ('FAA expects Tuesday to be busiest day'); do not present forecast flight counts as flown.",
+    "date_constraint": "FAA release dated Tue 24 Nov but the DOT briefing-room copy is dated Mon 23 Nov - release-date conflict. The story is a forecast, and Tue 24 Nov was itself the forecast busiest day. Keep only as a forecast ('FAA expects Tuesday to be busiest day'); do not present forecast flight counts as flown."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The UK Health Security Agency on 24 November published an interim assessment estimating 5,258 heat-associated deaths in Britain during summer 2026, the highest annual total since records began in 2016 and nearly double the previous high of 2,985 in 2022. There were seven heat episodes totalling 41 days; the deadliest, 21-28 June, was associated with an estimated 2,401 deaths. The UK experienced its warmest summer on record, with 38.2C recorded in Gloucestershire in mid-August.",
+    "dek": "UKHSA interim assessment finds deadliest period was 21-28 June, with an estimated 2,401 deaths.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "UKHSA blog post URL dated 2026/11/24 ('Summer 2026: a record year for heat-related deaths'); Reuters story dated 2026-11-24 (LONDON, Nov 24) reports the publication. The deaths occurred in summer 2026; the 24 Nov event is the official publication of the record figure.",
+    "field": "health",
+    "headline": "UK records highest number of heat-related deaths: 5,258 in summer 2026",
+    "id": "a3-14",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "UKHSA",
+        "unit": "estimated heat-associated deaths, summer 2026",
+        "value": "5,258"
+      },
+      {
+        "source": "UKHSA via Reuters",
+        "unit": "previous record (summer 2022)",
+        "value": "2,985"
+      },
+      {
+        "source": "UKHSA",
+        "unit": "heat-episode days across 7 episodes",
+        "value": "41"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/business/environment/uk-records-highest-number-heat-related-deaths-2026-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "UK Health Security Agency (official)",
+        "url": "https://ukhsa.blog.gov.uk/2026/11/24/summer-2026-a-record-year-for-heat-related-deaths-in-a-changing-uk-climate/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "The 5,258 deaths occurred in summer 2026; the 24 Nov event is UKHSA's official publication (blog URL dated 2026/11/24; Reuters LONDON Nov 24). Keep only worded as a publication ('UKHSA publishes record summer heat toll'), never as 24 Nov deaths.",
+    "date_constraint": "The 5,258 deaths occurred in summer 2026; the 24 Nov event is UKHSA's official publication (blog URL dated 2026/11/24; Reuters LONDON Nov 24). Keep only worded as a publication ('UKHSA publishes record summer heat toll'), never as 24 Nov deaths."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Estonian Prime Minister Kristen Michal said on Tuesday 24 November that Estonia could also shut its remaining operational railway border crossing with Russia at Narva, days after the government approved suspending all road crossings from 1 December for at least six months. Foreign Minister Margus Tsahkna, writing on 24 November, said closing the border would limit Russian intelligence activity and sanctions evasion. Russia summoned Estonia's charge d'affaires on Monday and warned the closure brought relations 'on the verge of triggering open war'; Tallinn says the road closure followed a foiled arson attack on drone company Threod Systems blamed on Russia.",
+    "dek": "Tallinn already suspending all road crossings from 1 December after foiled arson plot.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "PM Michal's statement was made Tuesday Nov. 24 in an ERR interview (europesays report); Tsahkna's article explaining the closure was published November 24, 2026 (piqmarkets). The underlying road-closure decision was approved Nov 20 and takes effect Dec 1; the 24 Nov events are the PM's rail statement and the FM's published explanation.",
+    "field": "security",
+    "headline": "Estonia weighs closing rail border with Russia too, PM says",
+    "id": "a3-15",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "EU Today summary of Tallinn decision",
+        "unit": "road border crossings to be suspended from 1 Dec",
+        "value": "5"
+      },
+      {
+        "source": "europesays",
+        "unit": "months minimum suspension, then review",
+        "value": "6"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "europesays.com (ERR interview)",
+        "url": "https://www.europesays.com/russia/93982/"
+      },
+      {
+        "independent": true,
+        "outlet": "PiqMarkets",
+        "url": "https://piqmarkets.com/story/estonia-says-it-will-close-its-land-border-with-russia"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "PM Michal's statement (rail closure possible) made Tue 24 Nov in ERR interview; FM Tsahkna's explainer published 24 Nov. The statement is a new 24 Nov event. Note: underlying road-closure decision was approved 20 Nov, effective 1 Dec - copy must keep those dates distinct."
+  },
+  {
+    "attribution": "claims",
+    "brief": "US Defense Secretary Pete Hegseth has yet to approve the transfer of about 60 Patriot air-defence interceptors that Washington had already agreed to supply to Ukraine, the Financial Times reported on Tuesday 24 November, citing people familiar with the matter. The outstanding allocation includes about 40 PAC-3 interceptors scheduled for delivery between September and December, none yet approved, plus about 20 older PAC-2 interceptors, financed by Kyiv's Western allies. Reuters said it could not immediately verify the report; a Pentagon spokesperson told FT there had been no change in US policy regarding support for Ukraine.",
+    "dek": "Pentagon sign-off pending on ally-funded PAC-3 and PAC-2 missiles as Russian strikes intensify.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "FT report published Tuesday Nov 24 (europesays timestamp 2026-11-24T05:44Z; ISW's November 24, 2026 assessment cites 'FT reported on November 24'). The 24 Nov event is the FT revelation; the underlying delay spans Sept-Dec 2026 delivery windows.",
+    "field": "war",
+    "headline": "FT: US has yet to approve transfer of about 60 Patriot interceptors to Ukraine",
+    "id": "a3-16",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "FT via Reuters",
+        "unit": "Patriot interceptors awaiting US approval (approx.)",
+        "value": "60"
+      },
+      {
+        "source": "FT via europesays",
+        "unit": "PAC-3 interceptors scheduled Sept-Dec, none approved",
+        "value": "40"
+      },
+      {
+        "source": "Reuters",
+        "unit": "separate US-approved sale of 500 PAC-3 missiles (deliveries from early 2030s)",
+        "value": "$2.1 billion"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": "A7: Source independence FAILS. Every outlet traces to the single FT report of 24 Nov: Reuters explicitly 'could not immediately verify the report' and the Pentagon did not respond to Reuters; ISW's 24 Nov assessment cites FT. No second independent confirmation exists. Fails the >=2 independent sources rule (rubric G-05).",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters (via LA Post)",
+        "url": "https://www.lapost.com/content/us-defense-chief-has-yet-to-approve-patriot-missiles-already-allocated-to-ukraine-ft-reports"
+      },
+      {
+        "independent": true,
+        "outlet": "Institute for the Study of War",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-24-2026/"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "BORDERLINE",
+    "a7_corrections": [
+      {
+        "field": "brief (Pentagon quote)",
+        "filed_value": "a Pentagon spokesperson told FT there had been no change in US policy",
+        "correct_value": "Unconfirmed in the Reuters text (Pentagon did not immediately respond to Reuters). Do not print the quote.",
+        "source": "Reuters 2026-11-24 via LA Post/SRN"
+      }
+    ],
+    "a8_reasoning": "24 Nov event is the FT report (europesays 2026-11-24T05:44Z; ISW 24 Nov assessment). The approval delay spans Sept-Dec delivery windows. Keep only attributed ('FT reports US has yet to approve...'); Reuters could not verify."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "More than 60,000 current and former Asda workers began the final stage of a decade-long equal-pay claim at the Manchester Employment Tribunal this week, in a case the GMB union says could lead to a payout worth up to £1.2 billion. The claim centres on predominantly female retail staff being paid more than £3 per hour less than predominantly male warehouse workers. The final 'material factor defence' hearing, which opened Monday 23 November and runs to 18 December, requires Asda to provide a reason unrelated to sex for the pay difference. Asda said it is confident it can defend the claims.",
+    "dek": "More than 60,000 workers in decade-long claim; Asda must justify pay gap unrelated to sex.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Final-stage hearing opened Monday 23 November 2026 and was in session Tuesday 24 November; trade press reported the final stage beginning on 24 Nov (The Grocer published 2026-11-24; Grocery Gazette URL dated 2026/11/24; BM Magazine timestamp 2026-11-24T11:36Z). NOTE for A8: hearing start date is 23 Nov; the tribunal sat on 24 Nov and the story broke 24 Nov.",
+    "field": "law",
+    "headline": "Asda's £1.2bn equal-pay case enters final stage at tribunal",
+    "id": "a3-17",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "GMB via Grocery Gazette",
+        "unit": "workers in the claim",
+        "value": "60,000+"
+      },
+      {
+        "source": "GMB via The Grocer",
+        "unit": "potential payout if claims succeed",
+        "value": "£1.2 billion"
+      },
+      {
+        "source": "The Grocer",
+        "unit": "per-hour pay gap alleged",
+        "value": "£3+"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": "A7: Duplicate of a6-10 (same Asda final-stage hearing). a6-10 is stronger: three sources and an explicit date note for A8.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "The Grocer",
+        "url": "https://www.thegrocer.co.uk/news/asda-confident-as-gender-pay-claims-case-begins-final-reckoning/726264.article"
+      },
+      {
+        "independent": true,
+        "outlet": "Grocery Gazette",
+        "url": "https://www.grocerygazette.co.uk/2026/11/24/asda-faces-final-showdown-in-1-2bn-equal-pay-battle-involving-60000-workers/"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Final-stage hearing OPENED Mon 23 Nov and sat on 24 Nov (runs to 18 Dec). 'Final stage under way' is true on 24 Nov; 'began/entered final stage' dated 24 Nov is false. Duplicate of a6-10 - publish one only. Hearing start must be dated 23 Nov if mentioned."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Heavy rain triggered flash floods across southwest Paraná on Tuesday 24 November, killing two people in Nova Esperança do Sudoeste and leaving a woman missing in Verê after floodwater swept her away, according to the Fire Corps and Paraná Civil Defence. More than 70 millimetres of rain fell within three hours. A Civil Defence balance at 6:46 p.m. recorded at least eight municipalities affected, 406 people affected and 21 homes damaged, while utility Copel reported about 174,700 consumer units without electricity across the state.",
+    "dek": "More than 70mm of rain in three hours; about 174,700 properties lose power across the state.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Floods occurred Tuesday 24 Nov 2026 (The Library Estate: 'on Tuesday, November 24, 2026'; Paraná Civil Defence balance issued 6:46 p.m. that day; Particle News dates the deluges Nov. 23-24). SOURCE-QUALITY FLAG for A7: both outlets are aggregators relaying Civil Defence/Fire Corps data; no major wire pickup found.",
+    "field": "disaster",
+    "headline": "Flash floods in Brazil's Paraná kill two, leave one missing",
+    "id": "a3-18",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "Fire Corps via The Library Estate",
+        "unit": "deaths confirmed in Nova Esperança do Sudoeste",
+        "value": "2"
+      },
+      {
+        "source": "Paraná Civil Defence via The Library Estate",
+        "unit": "people affected across 8 municipalities",
+        "value": "406"
+      },
+      {
+        "source": "Copel via Particle News",
+        "unit": "consumer units without electricity",
+        "value": "174,700"
+      }
+    ],
+    "region": "South America",
+    "reject_reason": "A7: Source independence FAILS. Both filed sources (The Library Estate, Particle News) are aggregators relaying the same Paraná Civil Defence / Fire Corps / Copel statements; no major wire or Brazilian outlet reporting was found. Fails the >=2 independent reputable sources rule.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "The Library Estate",
+        "url": "https://thelibraryestate.com/two-dead-and-one-woman-missing-as-floods-hit-southwest-parana/"
+      },
+      {
+        "independent": true,
+        "outlet": "Particle News",
+        "url": "https://particle.news/story/intense-storms-flood-cities-and-cut-power-across-five-brazilian-states"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Flash floods and deaths occurred Tue 24 Nov (Parana Civil Defence balance issued 18:46 local 24 Nov). Particle News dates deluges Nov 23-24; the fatal flooding is dated 24 Nov by Civil Defence/Fire Corps. Source quality is A7's call; date itself holds."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "A Houthi drone struck the PIF Tower in Riyadh's financial district on Tuesday, wounding 11 people — two Saudis, two Indians, three Nepalis and four Egyptians, according to Saudi Civil Defence and the Indian embassy. It was the second strike on the tower in less than a week, after a first attack on November 19.",
+    "dek": "Second attack on the Saudi capital's financial district in under a week",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Indian embassy statement dated 'today, Tuesday, November 24, 2026'; ontimebrief published 2026-11-24T15:42:02+00:00; WSJ and Reuters both report the strike as Tuesday's. The Ras Tanura refinery attack in the same Reuters piece was Wednesday 25 Nov and is excluded.",
+    "field": "war/conflict",
+    "headline": "Houthi drone strikes Riyadh's PIF Tower, wounding 11",
+    "id": "a4-01",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "Saudi Civil Defence via Reuters/WSJ",
+        "unit": "people wounded",
+        "value": 11
+      },
+      {
+        "source": "WSJ",
+        "unit": "strikes on the tower in under a week (first on 19 Nov)",
+        "value": 2
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "The Wall Street Journal",
+        "url": "https://www.wsj.com/world/middle-east/yemens-houthis-take-second-swipe-at-tallest-tower-in-saudi-capital-11cc288c"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (daytime; first reports 15:42 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Drone strike Tue 24 Nov daytime; Indian embassy statement dated 'today, Tuesday, November 24, 2026'; first reports 15:42 UTC; WSJ/Reuters agree. The Ras Tanura attack (25 Nov) is correctly excluded."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Yemen's armed forces spokesman Col. Majed Abdullah Al-Nuzaily told reporters on Tuesday that Houthi forces are about 60 km from Aden, the temporary capital, but 'will not capture the city', calling Aden 'a red line'. Government forces have dug trenches and set up checkpoints after a November 15 redeployment from Bab el-Mandeb positions.",
+    "dek": "Government digs in around Yemen's temporary capital after Bab el-Mandeb redeployment",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters datelined Nov 24: 'Yemen's military said on Tuesday'; AFP reported the same Tuesday briefing; Al-Nuzaily's video-link briefing was held on 24 Nov.",
+    "field": "war/conflict",
+    "headline": "Houthis 60 km from Aden; army vows city 'will not fall'",
+    "id": "a4-02",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Col. Al-Nuzaily via Reuters",
+        "unit": "km from Aden (Houthi positions)",
+        "value": 60
+      },
+      {
+        "source": "Reuters",
+        "unit": "November — date of government redeployment from Bab el-Mandeb",
+        "value": 15
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/houthis-wont-seize-aden-yemeni-government-forces-say-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "AFP (via ASEAN NOW)",
+        "url": "https://aseannow.com/topic/1410378-houthis-advance-60km-on-aden-as-pro-government-forces-dig-in/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (briefing; reported 16:51 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Al-Nuzaily briefing held Tue 24 Nov (Reuters dateline Nov 24; AFP same briefing). Statement event is 24 Nov; Houthi positions are ongoing, not a 24 Nov movement."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Iran's parliament speaker and chief negotiator Mohammad Bagher Ghalibaf told an open session of the Majlis on Tuesday there will be 'no action or negotiation' with the United States until Tehran's seven conditions are met, including lifting sanctions, ending the US naval blockade of Iranian ports and releasing frozen assets. The full list has never been formally published.",
+    "dek": "Speaker restates demands — sanctions lift, end of naval blockade, frozen assets",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Argus Media published 2026-11-24T10:16:09Z reporting Ghalibaf 'said today'; Kayhan published 2026-11-24T21:42+03:30 on the Tuesday open session; AP via TBS published 2026-11-24.",
+    "field": "diplomacy",
+    "headline": "Iran: no US talks until seven conditions met, Ghalibaf tells parliament",
+    "id": "a4-03",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Ghalibaf via Argus/Kayhan/AP",
+        "unit": "conditions set by Tehran before talks",
+        "value": 7
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Argus Media",
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2908434-iran-rules-out-us-talks-unless-conditions-are-met"
+      },
+      {
+        "independent": true,
+        "outlet": "Kayhan",
+        "url": "https://kayhan.ir/en/news/156124/ghalibaf-no-talks-before-fulfilment-of-irans-seven-conditions"
+      },
+      {
+        "independent": true,
+        "outlet": "AP (via TBS News)",
+        "url": "https://www.tbsnews.net/worldbiz/middle-east/iran-rules-out-us-talks-until-seven-conditions-are-met-1613091"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (parliamentary address; first report 10:16 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Ghalibaf addressed open Majlis session Tue 24 Nov; Argus published 2026-11-24T10:16Z reporting he 'said today'; AP/Kayhan same day."
+  },
+  {
+    "attribution": "claims",
+    "brief": "Iran's Revolutionary Guards say an unidentified container ship struck a naval mine and stopped north of Khasab, Oman, on Tuesday after switching off its navigation systems and using an 'unauthorised route'. The claim has not been independently confirmed; no vessel name, flag or crew details were released, and no matching UKMTO warning was located. The IRGC also said a fourth oil tanker exploded early Tuesday east of the strait.",
+    "dek": "IRGC says vessel stopped north of Oman port; no independent confirmation",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "IRGC Navy statement issued Tuesday 24 Nov (PressTV timestamped Nov 24, 2026 23:40 GMT; Middle East Eye 24 Nov 18:58 UTC; Al Arabiya English 24 Nov 20:12 UTC). The separate three-tanker claim was late Monday 23 Nov and the UKMTO three-vessel incident was 23 Nov 20:25 UTC — both excluded.",
+    "field": "war/conflict",
+    "headline": "Iran claims container ship hit mine off Khasab in Hormuz",
+    "id": "a4-04",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "IRGC via PressTV/DeepDraft",
+        "unit": "container ship said to have struck a mine (unidentified)",
+        "value": 1
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "The Deep Draft",
+        "url": "https://thedeepdraft.com/2026/11/25/iran-container-ship-mine-hormuz/"
+      },
+      {
+        "independent": true,
+        "outlet": "Press TV",
+        "url": "https://www.presstv.co.uk/Detail/2026/11/24/781533/irgc-navy-renews-warning-as-cargo-vessel-strikes-mine-south-of-strait-of-hormuz"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (IRGC statement Tuesday; first reports 18:58 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "IRGC statement issued Tue 24 Nov (MEE 24 Nov 18:58Z; PressTV 23:40 GMT). The alleged mine strike is unconfirmed and its time is unstated. Keep only as an attributed claim dated by the statement ('Iran claims...'); no independent confirmation exists. The 23 Nov tanker claims/UKMTO incident are correctly excluded.",
+    "date_constraint": "IRGC statement issued Tue 24 Nov (MEE 24 Nov 18:58Z; PressTV 23:40 GMT). The alleged mine strike is unconfirmed and its time is unstated. Keep only as an attributed claim dated by the statement ('Iran claims...'); no independent confirmation exists. The 23 Nov tanker claims/UKMTO incident are correctly excluded."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "An Israeli airstrike killed Naeem Abu Nahel, 50, director of Hamas's internal security apparatus in Gaza, in western Gaza City on Tuesday, Hamas sources and Gaza's Interior Ministry said. Medics said six others, including two police officers, were killed in strikes across Gaza the same day. Abu Nahel had held the post for about two months, after his predecessor was captured in September.",
+    "dek": "Naeem Abu Nahel, in post two months, killed with six others, medics say",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters datelined Nov 24: 'killed ... on Tuesday'; Times of Israel, Jerusalem Post and Al Jazeera all reported the strike on Nov 24; the strike hit around midday near the Ansar area of western Gaza City. The killing of Mohammad Abuelouf was early Wednesday 25 Nov and is excluded. NOTE for A7: AP via TBS reported at least 9 killed across Gaza that day vs Reuters' 7 (Abu Nahel + 6).",
+    "field": "war/conflict",
+    "headline": "Israeli strike kills Hamas internal security chief in Gaza City",
+    "id": "a4-05",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Reuters (medics/police)",
+        "unit": "killed in Tuesday strikes incl. Abu Nahel (AP reported at least 9 — discrepancy for A7)",
+        "value": 7
+      },
+      {
+        "source": "Gaza Interior Ministry via SOFX",
+        "unit": "years old (Abu Nahel)",
+        "value": 50
+      },
+      {
+        "source": "BBC via nereidatlas",
+        "unit": "months in post",
+        "value": 2
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-senior-hamas-security-official-gaza-hamas-sources-say-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "SOFX (citing Times of Israel, Jerusalem Post, Al Jazeera)",
+        "url": "https://www.sofx.com/israel-kills-hamas-security-chief-naim-abu-nahal-months-after-capturing-predecessor/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (around midday local)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[killed in Tuesday strikes]",
+        "filed_value": "7 (with AP 9 noted as discrepancy)",
+        "correct_value": "Print Reuters' figure as 'Abu Nahel and six others (at least seven killed Tuesday, medics said)'. AP's 'at least nine' is a separate later count - if used, attribute to AP and keep separate; never merge the two.",
+        "source": "Reuters 2026-11-24 (13:43 + 17:15 IST updates) via DevDiscourse; AP via TBS 2026-11-24 21:55"
+      }
+    ],
+    "a8_reasoning": "Strike Tue 24 Nov around midday western Gaza City; Reuters dateline Nov 24 'killed on Tuesday'; TOI/JPost/Al Jazeera same day. The Abuelouf killing (early 25 Nov) is correctly excluded. Toll discrepancy (Reuters 7 vs AP 9+) flagged for A7."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Gaza's health ministry declared an epidemic alert on Tuesday after meningitis cases surged: 272 infections in October, more than eight times the normal monthly rate of 30 to 50, Dr Nidal Ghoneim told a news conference. Bacterial cases rose to 108 in October with about 100 more since early November; 15 people have died this year. WHO said children under one account for 71 per cent of cases.",
+    "dek": "272 infections in October against a normal 30-50; infants hardest hit",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Guardian report (via Irish Times) published 2026-11-24T19:05:50Z on the Tuesday news conference; Anadolu reported WHO's Tuesday briefing in Geneva (Lindmeier); ABNA24 reported the Tuesday declaration.",
+    "field": "health",
+    "headline": "Gaza declares meningitis epidemic alert as cases jump eightfold",
+    "id": "a4-06",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Dr Ghoneim, Gaza health ministry",
+        "unit": "meningitis cases in October",
+        "value": 272
+      },
+      {
+        "source": "Dr Ghoneim",
+        "unit": "normal monthly cases",
+        "value": "30-50"
+      },
+      {
+        "source": "Gaza health ministry",
+        "unit": "bacterial cases in October (+~100 since early Nov)",
+        "value": 108
+      },
+      {
+        "source": "Dr Ghoneim",
+        "unit": "deaths in 2026",
+        "value": 15
+      },
+      {
+        "source": "WHO spokesperson Lindmeier via Anadolu",
+        "unit": "cases since mid-October (WHO count, 4 deaths)",
+        "value": 533
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "ABNA24",
+        "url": "https://en.abna24.com/news/1894717/Gaza-declares-epidemiological-alert-as-meningitis-cases-surge"
+      },
+      {
+        "independent": true,
+        "outlet": "Anadolu Agency (via IWPost)",
+        "url": "https://iwpost.com/infants-hardest-hit-as-meningitis-cases-continue-to-rise-in-gaza/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (press conference; reported 19:05 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "headline ('eightfold')",
+        "filed_value": "cases jump eightfold",
+        "correct_value": "272 in October vs a normal 30-50 per month (= 5.4x-9.1x). 'Eightfold' only holds against ~34; print the raw figures instead.",
+        "source": "Dr Ghoneim, Gaza health ministry, via Guardian/Anadolu"
+      }
+    ],
+    "a8_reasoning": "Epidemic alert declared Tue 24 Nov at Gaza health ministry news conference (Guardian 2026-11-24T19:05Z; WHO Geneva briefing same day). Declaration is the 24 Nov event; case counts are October/early-November and are dated as such in the brief."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Eastern Libyan commander Khalifa Haftar arrived in Ankara on Tuesday for his first official visit to Turkey, at the invitation of President Recep Tayyip Erdoğan, Reuters reported. Meetings with senior Turkish officials followed on Wednesday. Turkey backed Haftar's rivals in Libya's civil war, making the visit a marked diplomatic shift.",
+    "dek": "Eastern commander visits old foe at Erdoğan's invitation",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Middle East Eye breaking card dated 24 November reporting Reuters' account of the Tuesday arrival; The Libya Update posted tarmac arrival photos on 2026-11-24. The Erdoğan meeting itself was Wednesday 25 Nov and is not the dated event here.",
+    "field": "diplomacy",
+    "headline": "Libya's Haftar arrives in Ankara on first official visit to Turkey",
+    "id": "a4-07",
+    "importance": 3,
+    "key_numbers": [],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Anadolu Agency (via Turkish Minute)",
+        "url": "https://www.turkishminute.com/2026/11/25/eastern-libyan-commander-haftar-meets-with-senior-turkish-officials-on-first-official-visit/"
+      },
+      {
+        "independent": true,
+        "outlet": "Middle East Eye",
+        "url": "https://www.threads.com/@middleeasteye/post/DgIGdmiEVdY"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (arrival)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Haftar arrived Ankara Tue 24 Nov (MEE breaking card 24 Nov; Libya Update tarmac photos 2026-11-24). Arrival is the dated event; the Erdogan meeting (25 Nov) is correctly excluded."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The Court of Arbitration for Sport reinstated Senegal as 2025 Africa Cup of Nations champions on Tuesday, restoring their 1-0 win over Morocco in the January 18 final. CAF had awarded Morocco a 3-0 default victory after Senegal briefly walked off the pitch; CAS overturned that decision.",
+    "dek": "Court ruling restores 1-0 final win over Morocco; CAF default award overturned",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters sports story datelined 2026-11-24 on the CAS ruling; AP reported the same ruling on Nov 24.",
+    "field": "sport",
+    "headline": "Senegal reinstated as AFCON 2025 champions by CAS",
+    "id": "a4-08",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters/AP",
+        "unit": "Senegal's restored final win over Morocco (18 Jan 2026)",
+        "value": "1-0"
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": "A7: Duplicate of a6-08 (same CAS Senegal ruling). a6-08 is stronger: adds referee Jean-Jacques Ndala, the CAS legal reasoning, Morocco's planned Swiss-court challenge, and a third source (NBC Sports).",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/sports/soccer/soccer-senegal-reinstated-2025-africa-cup-nations-winners-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "AP (via theScore)",
+        "url": "https://www.thescore.com/news/3665191/senegal-restored-as-africa-cup-of-nations-champion-after-cas-ruling"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24 (ruling)",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "CAS ruling announced Tue 24 Nov (Reuters sports dateline 2026-11-24; AP same day). Court decision is a 24 Nov event. Duplicate of a6-08 - publish one only."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Eleven people were killed when a passenger bus collided with a truck on Al Watan Road in Ras Al Khaimah, the UAE interior ministry said on Tuesday. Later reports said two more critically injured passengers died in hospital, taking the toll to 13, with 26 injured; the bus was carrying 41 people and hit a lorry parked on the roadside after a breakdown.",
+    "dek": "Passenger bus hits stationary lorry on Al Watan Road; later reports put toll at 13",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "UAE Interior Ministry announced the deaths on Tuesday 24 Nov (Reuters dateline Nov 24; QNA published 2026-11-24T07:30:37Z). FLAG: Manorama via Sahil Online puts the crash at 'around 1 am' local on 24 Nov, which is ~21:00 UTC on 23 Nov — A8 to adjudicate whether this counts as a 24 Nov UTC event. Toll discrepancy: 11 (Reuters/QNA, at scene) vs 13 (later hospital deaths).",
+    "field": "disaster",
+    "headline": "Bus-truck collision kills 11 in Ras Al Khaimah",
+    "id": "a4-09",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "UAE Interior Ministry via Reuters/QNA; Manorama",
+        "unit": "killed at the scene (13 total after hospital deaths, per Manorama)",
+        "value": 11
+      },
+      {
+        "source": "Manorama via Sahil Online",
+        "unit": "injured",
+        "value": 26
+      },
+      {
+        "source": "Manorama via Sahil Online",
+        "unit": "people on the bus incl. driver",
+        "value": 41
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": "A8: excluded - only timestamp ~21:00 UTC 23 Nov; no 24 Nov UTC proof",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "QNA (via Fana News)",
+        "url": "https://www.fananews.com/language/en/11-killed-in-collision-between-bus-and-truck-in-ras-al-khaimah-uae/"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via SRN News)",
+        "url": "https://srnnews.com/bus-and-truck-collision-kills-11-in-uaes-ras-al-khaimah/"
+      },
+      {
+        "independent": true,
+        "outlet": "Manorama News (via Sahil Online)",
+        "url": "https://sahilonline.org/dubai-11-indians-among-13-killed-in-bus-lorry-collision-in-ras-al-khaimah"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24 (early hours local; ~01:00 local = ~21:00 UTC 23 Nov per Manorama — UTC-BOUNDARY FLAG for A8)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a7_corrections": [
+      {
+        "field": "headline + key_numbers[killed]",
+        "filed_value": "kills 11 / 11 at scene (13 after hospital deaths)",
+        "correct_value": "13 killed (11 at the scene, 2 later in hospital, police said). Headline must not say 11.",
+        "source": "Ras Al Khaimah Police update Tue 24 Nov via Gulf Business; UAE Interior Ministry via Reuters"
+      },
+      {
+        "field": "key_numbers[injured]",
+        "filed_value": "26 (Manorama via Sahil Online)",
+        "correct_value": "Disputed: Ras Al Khaimah Police say 14 injured; Manorama-derived reports say 26. Print the police figure (14) attributed, or drop the injured count.",
+        "source": "Ras Al Khaimah Police via Gulf Business/Jagran; Manorama via Sahil Online"
+      }
+    ],
+    "a8_reasoning": "UTC-boundary case. Announced Tue 24 Nov (Reuters 05:42Z; QNA 07:30Z) as occurring in the 'early hours of Tuesday' local time. The only specific time reported (Manorama: ~01:00 local 24 Nov, GST=UTC+4) converts to ~21:00 UTC on 23 Nov - i.e. 23 Nov UTC. No source proves a 24 Nov UTC time. Per 'when in doubt, OFF_DATE': TREAT AS EXCLUDED from the 24 Nov page unless a 24 Nov UTC timestamp is produced. Toll also disputed (11 at scene vs 13 after hospital deaths)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Five Turkish Air Force personnel were killed when an AS-532 Cougar helicopter crashed during a training flight near Yörükakçayır village in Eskişehir province on Tuesday, the defence ministry said. The cause was not given. It was Turkey's second deadly military helicopter crash in 12 days; four died in a November 12 crash.",
+    "dek": "AS-532 Cougar on training flight; second deadly crash in 12 days",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters datelined ANKARA, Nov 24: 'killed ... on Tuesday'; Wikipedia's 2026 in Turkey chronology lists the crash under 24 November; AnewZ and Aviation Today both date it November 24, 2026.",
+    "field": "disaster",
+    "headline": "Turkish military helicopter crashes near Eskişehir, five crew killed",
+    "id": "a4-10",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Turkish Defence Ministry via Reuters",
+        "unit": "crew killed",
+        "value": 5
+      },
+      {
+        "source": "InShorts/Reuters reporting",
+        "unit": "days since previous deadly crash (4 killed on 12 Nov)",
+        "value": 12
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "AnewZ",
+        "url": "http://anewz.tv/world/world-news/27239/turkish-military-helicopter-crash-kills-five-in-eskisehir/news"
+      },
+      {
+        "independent": true,
+        "outlet": "Aviation Today",
+        "url": "https://aviationtoday.in/aircraft-crash/turkish-military-helicopter-crashes-during-training-flight-killing-five-personnel/"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via WTBX)",
+        "url": "https://wtbx.com/2026/11/24/turkish-military-helicopter-crashed-search-and-rescue-under-way/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (Tuesday; night-time recovery footage)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Crash Tue 24 Nov (Reuters ANKARA Nov 24 'killed on Tuesday'; Wikipedia 2026-in-Turkey chronology lists 24 Nov; AnewZ/Aviation Today agree)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Israeli airstrikes and artillery shelling hit towns across southern Lebanon on Tuesday — including Nabatieh, Marjayoun, Bint Jbeil and Tyre districts and the villages of Touline, Qantara, Kfar Tebnit, Zawtar al-Sharqiya, Beit Yahoun, Baraachit and Haddatha — with no casualties reported. The strikes came despite the June US-mediated framework on withdrawal and disarmament.",
+    "dek": "Airstrikes and artillery across Nabatieh, Marjayoun, Bint Jbeil and Tyre; no casualties reported",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Arab News report dated Nov 24 19:27 on Tuesday's strikes; The Diplomatic Insight (Anadolu/NNA) published 2026-11-24T18:01+05:00. An undated '11 killed in Ansar' item circulating online was NOT used — no date proof.",
+    "field": "war/conflict",
+    "headline": "Israeli strikes pound southern Lebanon despite framework deal",
+    "id": "a4-11",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Arab News/Anadolu",
+        "unit": "casualties reported",
+        "value": 0
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Arab News",
+        "url": "https://arabnews-pk.maestronewsroom.com/middle-east/israel-pounds-southern-lebanon-amid-withdrawal-disarmament-standoff-3007932"
+      },
+      {
+        "independent": true,
+        "outlet": "The Diplomatic Insight (Anadolu/NNA)",
+        "url": "https://thediplomaticinsight.com/israeli-airstrikes-artillery-shelling-southern-lebanon/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (through the day)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Strikes through Tue 24 Nov (Arab News Nov 24 19:27; Anadolu/NNA 2026-11-24T18:01+05:00). Undated '11 killed in Ansar' item correctly not used."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "About 350,000 children in Yemen's encircled Taiz governorate missed the national measles and rubella vaccination campaign because vaccines could not be delivered safely, UN spokesperson Stéphane Dujarric told reporters in New York on Tuesday. More than 30,000 babies under one also risk missing routine immunisation, and over 364,000 people have been displaced across Yemen since early August, OCHA said.",
+    "dek": "Insecurity blocks vaccine delivery; 30,000 babies at risk of missing routine shots",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "UN News published 2026-11-24T16:00:55-05:00 on Dujarric's Tuesday briefing; Arab News reported 'the UN said on Tuesday' (first reported 2026-11-24 21:21 UTC).",
+    "field": "humanitarian",
+    "headline": "350,000 children in besieged Taiz missed measles campaign, UN says",
+    "id": "a4-12",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "UN spokesperson Dujarric",
+        "unit": "children in Taiz who missed measles/rubella campaign",
+        "value": 350000
+      },
+      {
+        "source": "UN",
+        "unit": "babies under one at risk of missing routine immunisation",
+        "value": 30000
+      },
+      {
+        "source": "OCHA via UN",
+        "unit": "people displaced across Yemen since early August",
+        "value": 364000
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "UN News",
+        "url": "https://news.un.org/en/story/2026/11/1168871"
+      },
+      {
+        "independent": true,
+        "outlet": "Arab News (via SemaSocial)",
+        "url": "http://semasocial.com/blog/350-000-yemeni-children-in-besieged-taiz-miss-out-on-measles-vac-150691"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (UN briefing, New York)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "24 Nov event is the UN briefing (UN News 2026-11-24T16:00:55-05:00) reporting that 350,000 children missed an earlier measles campaign. The missed campaign is not a 24 Nov event. Keep only as 'UN says' briefing news.",
+    "date_constraint": "24 Nov event is the UN briefing (UN News 2026-11-24T16:00:55-05:00) reporting that 350,000 children missed an earlier measles campaign. The missed campaign is not a 24 Nov event. Keep only as 'UN says' briefing news."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The IMF warned in its 2026 Article IV concluding statement, released on November 24, that South Africa risks prolonged economic stagnation without faster structural reform. The Fund projects growth of 1.0 per cent in 2026 and 1.3 per cent in 2027, unemployment averaging 32.9 per cent, and public debt at 74.1 per cent of GDP, while a comprehensive reform package could lift medium-term growth to 4.0 per cent.",
+    "dek": "Article IV statement: unemployment 32.9%, debt 74.1% of GDP",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Norvan Reports: 'concluding statement following the 2026 Article IV consultation, released on November 24'; ENNW carries the IMF staff concluding statement of the 2026 Article IV mission. NOTE for A7: pull the direct imf.org URL to replace the ENNW archive link.",
+    "field": "economy",
+    "headline": "IMF warns South Africa risks prolonged stagnation; growth seen at 1.0%",
+    "id": "a4-13",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "IMF Article IV concluding statement",
+        "unit": "% projected GDP growth 2026 (1.3% in 2027)",
+        "value": 1.0
+      },
+      {
+        "source": "IMF",
+        "unit": "% projected average unemployment 2026",
+        "value": 32.9
+      },
+      {
+        "source": "IMF via Norvan Reports",
+        "unit": "% of GDP public debt",
+        "value": 74.1
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Norvan Reports",
+        "url": "https://norvanreports.com/imf-warns-south-africa-risks-prolonged-economic-stagnation-as-unemployment-reaches-32-90/"
+      },
+      {
+        "independent": true,
+        "outlet": "IMF staff concluding statement (via ENNW)",
+        "url": "https://ennw.org/tag/2026-article-iv-mission/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (statement release)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "IMF Article IV concluding statement released 24 Nov (Norvan Reports). Release is the dated event. A7 to substitute direct imf.org URL."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Iraqi Prime Minister Ali al-Zaidi on Tuesday ordered the federal oil ministry to manage fields under Kurdish security control in Kirkuk, Nineveh, Diyala and Salahuddin, and the border authority to take over all crossings in the Kurdistan region, after a smuggling probe at state-run North Oil Company. Kurdistan PM Masrour Barzani rejected the decisions as 'baffling' and 'in no way acceptable'.",
+    "dek": "Zaidi moves after North Oil Company smuggling probe; Barzani: 'in no way acceptable'",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters Nov 24: 'his office announced on Tuesday'; ABNA24 reported the PM office statement 'on Tuesday'. The Federal Supreme Court ruling on troop deployment was Wednesday 25 Nov and is excluded from this candidate.",
+    "field": "politics",
+    "headline": "Baghdad orders federal control of Kurdish oil fields and crossings; Erbil rejects",
+    "id": "a4-14",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters",
+        "unit": "provinces covered by the oil-field order (Kirkuk, Nineveh, Diyala, Salahuddin)",
+        "value": 4
+      }
+    ],
+    "region": "Middle East",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/iraqi-pm-orders-takeover-kurdistan-regions-border-crossings-after-oil-smuggling-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "ABNA24",
+        "url": "https://en.abna24.com/news/1894584/Iraq-orders-federal-takeover-of-oilfields-and-border-crossings"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (announcement)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "PM office announcement Tue 24 Nov (Reuters Nov 24 'announced on Tuesday'). The Federal Supreme Court ruling (25 Nov) is correctly excluded."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "President John Dramani Mahama called for a fundamental restructuring of Germany-Africa economic relations at the sixth German-African Business Summit in Accra on Tuesday, urging investment partnerships over aid and commodity exports. Ghana is seeking to mobilise US$10 billion between 2027 and 2030 under its New Economy Programme; bilateral trade with Germany stands at €564 million.",
+    "dek": "Ghana targets $10bn industrial transformation as Steinmeier opens business summit",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Norvan Reports: 'Addressing the sixth German-African Business Summit in Accra on Tuesday, November 24, 2026'; Insight Ghana business listing dated November 24, 2026. NOTE for A7: second source is a listing page — upgrade to a direct article URL if used.",
+    "field": "economy",
+    "headline": "Mahama pitches new Germany-Africa partnership at Accra summit",
+    "id": "a4-15",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "President Mahama via Norvan Reports",
+        "unit": "US$ billion targeted 2027-2030 under New Economy Programme",
+        "value": 10
+      },
+      {
+        "source": "Insight Ghana",
+        "unit": "€ million Ghana-Germany bilateral trade",
+        "value": 564
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Norvan Reports",
+        "url": "https://norvanreports.com/president-mahama-calls-for-new-germany-africa-economic-partnership-as-ghana-targets-us10-billion-industrial-transformation/"
+      },
+      {
+        "independent": true,
+        "outlet": "Insight Ghana",
+        "url": "https://insightghana.com.gh/category/featured/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (summit address)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[bilateral trade]",
+        "filed_value": "€564 million (Insight Ghana)",
+        "correct_value": "UNCONFIRMED - not found in any of the four independent summit reports (Steinmeier cited Germany-Africa trade up ~10% to a record, no €564m figure). Drop this number.",
+        "source": "Norvan Reports; High Street Journal; Ghana Guardian (all 2026-11-24/25)"
+      }
+    ],
+    "a8_reasoning": "Mahama addressed the German-African Business Summit in Accra Tue 24 Nov (Norvan Reports). Speech event is 24 Nov. Second source is a listing page - A7 to upgrade."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Health workers at Kenyatta National Hospital, Kenya's largest referral hospital, downed tools on Tuesday over delayed salaries and unremitted statutory deductions for pensions, insurance and loans. The doctors' union KMPDU issued a 72-hour ultimatum; some doctors had received only half pay for nearly six months, and the hospital was said to owe about KSh3.5 billion in unremitted deductions.",
+    "dek": "KNH staff down tools; doctors' union issues 72-hour ultimatum",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "People Daily dated Tuesday 24th November, 2026 05:09 PM: workers 'staged demonstrations outside the hospital on Tuesday, November 24, 2026'; Capital FM datelined NAIROBI, Kenya Nov 24. KNH's payment-plan response came Wednesday 25 Nov.",
+    "field": "society",
+    "headline": "Health workers strike at Kenya's largest hospital over unpaid salaries",
+    "id": "a4-16",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "People Daily/Capital FM",
+        "unit": "hour ultimatum issued by KMPDU",
+        "value": 72
+      },
+      {
+        "source": "Kenyan Tribune reporting union claims",
+        "unit": "KSh billion in unremitted deductions (union figure)",
+        "value": 3.5
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "People Daily",
+        "url": "https://peopledaily.digital/news/knh-health-workers-down-tools-over-delayed-salaries"
+      },
+      {
+        "independent": true,
+        "outlet": "Capital FM",
+        "url": "https://capitalfm.africa/knh-health-workers-down-tools-over-delayed-salaries/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (protests during the day; reported 14:09 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Demonstrations staged Tue 24 Nov (People Daily dated Tuesday 24th November 2026; Capital FM dateline Nov 24). KNH response (25 Nov) correctly excluded."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "China's commerce ministry announced on Tuesday 24 November that it would extend the suspension of part of its export-control measures on dual-use items bound for the United States, covering gallium, germanium, antimony and superhard materials, with graphite export reviews also eased. The suspension, due to lapse on 28 November 2026, now runs to 27 January 2027. The move was reported the same day by Xinhua and Reuters.",
+    "dek": "MOFCOM prolongs the pause on gallium, germanium, antimony and superhard-materials controls until 27 January 2027",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Xinhua report dated 25 Nov 2026 states the ministry announced the extension on Tuesday (24 Nov); Reuters story URL and dateline dated 2026-11-24.",
+    "field": "economy/trade",
+    "headline": "China extends suspension of dual-use export controls on US-bound shipments",
+    "id": "a5-01",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "Xinhua / Reuters",
+        "unit": "new suspension expiry date",
+        "value": "2027-01-27"
+      },
+      {
+        "source": "Xinhua / Reuters",
+        "unit": "previous expiry date",
+        "value": "2026-11-28"
+      }
+    ],
+    "region": "East Asia (China)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Xinhua",
+        "url": "http://en.people.cn/n3/2026/1125/c90000-20522851.html"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/markets/commodities/china-extends-suspension-ban-us-bound-gallium-germanium-antimony-exports-2026-11-24/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Extension announced Tue 24 Nov (Xinhua 25 Nov report states announced Tuesday; Reuters URL/dateline 2026-11-24). The decision/announcement is the 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "At a press conference on Tuesday 24 November at the Jiuquan launch centre, China's space agency unveiled the three-person Shenzhou-24 crew: commander Tang Hongbo, flight engineer Wu Yi and Pakistani payload specialist Muhammad Zeeshan Ali, 40, a Pakistan Air Force pilot. Ali will be the first foreign astronaut to board the Tiangong station and the first Pakistani in orbit; the crew is to stay five to ten days and return aboard Shenzhou-23. The launch itself took place on 25 November and is not part of this story.",
+    "dek": "Pakistani payload specialist Muhammad Zeeshan Ali to become first foreigner aboard the Tiangong space station",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Xinhua report URL dated 2026/11/24 reporting the Tuesday press conference at Jiuquan; Reuters preview of the mission published ahead of the 25 Nov launch.",
+    "field": "space/science",
+    "headline": "China unveils Shenzhou-24 crew including first foreign astronaut",
+    "id": "a5-02",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Xinhua",
+        "unit": "crew members",
+        "value": 3
+      },
+      {
+        "source": "Xinhua",
+        "unit": "age of Muhammad Zeeshan Ali (years)",
+        "value": 40
+      },
+      {
+        "source": "Xinhua",
+        "unit": "planned stay (days)",
+        "value": "5-10"
+      }
+    ],
+    "region": "East Asia (China)",
+    "reject_reason": "A7: Duplicate of a6-06 (same Shenzhou-24 crew unveiling). a6-06 is stronger: Nature + AP + Reuters, crew ages, 00:18 UTC 25 Nov launch time, and Tang Hongbo's third Tiangong visit.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Xinhua",
+        "url": "http://en.people.cn/n3/2026/1124/c90000-20522403.html"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://wtbx.com/2026/11/23/china-to-launch-shenzhou-24-spaceship-with-first-foreign-astronaut/"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Crew unveiled at Jiuquan press conference Tue 24 Nov (Xinhua URL 2026/11/24; AP 'Tuesday, Nov. 24'). The launch occurred Wed 25 Nov 08:18 Beijing = 00:18 UTC 25 Nov - NOT 24 Nov UTC. Keep only as 'crew unveiled'; never as a launch. Duplicate of a6-06 - publish one only."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Prime Minister Anwar Ibrahim told parliament on Tuesday 24 November that Malaysia will return 6,803 Myanmar nationals in December: 1,500 aboard three Myanmar navy vessels on 6-7 December and 5,303 by air at Myanmar's expense. Anwar did not specify that the returnees are Rohingya, but AFP and Al Jazeera reported the group consists of Rohingya refugees, putting the figure at more than 6,500. The announcement came five days after the International Court of Justice ruled on 19 November that Myanmar committed genocide against the Rohingya.",
+    "dek": "Anwar announces returns days after ICJ genocide ruling; rights groups say most are Rohingya",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "AP and AFP reports both state Anwar made the announcement in parliament on Tuesday 24 November 2026.",
+    "field": "politics/human rights",
+    "headline": "Malaysia to repatriate 6,803 Myanmar nationals in December",
+    "id": "a5-03",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Associated Press",
+        "unit": "Myanmar nationals to be returned",
+        "value": 6803
+      },
+      {
+        "source": "Associated Press",
+        "unit": "returnees by Myanmar navy vessels (Dec 6-7)",
+        "value": 1500
+      },
+      {
+        "source": "Associated Press",
+        "unit": "returnees by air",
+        "value": 5303
+      },
+      {
+        "source": "AFP",
+        "unit": "Rohingya figure reported by AFP/Al Jazeera",
+        "value": ">6500"
+      }
+    ],
+    "region": "Southeast Asia (Malaysia/Myanmar)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Associated Press",
+        "url": "https://nagalandpost.com/malaysia-to-repatriate-rohingyas-despite-icj-warning/"
+      },
+      {
+        "independent": true,
+        "outlet": "AFP",
+        "url": "https://jawawa.id/newsitem/malaysia-to-repatriate-6-500-myanmar-migrants-including-rohingya-1795517658"
+      },
+      {
+        "independent": true,
+        "outlet": "Mizzima",
+        "url": "https://www.crphsupportgroup.no/post/malaysia-to-send-6-803-more-myanmar-nationals-home-in-december-a-decision-announced-days-after-worl"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Anwar announced in parliament Tue 24 Nov (AP and AFP agree). Announcement of December repatriation is the 24 Nov event; copy must keep the December action in the future."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Sheikh Hasina, Bangladesh's ousted prime minister living in exile in India, plans to return home on 16 December aboard a Biman Bangladesh Airlines flight from Delhi, her spokesperson Syed Mozammel Ali told Reuters on Tuesday 24 November. Hasina, sentenced to death in absentia by a Dhaka tribunal in November 2025, is seeking restored travel documents. Bangladesh state minister Humaiun Kobir responded that she could only return through extradition, 'in handcuffs'.",
+    "dek": "Ousted leader seeks state-carrier flight from Delhi despite in-absentia death sentence",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters and AP both report the spokesperson's statement was made on Tuesday 24 November; IANS follow-up timestamped 2026-11-24.",
+    "field": "politics",
+    "headline": "Sheikh Hasina announces plan to return to Bangladesh on 16 December",
+    "id": "a5-04",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Reuters",
+        "unit": "announced return date",
+        "value": "2026-12-16"
+      }
+    ],
+    "region": "South Asia (Bangladesh)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://srnnews.com/exclusive-sheikh-hasina-seeks-to-return-to-bangladesh-on-december-16-on-state-carrier/"
+      },
+      {
+        "independent": true,
+        "outlet": "Associated Press",
+        "url": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/news/world/ousted-leader-hasina/HLBNBEU6VA3ELLHKBVVX5CJNKU/"
+      },
+      {
+        "independent": true,
+        "outlet": "IANS",
+        "url": "https://ianslive.in/sheikh-hasina-can-only-return-in-handcuffs-bangladesh-minister-on-former-pms-dec-16-comeback-plan--20261124161407"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Spokesperson statement made Tue 24 Nov (Reuters/AP; IANS timestamped 2026-11-24). The announced return date (16 Dec) is future and must stay future in copy."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Indonesian police confirmed on Tuesday 24 November that the death toll from the fire at the PT Fonusa Agung Mulia (Milkita) candy factory in Serang, Banten, had risen to 26 after two more bodies were retrieved. The fire itself broke out on Saturday 21 November; most victims were found on the second floor near an emergency exit, and a short circuit in an air-conditioning unit is suspected. Reports conflict on the number still missing: 28 according to police via CNA, eight according to the Straits Times. Around 600 rescuers were deployed.",
+    "dek": "Police confirm two more bodies recovered from Serang plant; missing count disputed",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "AP and other outlets reported the police confirmation of the raised toll on Tuesday 24 November 2026; the underlying fire occurred 21 November and is flagged as such.",
+    "field": "disaster",
+    "headline": "Indonesia candy-factory fire death toll rises to 26",
+    "id": "a5-05",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Associated Press (police)",
+        "unit": "confirmed dead",
+        "value": 26
+      },
+      {
+        "source": "News Central TV",
+        "unit": "missing (police via CNA)",
+        "value": 28
+      },
+      {
+        "source": "Straits Times via reports",
+        "unit": "missing (Straits Times figure)",
+        "value": 8
+      },
+      {
+        "source": "Associated Press",
+        "unit": "rescuers deployed (approx.)",
+        "value": 600
+      }
+    ],
+    "region": "Southeast Asia (Indonesia)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Associated Press",
+        "url": "https://dailyfoxnews.com/news/15459/26-workers-confirmed-dead-in-indonesia-factory-fire"
+      },
+      {
+        "independent": true,
+        "outlet": "News Central TV",
+        "url": "https://newscentraltv.com/26-dead-28-missing-in-indonesia-factory-fire/"
+      },
+      {
+        "independent": true,
+        "outlet": "People",
+        "url": "https://people.com/at-least-24-dead-after-fire-tore-though-indonesia-candy-factory-12275228"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Fire occurred 21 Nov; police confirmed raised toll (26) Tue 24 Nov (AP). The 24 Nov event is the toll update only. Keep only worded 'death toll rises to 26' with the fire dated 21 Nov.",
+    "date_constraint": "Fire occurred 21 Nov; police confirmed raised toll (26) Tue 24 Nov (AP). The 24 Nov event is the toll update only. Keep only worded 'death toll rises to 26' with the fire dated 21 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "An explosion at a hot-pot eatery in Hanoi's Dong Da district at about 8 a.m. local time on Tuesday 24 November killed six people. Reuters reported ten injured, while the Associated Press said more than a dozen were hospitalised, including a patient with traumatic brain injury. A cooking-gas leak is the suspected cause, according to preliminary reports.",
+    "dek": "Blast in Dong Da district injures at least ten; suspected cooking-gas leak",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters story URL dated 2026/11/24; AP story filed the same day describing a Tuesday-morning blast in Hanoi.",
+    "field": "disaster",
+    "headline": "Explosion at Hanoi hot-pot eatery kills six",
+    "id": "a5-06",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters / AP",
+        "unit": "killed",
+        "value": 6
+      },
+      {
+        "source": "Reuters",
+        "unit": "injured (Reuters figure)",
+        "value": 10
+      },
+      {
+        "source": "Associated Press",
+        "unit": "hospitalised (AP figure)",
+        "value": "14+"
+      }
+    ],
+    "region": "Southeast Asia (Vietnam)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://kelofm.com/2026/11/24/explosion-kills-6-injures-10-in-vietnam-capital-hanoi/"
+      },
+      {
+        "independent": true,
+        "outlet": "Associated Press",
+        "url": "https://www.barchart.com/story/news/8979509/a-blast-at-a-hot-pot-eatery-in-vietnam-s-capital-hanoi-kills-6-and-injures-more-than-a-dozen"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T01:00Z (approx., 08:00 local)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Explosion Tue morning 24 Nov Hanoi (Reuters URL 2026/11/24; AP Tuesday-morning blast). Physical event on 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "An earthquake struck Nepal's Koshi Province at about 07:02 IST (01:32 GMT) on Tuesday 24 November, with tremors felt across eastern India. The US Geological Survey and the European-Mediterranean Seismological Centre measured magnitude 5.3 at a depth of 10-20 km, while Nepal's National Earthquake Monitoring and Research Centre recorded a local magnitude of 5.6 near Olangchung Gola in Taplejung district. No casualties were reported.",
+    "dek": "USGS and EMSC put magnitude at 5.3; Nepal's NEMRC recorded 5.6 near Taplejung",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "India NCS bulletin and agency reports timestamp the quake at 07:02 IST on 24 November 2026; Reuters/EMSC report filed the same morning (US-dated URL 11/23 reflects US time).",
+    "field": "disaster/weather",
+    "headline": "Earthquake strikes Nepal's Koshi Province, tremors felt across eastern India",
+    "id": "a5-07",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Reuters / EMSC",
+        "unit": "magnitude (USGS/EMSC)",
+        "value": 5.3
+      },
+      {
+        "source": "Jagran Josh (NEMRC)",
+        "unit": "local magnitude (NEMRC)",
+        "value": 5.6
+      },
+      {
+        "source": "USGS/EMSC",
+        "unit": "depth (km)",
+        "value": "10-20"
+      }
+    ],
+    "region": "South Asia (Nepal)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters (EMSC)",
+        "url": "https://krro.com/2026/11/23/magnitude-5-3-earthquake-strikes-nepals-koshi-province-emsc-says/"
+      },
+      {
+        "independent": true,
+        "outlet": "Jagran Josh (India NCS / USGS / NEMRC)",
+        "url": "https://www.jagranjosh.com/general-knowledge/earthquake-today-nepal-sikkim-koshi-province-damage-risk-1820014086-1"
+      },
+      {
+        "independent": true,
+        "outlet": "Saudi Press Agency",
+        "url": "https://www.spa.gov.sa/en/N2734813"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T01:32Z (approx.)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[magnitude] (print figure)",
+        "filed_value": "5.3 (USGS/EMSC) and 5.6 (NEMRC) both listed",
+        "correct_value": "Print 'magnitude 5.3 (USGS/EMSC); Nepal's NEMRC recorded a local magnitude of 5.6'. If one number only: 5.3 with USGS attribution. Never print 5.6 unattributed.",
+        "source": "India NCS bulletin 24/11/2026 07:02:47 IST; PTI via The Samaja; Jagran Josh"
+      }
+    ],
+    "a8_reasoning": "Quake timestamped 07:02 IST 24 Nov by India NCS = 01:32 UTC; Reuters/EMSC same morning. Instrument-timestamped 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Communications Minister Anika Wells announced on Tuesday 24 November that the Labor government had reached agreement with the Greens on a digital duty of care for online platforms. The deal provides for fines of up to five per cent of global revenue (or A$109 million), a private right of action for users, an ombudsman pathway and an algorithm opt-out. The legislation itself passed parliament the following day, 25 November.",
+    "dek": "Fines of up to 5% of global revenue, private right of action and algorithm opt-out",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "AAP story published 2026-11-24T04:38:58Z reporting the deal announced at a 24 November press conference; MLex report timestamped 24 Nov 05:30 GMT.",
+    "field": "tech policy",
+    "headline": "Australia strikes Labor-Greens deal on digital duty of care for tech platforms",
+    "id": "a5-08",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "AAP",
+        "unit": "maximum fine (% of global revenue)",
+        "value": 5
+      },
+      {
+        "source": "AAP",
+        "unit": "alternative fine cap (A$ million)",
+        "value": 109
+      }
+    ],
+    "region": "Oceania (Australia)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Australian Associated Press",
+        "url": "https://aapnews.aap.com.au/news/social-media-overhaul-poised-to-pass-as-deal-reached"
+      },
+      {
+        "independent": true,
+        "outlet": "MLex",
+        "url": "https://www.mlex.com/mlex/data-privacy-security/articles/2558979/big-tech-faces-billions-in-fines-under-australian-online-safety-bill-deal"
+      },
+      {
+        "independent": true,
+        "outlet": "AdNews",
+        "url": "https://www.adnews.com.au/news/digital-duty-of-care-fines-for-social-media-under-greens-deal-with-labor"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T04:38Z (AAP filing; announcement earlier that day)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Labor-Greens deal announced at 24 Nov press conference (AAP 2026-11-24T04:38Z; MLex 24 Nov 05:30 GMT). The law itself was passed 25 Nov. Keep only as a deal announcement ('Australia strikes deal'); never as 'law passed' on 24 Nov.",
+    "date_constraint": "Labor-Greens deal announced at 24 Nov press conference (AAP 2026-11-24T04:38Z; MLex 24 Nov 05:30 GMT). The law itself was passed 25 Nov. Keep only as a deal announcement ('Australia strikes deal'); never as 'law passed' on 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Kim Yo Jong, sister of North Korean leader Kim Jong Un, said in a statement carried by state media KCNA on Tuesday 24 November that she would advise the foreign ministry to examine withdrawing the Swiss diplomatic office in Pyongyang. The threat followed Swiss sanctions targeting the Songdowon International Children's Camp over allegations it hosted Ukrainian children transferred by Russia. An actual expulsion order was issued the following day, 25 November.",
+    "dek": "Kim Yo Jong condemns Swiss sanctions over children's camp in KCNA statement",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters report datelined SEOUL, Nov 24, describing the KCNA statement issued that Tuesday; Korea JoongAng Daily carried the item under 2026.11.24.",
+    "field": "diplomacy",
+    "headline": "North Korea threatens to close Swiss diplomatic office in Pyongyang",
+    "id": "a5-09",
+    "importance": 3,
+    "key_numbers": [],
+    "region": "East Asia (North Korea)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://srnnews.com/north-korea-to-consider-shutting-down-swiss-diplomatic-office-in-pyongyang-kcna-says/"
+      },
+      {
+        "independent": true,
+        "outlet": "Statement",
+        "url": "https://statement.com/1374038/pyongyang-threatens-to-shut-swiss-office"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "KCNA statement issued Tue 24 Nov (Reuters SEOUL Nov 24; Korea JoongAng Daily 2026.11.24). Statement event is 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "South Korea's unification ministry said on Tuesday 24 November that a North Korean fishing boat found adrift near Ulleung Island in the East Sea on 3 November would be sent back to the North soon on humanitarian grounds. Of the seven North Koreans aboard, one is believed to have asked to stay in the South and that request was granted. Seoul plans to notify Pyongyang through the United Nations Command, as the two sides have no working communication channel; timing depends on weather.",
+    "dek": "Six of seven crew to return on humanitarian grounds; one to stay in the South",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Yonhap report datelined SEOUL, Nov. 24 stating the ministry spoke on Tuesday; Korea JoongAng Daily article published 2026-11-24T06:53:43Z.",
+    "field": "diplomacy",
+    "headline": "South Korea to repatriate North Korean fishing boat found near Ulleung Island",
+    "id": "a5-10",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Yonhap",
+        "unit": "crew aboard",
+        "value": 7
+      },
+      {
+        "source": "Yonhap",
+        "unit": "crew member to remain in the South",
+        "value": 1
+      }
+    ],
+    "region": "East Asia (South Korea/North Korea)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Yonhap",
+        "url": "https://korean-vibe.com/article/179560363906906"
+      },
+      {
+        "independent": true,
+        "outlet": "Korea JoongAng Daily",
+        "url": "https://www.koreajoongangdaily.com/korea/south-to-repatriate-north-fishing-boat-found-near-ulleung-island/12988280"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T06:53Z (Korea JoongAng Daily publication; ministry briefing that day)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Unification ministry spoke Tue 24 Nov (Yonhap SEOUL Nov. 24; Korea JoongAng Daily 2026-11-24T06:53Z)."
+  },
+  {
+    "attribution": "claims",
+    "brief": "Pakistan's Counter Terrorism Department said five suspected Tehreek-e-Taliban Pakistan militants were killed in an intelligence-based operation in the Bacha Khel area of Peshawar on Tuesday 24 November, after a 20-25 minute exchange of fire; the targeted TTP commander, Taj Muhammad, escaped with two or three associates. In a separate joint operation in Bannu the same day, police said three militants were killed. The accounts rest on official statements; independent confirmation of the circumstances was not immediately available.",
+    "dek": "Five killed in Peshawar CTD operation, three in Bannu; TTP commander escapes",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Xinhua report datelined ISLAMABAD, Nov. 24 stating authorities announced the operation on Tuesday; Pakhtun Digital Bannu report dated November 24, 2026; QOM report published 2026-11-24T04:21Z.",
+    "field": "conflict/security",
+    "headline": "Pakistan counter-terrorism raids kill eight suspected militants in Khyber Pakhtunkhwa",
+    "id": "a5-11",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Xinhua (CTD statement)",
+        "unit": "suspected militants killed in Peshawar",
+        "value": 5
+      },
+      {
+        "source": "Pakhtun Digital (police statement)",
+        "unit": "militants killed in Bannu",
+        "value": 3
+      },
+      {
+        "source": "Xinhua (CTD statement)",
+        "unit": "duration of Peshawar gunfight (minutes)",
+        "value": "20-25"
+      }
+    ],
+    "region": "South Asia (Pakistan)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Xinhua",
+        "url": "http://chinaview.cn/20261124/bbfe3dd855a14244a2fc85c01a72542a/c.html"
+      },
+      {
+        "independent": true,
+        "outlet": "Pakhtun Digital",
+        "url": "https://pakhtundigital.com/three-terrorists-killed-several-arrested-in-bannu-operation/"
+      },
+      {
+        "independent": true,
+        "outlet": "QOM News",
+        "url": "https://www.qom.news/latest/five-militants-killed-in-ctd-operation-in-peshawar"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (reported 04:21 UTC)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Operation announced Tue 24 Nov (Xinhua ISLAMABAD Nov. 24; QOM 2026-11-24T04:21Z). Claims attribution (official account) must be retained."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Human Rights Watch said in a report released on Tuesday 24 November that Philippine authorities have failed to investigate extrajudicial killings from the 'war on drugs' since Rodrigo Duterte was transferred to the International Criminal Court. Only four cases identified by a Justice Department task force have reached trial, and only five Duterte-era cases have ever produced convictions, involving nine officers. Human rights groups recorded at least 1,342 drug-related killings under President Marcos as of 7 November. Duterte's ICC trial is scheduled to begin on 30 November.",
+    "dek": "Only four task-force cases reached trial; ICC proceedings open 30 November",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "HRW release URL dated 2026/11/24 and datelined Manila; Philippine Daily Inquirer report published 08:00 GMT on 24 Nov 2026 covering the same release.",
+    "field": "human rights",
+    "headline": "HRW: drug-war justice stalled at home as Duterte faces ICC trial",
+    "id": "a5-12",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Human Rights Watch",
+        "unit": "task-force cases that reached trial",
+        "value": 4
+      },
+      {
+        "source": "Human Rights Watch",
+        "unit": "Duterte-era cases resulting in convictions",
+        "value": 5
+      },
+      {
+        "source": "Human Rights Watch",
+        "unit": "officers convicted",
+        "value": 9
+      },
+      {
+        "source": "Human Rights Watch",
+        "unit": "drug-related killings reported under Marcos as of Nov 7 (minimum)",
+        "value": 1342
+      }
+    ],
+    "region": "Southeast Asia (Philippines)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Human Rights Watch",
+        "url": "https://www.hrw.org/news/2026/11/24/philippines-as-icc-tries-duterte-stalled-justice-at-home"
+      },
+      {
+        "independent": true,
+        "outlet": "Philippine Daily Inquirer (via EIN News)",
+        "url": "https://humanrights.einnews.com/country/philippines"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T08:00Z (Inquirer publication)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "HRW release dated 2026/11/24 (Manila); Inquirer published 08:00 GMT 24 Nov. Report release is the dated event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Four children were killed and 32 people injured when a speeding truck rammed a stationary school bus on the Lucknow-Agra Expressway near Thathia in Kannauj district at about 6 a.m. IST (00:30 GMT) on Tuesday 24 November, police said. The bus, from Oriental Public School in Kaushambi, was parked on the shoulder so children could use the toilet while returning from a Taj Mahal excursion with 50 people aboard. The dead were aged 14, 16, 17 and 17; the injured comprised 24 students and eight staff.",
+    "dek": "Speeding truck hits parked bus on Lucknow-Agra Expressway; 32 injured",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "PTI report datelined Kannauj (UP), Nov 24, stating the crash occurred around 6 a.m. on Tuesday morning; The Logical Indian shared its report the same day.",
+    "field": "disaster",
+    "headline": "Truck rams stationary school bus in Uttar Pradesh, four children killed",
+    "id": "a5-13",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "PTI (police)",
+        "unit": "children killed",
+        "value": 4
+      },
+      {
+        "source": "PTI (police)",
+        "unit": "injured",
+        "value": 32
+      },
+      {
+        "source": "PTI (police)",
+        "unit": "people aboard the bus",
+        "value": 50
+      }
+    ],
+    "region": "South Asia (India)",
+    "reject_reason": "A7: Source independence FAILS. The only reporting found is the single PTI wire (Kannauj, Nov 24: 4 children killed, 32 injured incl. 24 students, ~6 am, Thathia, Oriental Public School Kaushambi). The second filed source (Logical Indian via Threads) relays the same wire. A wire republish does not count as independent (rubric G-05).",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Press Trust of India",
+        "url": "https://thesamaja.com/en/business/4-children-killed-32-others-injured-as-truck-rams-stationary-school-bus-in-ups-kannauj"
+      },
+      {
+        "independent": true,
+        "outlet": "The Logical Indian (via Threads)",
+        "url": "https://www.threads.com/@thelogicalindian/post/DgHWRw1E993"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "2026-11-24T00:30Z (approx., 06:00 IST)",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Crash ~06:00 IST Tue 24 Nov (PTI Kannauj Nov 24) = ~00:30 UTC. Physical event on 24 Nov UTC."
+  },
+  {
+    "attribution": "claims",
+    "brief": "Hanshin Tigers slugger Teruaki Sato, 27, agreed a six-year, $120 million contract with the Chicago Cubs, US media reported on Tuesday 24 November, pending a physical. The two-time Central League MVP won the 2026 Triple Crown, batting .306 with 39 home runs and 106 RBIs. Hanshin is expected to receive a posting fee of about $20 million.",
+    "dek": "Hanshin Tigers Triple Crown winner set for MLB move, pending physical",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters/Field Level Media report dated 2026-11-24; USA Today story URL dated 2026/11/24 reporting the agreement.",
+    "field": "sport",
+    "headline": "Japanese slugger Teruaki Sato agrees six-year, $120m deal with Chicago Cubs",
+    "id": "a5-14",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "Reuters / USA Today",
+        "unit": "contract value (US$ million)",
+        "value": 120
+      },
+      {
+        "source": "Reuters / USA Today",
+        "unit": "contract length (years)",
+        "value": 6
+      },
+      {
+        "source": "USA Today",
+        "unit": "posting fee to Hanshin (US$ million, approx.)",
+        "value": 20
+      },
+      {
+        "source": "USA Today",
+        "unit": "home runs in 2026 season",
+        "value": 39
+      }
+    ],
+    "region": "East Asia (Japan)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters / Field Level Media",
+        "url": "https://www.reuters.com/sports/reports-cubs-japanese-slugger-teruaki-sato-agree-120m-deal--flm-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "USA Today",
+        "url": "https://www.usatoday.com/story/sports/mlb/2026/11/24/teruaki-sato-contract-cubs-japan-stats/92940660007/"
+      },
+      {
+        "independent": true,
+        "outlet": "NBC Sports",
+        "url": "https://www.nbcsports.com/mlb/news/cubs-agree-to-six-year-deal-with-japanese-slugger-teruaki-sato-where-he-fits-in-chicagos-2027-lineup"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (exact time not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "headline",
+        "filed_value": "Teruaki Sato agrees six-year, $120m deal with Chicago Cubs",
+        "correct_value": "Teruaki Sato reported to agree six-year, $120m Cubs deal (pending physical)",
+        "source": "Reuters/FLM 2026-11-24; USA Today 2026/11/24"
+      }
+    ],
+    "a8_reasoning": "Agreement reported 24 Nov (Reuters/Field Level Media dated 2026-11-24; USA Today URL 2026/11/24). Deal agreement is the 24 Nov event; 'agrees' (not 'signs') wording and claims attribution to be retained."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Oncologist Professor Georgina Long and physicist Professor Anthony Thomas were announced as joint winners of the 2026 Prime Minister's Prize for Science at Parliament House on Tuesday 24 November, the first time the flagship award has been shared across two different disciplines. Long was honoured for research leading to the first highly effective drug therapies for melanoma; Thomas for work reshaping understanding of protons, neutron stars and dark matter. The prize is worth A$250,000.",
+    "dek": "Georgina Long and Anthony Thomas named joint winners in first cross-disciplinary tie",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Department of Industry announcement dated 24 November 2026 stating recipients were announced at Parliament House on Tuesday 24 November; trade-press report the next day describes the Tuesday-night ceremony.",
+    "field": "science/society",
+    "headline": "Melanoma pioneer and physicist share Australia's PM's Prize for Science",
+    "id": "a5-15",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "Lab Online",
+        "unit": "prize value (AUD)",
+        "value": 250000
+      },
+      {
+        "source": "Department of Industry",
+        "unit": "joint recipients of the flagship prize",
+        "value": 2
+      }
+    ],
+    "region": "Oceania (Australia)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Australian Department of Industry, Science and Resources",
+        "url": "https://www.industry.gov.au/news/meet-recipients-2026-prime-ministers-prizes-science"
+      },
+      {
+        "independent": true,
+        "outlet": "Lab Online",
+        "url": "https://www.labonline.com.au/content/lab-business/news/joint-winners-announced-for-2026-pm-39-s-prize-for-science-1176133695"
+      },
+      {
+        "independent": true,
+        "outlet": "Prime Minister of Australia (pm.gov.au)",
+        "url": "https://www.pm.gov.au/media/2026-prime-ministers-prizes-celebrate-australias-leading-scientists-innovators-and-teachers"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (evening local; exact UTC not reported)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Recipients announced at Parliament House Tue 24 Nov (Dept. of Industry announcement dated 24 Nov; trade press describes Tuesday-night ceremony)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The international affairs committee of Kyrgyzstan's Jogorku Kenesh approved on Tuesday 24 November a draft framework agreement under which the country can raise up to €1 billion from the European Bank for Reconstruction and Development for sustainable municipal infrastructure, Deputy Finance Minister Nurbek Akzholov said. The envelope comprises €220 million in grants and €780 million in concessional loans, up from an initial €400 million, targeting drinking water, sewerage, irrigation, transport and energy; about €176 million is earmarked for water supply in 13 cities.",
+    "dek": "Envelope of €220m in grants and €780m in loans for municipal infrastructure",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "AKIpress and 24.kg both reported the committee approval on 24 Nov 2026 (05:45 UTC); Kyrgyz news outlets carried multiple same-day reports of the 24 November committee meeting.",
+    "field": "economy",
+    "headline": "Kyrgyz parliament committee approves EBRD framework of up to €1 billion",
+    "id": "a5-16",
+    "importance": 2,
+    "key_numbers": [
+      {
+        "source": "24.kg",
+        "unit": "framework ceiling (EUR million)",
+        "value": 1000
+      },
+      {
+        "source": "24.kg",
+        "unit": "grants (EUR million)",
+        "value": 220
+      },
+      {
+        "source": "24.kg",
+        "unit": "concessional loans (EUR million)",
+        "value": 780
+      },
+      {
+        "source": "24.kg",
+        "unit": "water supply in 13 cities (EUR million, approx.)",
+        "value": 176
+      }
+    ],
+    "region": "Central Asia (Kyrgyzstan)",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "24.kg (via Eastern Economy digest)",
+        "url": "https://eastern-economy.com/central-asia-digest"
+      },
+      {
+        "independent": true,
+        "outlet": "news.vv.kg",
+        "url": "https://news.vv.kg/en/news/243361-the-jogorku-kenesh-committee-approved-the-agreement-with-the-ebrd-for-1-billion-45-million/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24T05:45Z (first reports by AKIpress / 24.kg)",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Committee approval reported 24 Nov 05:45 UTC by AKIpress and 24.kg; multiple same-day reports of the 24 Nov meeting."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "MARKETS CLOSE, Tuesday 24 November 2026. US (16:00 ET / 21:00 UTC): S&P 500 7,201.09 (-0.50%, -36.08 pts); Nasdaq Composite 23,733.54 (-1.48%, -356.02 pts); Dow Jones Industrial Average 50,018.70 (+0.85%, +423.39 pts); Russell 2000 2,684.94 (+0.57%); Philadelphia Semiconductor Index 8,832.50 (-7.88%, -755.55 pts). Europe (close ~16:30 UTC): FTSE 100 10,467.07 (-0.13%, -13.75 pts); DAX 25,017.81 (-1.26%); CAC 40 8,040.49 (-0.05%); Euro Stoxx 50 6,003.76 (-1.16%). Asia: Nikkei 225 58,644.63 (+3.91%, ~+2,207 pts); TOPIX 3,764.88 (+2.47%); Hang Seng 22,219.65 (-0.73%); Shanghai Composite 3,548.37 (+0.27%); KOSPI +6.32% (5,006.03 intraday snapshot). Commodities (settlement): Brent crude Jan-27 $91.40/bbl (+2.27%, +$2.03); WTI Jan-27 $82.05/bbl (+2.35%, +$1.88); COMEX gold Dec-26 $3,561.90/oz (-2.45%); COMEX silver Dec-26 $40.782/oz (-5.54%, lowest since Aug 2025); NYMEX natural gas Dec-26 $3.323/MMBtu (+4.37%, +$0.14). FX: EUR/USD 1.0964 (daily close; +0.57% vs Monday NY close 1.0904; +0.23% vs ECB fix). Crypto: Bitcoin $59,832 (Binance daily close, UTC day) -2.35% vs 23 Nov close $61,270.93, slipping below $60,000. WARNING FOR A7/A8: the earlier pool in build/stories.py (sourced to 'Horizon') lists MONDAY 23 Nov closes as if they were 24 Nov closes (S&P 7,237.17 +4.73%, Nasdaq 24,089.56 +6.51%, FTSE 10,480.82, CAC +1.48% are all Monday figures; only the Nikkei line matches 24 Nov). Do not use stories.py MARKETS.",
+    "dek": "US stocks closed mixed on Tuesday 24 November 2026: the Dow rose 0.85% above 50,000 while the Nasdaq fell 1.48% and the S&P 500 slipped 0.50% as Monday's Nvidia-driven rally unwound. Europe eased, Japan surged, oil rebounded and metals sold off.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "US closes: AP figures via La Nación (Admiral Markets morning wrap, 25 Nov) give S&P 7,201.09 -0.5%, Nasdaq 23,733.54 -1.5%, Dow 50,018.70 +0.9% for 24 Nov; corroborated by Motley Fool, Zacks, The Market Breakdown, KuCoin/Xinhua-CNBC. Europe/Asia closes: Serrari Group brief 'Market data as at the close of Tuesday 24 November 2026' and countryeconomy table dated 11/24/2026 agree (FTSE 10,467.07 -0.13%, DAX 25,017.81 -1.26%, CAC 8,040.49 -0.05%, Nikkei 58,644.63 +3.91%, Hang Seng 22,219.65 -0.73%). Minor discrepancy: Newsquawk 25 Nov brief prints DAX 25,006 (-1.31%); two sources support 25,017.81 (-1.26%) - A7 to adjudicate. Brent/WTI settlements: Plas.com and Goodman Macro both report Jan-27 Brent $91.40 (+2.27%) and WTI $82.05 (+2.35%) for 24 Nov (23 Nov settles were $89.37/$80.17). Gold/silver: Edge Consultancy 'Commodities Wrap 24 November' (settlements vs Monday) COMEX gold Dec-26 $3,561.90 (-2.45%), silver $40.782 (-5.54%); WSJ/Dow Jones front-month (Nov) gold $3,559.90 (-2.45%), silver $40.760 (-5.53%) - same % move, contract-month level differs by $2. Natural gas Dec-26 settle $3.323 (+4.37%) per Edge Consultancy, ReadGeo evening brief, Energy Buyers Guide note dated 11.24.2026, World Oil Monitor 'close 2026-11-24'; Monday settle was $3.184 (-6.7%, Reuters). Note: some continuous/January-contract series print ~$3.68 for 24 Nov - that is the January contract after the December expiry roll, not the Dec front-month settle; stories.py's '$3.57 +12.00%' matches neither and should not be used. EUR/USD 1.0964: Pipback daily close (17:00 NY) 1.09644 (+0.57%), Athena official figure 1.0963 dated 24 Nov, economies.com 1.0964 at 22:25 UTC. Bitcoin: Finnhub/Binance daily candle 2026-11-24 close 59,832 USDT (23 Nov close 61,270.93 => -2.35%); Pipback BTC daily close 59,740 (-2.37%) corroborates the sub-$60,000 close.",
+    "field": "Markets",
+    "headline": "Dow reclaims 50,000 as AI sell-off hits Nasdaq; Nikkei jumps 3.9%",
+    "id": "a6-01",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "AP via La Nación / Admiral Markets; Zacks",
+        "unit": "S&P 500 index points, close 24 Nov (-0.50%)",
+        "value": "7,201.09"
+      },
+      {
+        "source": "AP via La Nación / Admiral Markets; Motley Fool",
+        "unit": "Nasdaq Composite points, close 24 Nov (-1.48%)",
+        "value": "23,733.54"
+      },
+      {
+        "source": "AP via La Nación / Admiral Markets; Zacks",
+        "unit": "Dow Jones Industrial Average points, close 24 Nov (+0.85%)",
+        "value": "50,018.70"
+      },
+      {
+        "source": "BigGo Finance; LeapRate",
+        "unit": "Philadelphia Semiconductor Index points, close 24 Nov (-7.88%)",
+        "value": "8,832.50"
+      },
+      {
+        "source": "Serrari Group; countryeconomy.com",
+        "unit": "FTSE 100 points, close 24 Nov (-0.13%)",
+        "value": "10,467.07"
+      },
+      {
+        "source": "Serrari Group; countryeconomy.com",
+        "unit": "DAX points, close 24 Nov (-1.26%)",
+        "value": "25,017.81"
+      },
+      {
+        "source": "Serrari Group; countryeconomy.com",
+        "unit": "CAC 40 points, close 24 Nov (-0.05%)",
+        "value": "8,040.49"
+      },
+      {
+        "source": "Serrari Group; BBN Times; countryeconomy.com",
+        "unit": "Nikkei 225 points, close 24 Nov (+3.91%)",
+        "value": "58,644.63"
+      },
+      {
+        "source": "Serrari Group; BBN Times; countryeconomy.com",
+        "unit": "Hang Seng Index points, close 24 Nov (-0.73%)",
+        "value": "22,219.65"
+      },
+      {
+        "source": "Plas.com; Goodman Macro",
+        "unit": "USD per barrel, Brent crude Jan-27 settlement 24 Nov (+2.27%)",
+        "value": "91.40"
+      },
+      {
+        "source": "Plas.com; Goodman Macro",
+        "unit": "USD per barrel, WTI crude Jan-27 settlement 24 Nov (+2.35%)",
+        "value": "82.05"
+      },
+      {
+        "source": "Edge Consultancy; ReadGeo (Yahoo Finance delayed)",
+        "unit": "USD per troy ounce, COMEX gold Dec-26 settlement 24 Nov (-2.45%)",
+        "value": "3,561.90"
+      },
+      {
+        "source": "Edge Consultancy; WSJ/Dow Jones (Nov front month $40.760)",
+        "unit": "USD per troy ounce, COMEX silver Dec-26 settlement 24 Nov (-5.54%)",
+        "value": "40.782"
+      },
+      {
+        "source": "Edge Consultancy; Energy Buyers Guide; World Oil Monitor",
+        "unit": "USD per MMBtu, NYMEX natural gas Dec-26 settlement 24 Nov (+4.37%)",
+        "value": "3.323"
+      },
+      {
+        "source": "Pipback; Athena official figures; economies.com",
+        "unit": "EUR/USD daily close 24 Nov (17:00 New York basis)",
+        "value": "1.0964"
+      },
+      {
+        "source": "Finnhub/Binance daily candle; Pipback",
+        "unit": "USD (USDT), Bitcoin daily close 24 Nov UTC day (-2.35%)",
+        "value": "59,832"
+      }
+    ],
+    "region": "Global",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Admiral Markets (AP via La Nación)",
+        "url": "https://admiralmarkets.com/analytics/traders-blog/tech-sell-off-morning-wrap-25-november-2026"
+      },
+      {
+        "independent": true,
+        "outlet": "Motley Fool",
+        "url": "http://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
+      },
+      {
+        "independent": true,
+        "outlet": "Zacks",
+        "url": "https://www.zacks.com/stock/news/3034883/stock-market-news-for-nov-25-2026"
+      },
+      {
+        "independent": true,
+        "outlet": "Serrari Group market brief",
+        "url": "https://serrarigroup.com/ke/market-brief"
+      },
+      {
+        "independent": true,
+        "outlet": "countryeconomy.com",
+        "url": "https://countryeconomy.com/stock-exchange"
+      },
+      {
+        "independent": true,
+        "outlet": "Plas.com",
+        "url": "https://www.plas.com/news/details/1837"
+      },
+      {
+        "independent": true,
+        "outlet": "Goodman Macro",
+        "url": "https://www.goodman-macro.com/en/articles/20261125-oil/"
+      },
+      {
+        "independent": true,
+        "outlet": "Edge Consultancy commodities wrap",
+        "url": "https://edgeconsultancykw.com/commodities-wrap-24-november-2026/"
+      },
+      {
+        "independent": true,
+        "outlet": "WSJ (Dow Jones Market Data)",
+        "url": "https://www.wsj.com/finance/commodities-futures/gold-rises-amid-risk-on-sentiment-across-markets-ae66946a"
+      },
+      {
+        "independent": true,
+        "outlet": "Pipback daily market report",
+        "url": "https://getpipback.com/market/2026-11-25/"
+      },
+      {
+        "independent": true,
+        "outlet": "Finnhub (Binance BTC/USDT)",
+        "url": "https://finnhub.io/?q=%22BTC%22"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "21:00",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "key_numbers[DAX]",
+        "filed_value": "25,017.81 (-1.26%); Newsquawk prints 25,006 (-1.31%)",
+        "correct_value": "25,017.81 (-1.26%) CONFIRMED by countryeconomy historical table, Serrari brief, closelook price history (close 25017.81) and Finabase. Newsquawk's 25,006 is the outlier - discard.",
+        "source": "countryeconomy.com DAX history 11/24/2026; serrarigroup.com 25 Nov brief; closelook.net GDAXI history"
+      },
+      {
+        "field": "key_numbers[gold]",
+        "filed_value": "COMEX gold Dec-26 $3,561.90 (-2.45%); WSJ front-month (Nov) $3,559.90",
+        "correct_value": "Use Dec-26 settlement $3,561.90 (-2.45%), confirmed by Edge Consultancy, Invezz and Coinotag. The $3,559.90 is the November contract - same % move, different month. Label the contract month in print.",
+        "source": "Edge Consultancy Commodities Wrap 24 Nov; Invezz 2026-11-25"
+      },
+      {
+        "field": "key_numbers[natural gas]",
+        "filed_value": "NYMEX Dec-26 $3.323 (+4.37%); some series print ~$3.68",
+        "correct_value": "Use Dec-26 settlement $3.323/MMBtu (+4.37%), confirmed by WSJ/Dow Jones Market Data, Edge Consultancy and Rigzone/EBW. ~$3.68 is the January contract after the expiry roll - do not use. stories.py's '$3.57 +12.00%' matches neither - do not use.",
+        "source": "WSJ 2026-11-24 (Dow Jones Market Data); Edge Consultancy; Rigzone 2026-11-25"
+      },
+      {
+        "field": "key_numbers[EUR/USD %]",
+        "filed_value": "1.0964 (+0.57% vs Monday NY close; +0.23% vs ECB fix)",
+        "correct_value": "Level 1.0964 confirmed (Pipback 17:00 NY close 1.09644; economies.com 1.0964). The % is basis-dependent: +0.57% NY-close vs NY-close (1.0904), +0.23% vs ECB reference, +0.59% on a 22:32 GMT quote. Print the level; if a % is printed use '+0.6% (NY close)'.",
+        "source": "Pipback daily report 2026-11-25; economies.com 2026-11-24 22:25 UTC; Edge Consultancy"
+      }
+    ],
+    "a8_reasoning": "Index closes for Tue 24 Nov (AP figures via Admiral Markets wrap; Serrari brief 'close of Tuesday 24 November 2026'; countryeconomy table 11/24/2026). Market close is a 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Nvidia (NVDA) closed Tuesday 24 November 2026 at $155.38, down 5.86%, one day after surging 31.48% on the board's unanimous decision to reinstate Jensen Huang as CEO (Monday 23 Nov), a rally that added roughly $950bn-$1tn in market value. The Philadelphia Semiconductor Index fell 755.55 points (-7.88%) to 8,832.50, surrendering most of Monday's 14% gain. Huang, who resigned on 12 November, held his first all-staff meeting since returning on Tuesday: he apologised for violating the company code of conduct, disclosed he is receiving psychological therapy, and rejected calls for a succession plan, reviving governance concerns. President Trump publicly took credit for persuading the board. Huang faces Congress next week (three House committees behind closed doors on 1 Dec, Senate Banking Committee in public two days later). Note for A7: Reuters' 24 Nov market story reported deeper intraday falls (Nvidia -8.4%, SOX -9.2%); closing figures from BigGo, LeapRate, KuCoin and StockAnalysis converge on NVDA -5.86% ($155.38) and SOX -7.88% (8,832.50). Use closing figures.",
+    "dek": "One session after Jensen Huang's reinstatement as CEO sparked a record 31.5% surge, Nvidia gave back 5.86% on Tuesday and the Philadelphia Semiconductor Index plunged 7.88%, dragging the Nasdaq lower.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "BigGo Finance 24 Nov close report: NVDA -5.86% to $155.38, SOX -7.88% to 8,832.50. LeapRate table '24 Nov vs 23 Nov': NVDA -5.86%, SOX -7.88%, all prices as of the 24 November close. KuCoin flash (Xinhua/CNBC) 24 Nov: Nvidia -5.86%. StockAnalysis (25 Nov): 'after a 5.9% drop on Tuesday' and Huang's first all-staff meeting 'since his return on Tuesday' (CNBC). Reuters via KRRO dated Nov 24 confirms the Tuesday pullback after Monday's reinstatement rally (intraday percentages differ - see brief).",
+    "field": "Technology/Business",
+    "headline": "Nvidia rally fizzles in a day: shares fall 5.9% as chip sell-off erases $250bn",
+    "id": "a6-02",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "BigGo Finance; LeapRate",
+        "unit": "USD per share, Nvidia close 24 Nov (-5.86%)",
+        "value": "155.38"
+      },
+      {
+        "source": "LeapRate; Reuters",
+        "unit": "percent, Nvidia gain Monday 23 Nov on Huang reinstatement",
+        "value": "31.48"
+      },
+      {
+        "source": "BigGo Finance; LeapRate",
+        "unit": "Philadelphia Semiconductor Index close 24 Nov (-7.88%)",
+        "value": "8,832.50"
+      },
+      {
+        "source": "Reuters; NewsWK",
+        "unit": "USD market value added by Monday's rally (reported range)",
+        "value": "950bn-1tn"
+      }
+    ],
+    "region": "Americas",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "BigGo Finance",
+        "url": "https://finance.biggo.com/news/14f7aa3e-e4cc-4bf8-9215-c55a9c5ca196"
+      },
+      {
+        "independent": true,
+        "outlet": "LeapRate",
+        "url": "https://www.leaprate.com/markets-macro/nvidia-shares-jumped-31-when-board-reinstated-ceo-jensen-huang/"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via KRRO)",
+        "url": "https://krro.com/2026/11/24/wall-st-futures-dip-as-chip-stocks-cool-after-nvidia-fueled-rally/"
+      },
+      {
+        "independent": true,
+        "outlet": "StockAnalysis",
+        "url": "https://stockanalysis.com/news/nvidia-gives-back-half-huang-rally/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "21:00",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "NVDA -5.86% at 24 Nov close (BigGo 24 Nov close report; LeapRate '24 Nov vs 23 Nov'; KuCoin flash 24 Nov; StockAnalysis '5.9% drop on Tuesday')."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Anthropic (ANT) fell 6.5% on Tuesday 24 November 2026 to close at $81.91, below its $83 IPO price for the first time, after dipping to an intraday low of $75.61. The Claude maker went public on Thursday 19 November in the largest IPO ever, raising about $81.3bn at $83 a share; the stock opened at $111.50 and closed its first day at $97.17. Tuesday was its fourth trading day. The fall came amid a broad AI-stock sell-off (Micron -10.97%, SanDisk -11.13%, AMD about -9%). By Tuesday's close the shares were down about 26.5% from their opening price.",
+    "dek": "Shares in AI lab Anthropic (ANT) closed at $81.91 on Tuesday, below their $83 IPO price for the first time, less than a week after the largest IPO in history.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Investopedia 'Markets News, Nov. 24, 2026': Anthropic shares fell 6.5% to just under $82, below the $83 IPO level. Mitrade/TradingKey recap of Tuesday 24 Nov (Eastern): ANT closed around $81.91 after dipping to $75.61 intraday; fourth trading day since 19 Nov listing. MarketWatch via syndicated report: fell 6.5% Tuesday, low $75.61, close $81.91 on Tuesday 24 November 2026. Investopedia 25 Nov confirms 'yesterday they closed below their $83 IPO price for the first time'.",
+    "field": "Technology/Business",
+    "headline": "Anthropic falls below IPO price days after record listing",
+    "id": "a6-03",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Mitrade/TradingKey; MarketWatch",
+        "unit": "USD per share, Anthropic (ANT) close 24 Nov (-6.54%)",
+        "value": "81.91"
+      },
+      {
+        "source": "Investopedia; MarketWatch",
+        "unit": "USD per share, Anthropic IPO price (19 Nov)",
+        "value": "83"
+      },
+      {
+        "source": "Mitrade/TradingKey; MarketWatch",
+        "unit": "USD per share, Anthropic intraday low 24 Nov",
+        "value": "75.61"
+      },
+      {
+        "source": "Analytics Insight; MarketWatch",
+        "unit": "USD billion raised in Anthropic IPO (largest ever)",
+        "value": "81.3"
+      }
+    ],
+    "region": "Americas",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Investopedia",
+        "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11242026-12275797"
+      },
+      {
+        "independent": true,
+        "outlet": "Mitrade (TradingKey recap)",
+        "url": "https://www.mitrade.com/insights/news/live-news/article-8-2275761-20261125"
+      },
+      {
+        "independent": true,
+        "outlet": "MarketWatch (syndicated report)",
+        "url": "https://red-bear-785726.hostingersite.com/anthropic-shares-below-ipo-price/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "21:00",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Anthropic fell 6.5% Tue 24 Nov, close $81.91 (Investopedia 'Markets News, Nov. 24, 2026'; MarketWatch syndication). Fourth trading day since 19 Nov listing."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "A federal jury in Brooklyn convicted China's Huawei and three affiliates on Tuesday 24 November 2026 on 10 of 12 criminal counts, including bank fraud, wire fraud, sanctions violations, money-laundering conspiracy and conspiring to steal trade secrets from US companies (prosecutors cited Cisco source code, Quintel antenna technology and a CNEX circuit board). The jury acquitted Huawei of racketeering conspiracy and conspiracy to obstruct justice. The case, begun in 2018, centred on allegations Huawei misled HSBC, Standard Chartered and BNP Paribas about its Iran business via subsidiary Skycom. The trial lasted more than two months (prosecutors 60+ witnesses, defence 15). Sentencing is set for 14 September 2027 before Judge Ann Donnelly.",
+    "dek": "A Brooklyn federal jury found Huawei guilty on 10 of 12 counts including bank fraud and conspiring to steal trade secrets, but acquitted it of racketeering conspiracy.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters (URL dated 2026-11-24): 'convicted on Tuesday... guilty on 10 of the 12 criminal counts... not guilty of racketeering conspiracy.' CNN (2026/11/24): 'convicted by a jury in New York City on Tuesday... guilty on 10 of the 12 counts... acquitted of conspiring to obstruct justice and racketeering conspiracy.' WSJ: 'A federal jury on Tuesday convicted...' iHeart: 'found guilty on Tuesday (November 24)'.",
+    "field": "Technology/Business",
+    "headline": "Huawei convicted in US trial over Iran business and stolen trade secrets",
+    "id": "a6-04",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "Reuters; CNN; WSJ",
+        "unit": "criminal counts on which Huawei was convicted",
+        "value": "10 of 12"
+      },
+      {
+        "source": "Reuters; CNN",
+        "unit": "year the US criminal case began",
+        "value": "2018"
+      },
+      {
+        "source": "CNN; Fox Business",
+        "unit": "sentencing date set by Judge Ann Donnelly",
+        "value": "14 September 2027"
+      }
+    ],
+    "region": "Americas",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "CNN",
+        "url": "https://www.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk?cid=external-feeds_iluminar_meta"
+      },
+      {
+        "independent": true,
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/business/telecom/chinas-huawei-convicted-of-fraud-in-u-s-criminal-trial-20e17ac3"
+      }
+    ],
+    "status": "verified",
+    "utc_time": null,
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Same verdict as a3-03 (Reuters URL 2026-11-24; CNN 2026/11/24). DUPLICATE of a3-03 - publish one only (a3-03 has the fuller brief)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Bitcoin fell below $60,000 on Tuesday 24 November 2026, closing the UTC day at $59,832 (Binance BTC/USDT daily candle; open $61,270.92, high $61,682.01, low $59,260), down 2.35% from the 23 November close of $61,270.93. Pipback's daily close (00:00 UTC basis) put BTC at $59,740 (-2.37%). The break below $60,000 came as US tech stocks sold off and spot Bitcoin ETFs saw outflows, with leveraged long positions liquidated. Ether also fell (about $1,700).",
+    "dek": "Bitcoin closed the 24 November UTC day at $59,832, down 2.35%, breaking below the $60,000 level as the tech rout spread to crypto.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Finnhub/Binance historical daily candle for 2026-11-24 (UTC): Open 61270.92, High 61682.01, Low 59260, Close 59832; 2026-11-23 close 61270.93 => -2.35%. Pipback daily report (prices are the daily close for 24 Nov; Bitcoin 00:00 UTC): BTCUSD close 59,740 (-2.37%), high 61,600, low 59,189. FXStreet and FinScans both reported Bitcoin slipping below $60,000 on 24 Nov.",
+    "field": "Crypto/Markets",
+    "headline": "Bitcoin slips below $60,000 as AI sell-off sours risk appetite",
+    "id": "a6-05",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Finnhub/Binance daily candle",
+        "unit": "USD (USDT), Bitcoin daily close 24 Nov 2026 (UTC day)",
+        "value": "59,832"
+      },
+      {
+        "source": "Calculated from Finnhub/Binance daily closes",
+        "unit": "percent, Bitcoin change vs 23 Nov close ($61,270.93)",
+        "value": "-2.35"
+      },
+      {
+        "source": "FXStreet; Pipback",
+        "unit": "USD level Bitcoin broke below on 24 Nov",
+        "value": "60,000"
+      }
+    ],
+    "region": "Global",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Finnhub (Binance BTC/USDT daily candles)",
+        "url": "https://finnhub.io/?q=%22BTC%22"
+      },
+      {
+        "independent": true,
+        "outlet": "Pipback daily market report",
+        "url": "https://getpipback.com/market/2026-11-25/"
+      },
+      {
+        "independent": true,
+        "outlet": "FXStreet",
+        "url": "https://www.fxstreet.com/analysis/bitcoin-slides-below-60k-gold-tests-3-500-support-as-natural-gas-explodes-945-ahead-of-core-pce-202611251034"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "00:00",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "BTC daily candle for 2026-11-24 UTC (Finnhub/Binance: close 59,832; Pipback close 59,740) - slipped below $60,000 during 24 Nov UTC (FXStreet/FinScans same day)."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "China unveiled the Shenzhou-24 crew at a press conference in Jiuquan on Tuesday 24 November 2026: commander Tang Hongbo (51), flight engineer Wu Yi (39), and Pakistani Air Force pilot Muhammad Zeeshan Ali (40), who will become the first foreign astronaut to board the Tiangong space station and the first Pakistani in orbit. Ali flies as a payload specialist for about a week (5-10 days), conducting experiments including four Pakistani university biotechnology experiments, and will return aboard Shenzhou-23. The Long March-2F launch was scheduled for Wednesday 25 November at 08:18 Beijing time (00:18 UTC) - the launch itself occurred on 25 Nov and must not be dated 24 Nov. Tang will become the first astronaut to board Tiangong three times.",
+    "dek": "At a 24 November press conference in Jiuquan, China introduced Pakistani pilot Muhammad Zeeshan Ali as the first foreign astronaut to visit its Tiangong space station, launching Wednesday.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Nature: CMSA spokesperson Zhang Jingbo announced the 25 Nov 08:18 launch 'at a press conference on 24 November'. AP via Phys.org: crew met reporters at a news conference in Jiuquan on 'Tuesday, Nov. 24, 2026'. Reuters datelined Jiuquan, Nov 24, previewing Wednesday's takeoff. The launch occurred Wednesday 25 Nov 08:18 Beijing time (00:18 UTC) per Reuters/AP - filed here as the 24 Nov crew-unveiling event only.",
+    "field": "Science/Space",
+    "headline": "China unveils Shenzhou-24 crew with first foreign astronaut for Tiangong",
+    "id": "a6-06",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "AP; Reuters; Nature",
+        "unit": "crew members on Shenzhou-24 (2 Chinese, 1 Pakistani)",
+        "value": "3"
+      },
+      {
+        "source": "Reuters; Aviation Week",
+        "unit": "days Zeeshan Ali is set to stay on Tiangong",
+        "value": "5-10"
+      },
+      {
+        "source": "Reuters; Nature",
+        "unit": "scheduled Shenzhou-24 launch time (NOT 24 Nov)",
+        "value": "00:18 UTC 25 Nov"
+      }
+    ],
+    "region": "Asia-Pacific",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Nature",
+        "url": "https://www.nature.com/articles/d41586-026-03829-y?error=cookies_not_supported&code=a290237a-4e24-440b-9444-e6c6450dea04"
+      },
+      {
+        "independent": true,
+        "outlet": "Associated Press (via Phys.org)",
+        "url": "https://phys.org/news/2026-11-china-unveils-space-mission-crew.html?deviceType=mobile"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via MWC Radio)",
+        "url": "https://cpanel.mwcradio.com/news/articles/2026/nov/24/china-to-launch-shenzhou-24-spaceship-with-first-foreign-astronaut/1558925/?refer-section=world"
+      }
+    ],
+    "status": "verified",
+    "utc_time": null,
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Same as a5-02: CMSA press conference 24 Nov (Nature; AP 'Tuesday, Nov. 24, 2026'; Reuters Jiuquan Nov 24). Launch Wed 25 Nov 08:18 Beijing = 00:18 UTC 25 Nov. Keep only as crew unveiling. DUPLICATE of a5-02 - publish one only.",
+    "date_constraint": "Same as a5-02: CMSA press conference 24 Nov (Nature; AP 'Tuesday, Nov. 24, 2026'; Reuters Jiuquan Nov 24). Launch Wed 25 Nov 08:18 Beijing = 00:18 UTC 25 Nov. Keep only as crew unveiling. DUPLICATE of a5-02 - publish one only."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Gavi, the Vaccine Alliance, announced on Tuesday 24 November 2026 that it had signed an advance purchase commitment with the Serum Institute of India and Serum Life Sciences to secure access to up to 1.5 million doses of ChAdOx1 BDBV, a candidate vaccine against the Bundibugyo species of Ebolavirus developed with the Oxford Vaccine Group. The doses, funded through Gavi's First Response Fund (up to $40m committed), would be procured only if clinical trials in DR Congo show the vaccine is safe and effective and regulators and WHO policy recommend its use; no licensed vaccine or treatment exists for Bundibugyo. The DRC outbreak, declared 15 May 2026 and a WHO public health emergency of international concern, had recorded 11,613 confirmed cases and 5,678 deaths as of 17 November (WHO figures). A second Bundibugyo candidate from Moderna is also in trials; results are expected in early 2027.",
+    "dek": "Gavi signed an advance purchase commitment for the Oxford-Serum Institute Bundibugyo vaccine ChAdOx1 BDBV, conditional on trial results, as Congo's Ebola death toll passed 5,700.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Gavi official press release datelined 'Geneva, 24 November 2026': 'today announced that it had signed an advance purchase commitment... to secure access to up to 1.5 million doses of ChAdOx1 BDBV'. ReliefWeb posting dated 24 Nov 2026. Reuters (Addis Ababa, Nov 24): 'Gavi said on Tuesday it plans to buy up to 1.5 million doses... if it proves to be safe and effective', with CEO Sania Nishtar speaking at an Africa CDC event.",
+    "field": "Health/Science",
+    "headline": "Gavi secures up to 1.5 million Ebola vaccine doses for Congo outbreak",
+    "id": "a6-07",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Gavi official release; Reuters",
+        "unit": "doses of ChAdOx1 BDBV secured under advance purchase commitment",
+        "value": "1.5 million"
+      },
+      {
+        "source": "Reuters via Dallas Mirror",
+        "unit": "USD million committed by Gavi First Response Fund to Bundibugyo deals (up to)",
+        "value": "40"
+      },
+      {
+        "source": "WHO figures via Dallas Mirror; AGC NewsNet",
+        "unit": "confirmed Ebola cases in DR Congo as of 17 Nov 2026",
+        "value": "11,613"
+      },
+      {
+        "source": "WHO figures via Dallas Mirror; AGC NewsNet",
+        "unit": "Ebola deaths in DR Congo as of 17 Nov 2026",
+        "value": "5,678"
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Gavi, the Vaccine Alliance (official release)",
+        "url": "https://www.gavi.org/news/media-room/gavi-signs-agreement-serum-institute-india-secure-rapid-access-bundibugyo-vaccines"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via Daily Fox News)",
+        "url": "https://dailyfoxnews.com/news/15928/global-vaccine-group-aims-to-buy-1-5-million-doses-of-new-ebola-bundibugyo-shot-for-congo"
+      },
+      {
+        "independent": true,
+        "outlet": "ReliefWeb (Gavi release)",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/gavi-signs-agreement-serum-institute-india-secure-rapid-access-bundibugyo-vaccines"
+      }
+    ],
+    "status": "verified",
+    "utc_time": null,
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a7_corrections": [
+      {
+        "field": "dek",
+        "filed_value": "as Congo's Ebola death toll passed 5,700",
+        "correct_value": "5,678 deaths as of 17 Nov (WHO) - has NOT passed 5,700. Print '5,678 deaths (WHO, 17 Nov)'.",
+        "source": "WHO figures via Dallas Mirror/AGC NewsNet, as filed in key_numbers"
+      }
+    ],
+    "a8_reasoning": "Gavi press release datelined 'Geneva, 24 November 2026' ('today announced... signed an advance purchase commitment'); Reuters Addis Ababa Nov 24. Signing/announcement is the 24 Nov event."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The Court of Arbitration for Sport (CAS) announced on Tuesday 24 November 2026 that it had upheld the Senegalese Football Federation's appeal, setting aside the CAF Appeal Board decision and reinstating the CAF Disciplinary Board decision, confirming Senegal's 1-0 extra-time win over Morocco in January's AFCON 2025 final in Rabat. Senegal had walked off the pitch in protest after a late penalty was awarded against them; referee Jean-Jacques Ndala resumed the match, and CAS ruled he 'did not err in law' and that the forfeit rule applies only when the referee calls the game off permanently. CAF's appeal panel had overturned the result in March, awarding Morocco a 3-0 default win. Morocco said it plans to challenge the verdict at Switzerland's supreme court over the integrity of a CAS panel judge. The next men's AFCON starts in June, co-hosted by Kenya, Uganda and Tanzania.",
+    "dek": "The Court of Arbitration for Sport upheld Senegal's appeal on Tuesday, setting aside the CAF decision that had stripped them of the AFCON 2025 title and handed it to Morocco.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Reuters (URL dated 2026-11-24): 'The Swiss-based CAS on Tuesday announced it had upheld Senegal's appeal against the decision to strip them of this year's Africa Cup of Nations title.' AP via theScore (Lausanne): 'Senegal won back the Africa Cup of Nations title in a legal fight on Tuesday after the Court of Arbitration for Sport overturned an earlier ruling.' NBC Sports quotes the CAS statement setting aside the CAF Appeal Board decision.",
+    "field": "Sport",
+    "headline": "Senegal reinstated as Africa Cup champions after sports court ruling",
+    "id": "a6-08",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Reuters; AP",
+        "unit": "Senegal's extra-time win over Morocco in the AFCON 2025 final (January 2026), now confirmed",
+        "value": "1-0"
+      },
+      {
+        "source": "AP via theScore",
+        "unit": "default win CAF appeal panel had awarded Morocco in March 2026, now set aside",
+        "value": "3-0"
+      }
+    ],
+    "region": "Africa",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/sports/soccer/cas-ruling-favour-senegal-reasserts-that-referees-decision-is-final-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "Associated Press (via theScore)",
+        "url": "https://www.thescore.com/news/3665191/senegal-restored-as-africa-cup-of-nations-champion-after-cas-ruling"
+      },
+      {
+        "independent": true,
+        "outlet": "NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/senegal-named-africa-cup-of-nations-2025-champions-again-after-cas-ruling"
+      }
+    ],
+    "status": "verified",
+    "utc_time": null,
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Same CAS ruling as a4-08 (Reuters URL 2026-11-24; AP via theScore). DUPLICATE of a4-08 - publish one only."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "UEFA Champions League 2026/27, league phase matchday 5, Tuesday 24 November 2026 (nine matches): Real Madrid 5-1 PSV Eindhoven (Madrid trailed to Ivan Perisic's penalty at half-time, then scored through Federico Valverde and a Jude Bellingham strike among others; five wins from five); Arsenal 1-1 Borussia Dortmund; Manchester City 2-2 Napoli (Rayan Cherki equalised four minutes from time after City twice came from behind); Galatasaray 1-0 Aston Villa (substitute Deniz Gul, 77th minute); Bodø/Glimt 1-0 LASK; Como 1-0 AEK Athens; Feyenoord 0-1 Porto; RB Leipzig 3-1 Lens; Slovan Bratislava 0-2 Real Betis (Cucho Hernández scored twice).",
+    "dek": "Champions League matchday five on Tuesday: Real Madrid came from behind to beat PSV 5-1 for five wins from five, while Arsenal drew 1-1 with Dortmund and Manchester City rescued a 2-2 draw with Napoli.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "UEFA.com official fixtures/results page lists all nine results under 'Matchday 5 - Tuesday 24 November 2026'. Reuters match report (URL dated 2026-11-24): 'Arsenal were held to a 1-1 draw at home by Borussia Dortmund in the Champions League on Tuesday, while Real Madrid maintained their perfect start with a 5-1 comeback win over PSV Eindhoven and Manchester City drew 2-2 with Napoli.' Irish Times wrap dated 2026/11/24 carries identical results. Kickoffs 18:45 and 21:00 CET (17:45 / 20:00 UTC).",
+    "field": "Sport",
+    "headline": "Real Madrid thrash PSV 5-1 as Arsenal and Man City are held at home",
+    "id": "a6-09",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "UEFA.com; Reuters",
+        "unit": "Real Madrid vs PSV Eindhoven final score, 24 Nov",
+        "value": "5-1"
+      },
+      {
+        "source": "UEFA.com; Reuters",
+        "unit": "Manchester City vs Napoli final score, 24 Nov",
+        "value": "2-2"
+      },
+      {
+        "source": "UEFA.com; Reuters",
+        "unit": "Arsenal vs Borussia Dortmund final score, 24 Nov",
+        "value": "1-1"
+      },
+      {
+        "source": "UEFA.com",
+        "unit": "Champions League matches played on 24 Nov 2026",
+        "value": "9"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "UEFA.com (official results)",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-f/"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/sports/soccer/arsenal-man-city-held-home-real-thump-psv-comeback-win-2026-11-24/"
+      },
+      {
+        "independent": true,
+        "outlet": "The Irish Times",
+        "url": "https://irishtimes-irishtimes-staging.cdn.arcpublishing.com/sport/soccer/2026/11/24/champions-league-wrap-arsenal-held-by-dortmund-after-failing-to-hold-lead/"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "20:00",
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "UEFA official fixtures list all nine results under 'Matchday 5 - Tuesday 24 November 2026'; Reuters match report URL dated 2026-11-24. Matches played evening 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The final (third) stage of the Asda equal-pay litigation - the Material Factor Defence hearing - is being heard at Manchester Employment Tribunal from Monday 23 November to Friday 18 December 2026, with judgment expected in early 2027. More than 60,000 current and former workers, represented by Leigh Day, argue Asda's predominantly female shop-floor staff are paid more than £3 an hour less than predominantly male warehouse workers for work of equal value; the GMB union says a win could mean a payout of up to £1.2bn. Earlier stages established comparability and equal value (tribunal found for 12 of 14 lead claimants in February 2025). Asda says it is confident it can defend the claims. DATE NOTE for A8: the hearing opened on Monday 23 November and was in session on 24 November; reports were published 24 Nov. Filed as a 24 Nov candidate on the 'in session' basis - A8 to rule whether the 23 Nov opening excludes it.",
+    "dek": "More than 60,000 Asda workers' decade-long equal-pay claim reached its final tribunal stage this week, with the supermarket required to justify pay gaps by reasons unrelated to sex.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "BM Magazine (published 2026-11-24T11:36:47+00:00): 'More than 60,000 Asda workers have begun the final stage of a decade-long equal pay claim... at the Manchester Employment Tribunal.' Grocery Gazette (2026/11/24): 'The hearing, which began on Monday, will run until 18 December, with a judgment expected in early 2027.' Employee Benefits via LawBlog123: 'The Material Factor Defence (MFD) hearing will be held in Manchester's Civil Justice Centre from Monday 23 November to Friday 18 December.' The hearing was therefore in session on Tuesday 24 November 2026.",
+    "field": "Business",
+    "headline": "Final stage of Asda's £1.2bn equal-pay case under way in Manchester",
+    "id": "a6-10",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "BM Magazine; Grocery Gazette; The Grocer",
+        "unit": "Asda workers in the equal-pay claim",
+        "value": "60,000+"
+      },
+      {
+        "source": "BM Magazine; Grocery Gazette",
+        "unit": "GBP billion, potential payout if claims succeed (GMB estimate)",
+        "value": "1.2"
+      },
+      {
+        "source": "BM Magazine",
+        "unit": "GBP per hour pay gap alleged between retail and warehouse staff",
+        "value": "3+"
+      },
+      {
+        "source": "Grocery Gazette; Employee Benefits",
+        "unit": "scheduled end of final-stage hearing; judgment expected early 2027",
+        "value": "18 December 2026"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "BM Magazine",
+        "url": "https://bmmagazine.co.uk/news/asda-equal-pay-claim-final-stage-tribunal/"
+      },
+      {
+        "independent": true,
+        "outlet": "Grocery Gazette",
+        "url": "https://www.grocerygazette.co.uk/2026/11/24/asda-faces-final-showdown-in-1-2bn-equal-pay-battle-involving-60000-workers/"
+      },
+      {
+        "independent": true,
+        "outlet": "The Grocer",
+        "url": "https://www.thegrocer.co.uk/news/asda-confident-as-gender-pay-claims-case-begins-final-reckoning/726264.article"
+      }
+    ],
+    "status": "verified",
+    "utc_time": null,
+    "a7_verdict": "VERIFIED",
+    "a8_date_verdict": "BORDERLINE",
+    "a8_reasoning": "Same hearing as a3-17: began Mon 23 Nov (Grocery Gazette 'began on Monday'), in session 24 Nov, runs to 18 Dec. DUPLICATE of a3-17 - publish one only, worded 'under way', never 'began' on 24 Nov.",
+    "date_constraint": "Same hearing as a3-17: began Mon 23 Nov (Grocery Gazette 'began on Monday'), in session 24 Nov, runs to 18 Dec. DUPLICATE of a3-17 - publish one only, worded 'under way', never 'began' on 24 Nov."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "On 29 October 2026 an attacker compromised a Binance DevOps engineer's endpoint and drained approximately $6.36bn from hot wallets across 10-11 blockchains in about 20 minutes. Tether froze about $1.77bn USDT, Circle about $825m USDC; roughly $2.85-3.0bn was frozen or intercepted in total. Binance pledged to cover losses from SAFU and company funds and later said it had replenished most assets. The FBI attributed the attack to TraderTraitor (North Korea-linked). No distinct 24 November development was found. This story appears in the earlier pool (build/stories.py s06) as if current; it must NOT be presented as a 24 Nov event.",
+    "dek": "The largest crypto theft on record drained about $6.3bn from Binance hot wallets on 29 October 2026, not 24 November. Filed only so A7/A8 can log the exclusion.",
+    "event_date": "2026-10-29",
+    "evidence_of_date": "Cloud Security Alliance forensic analysis: 'On October 29, 2026, an attacker drained approximately $6.36 billion from Binance hot wallets...' Cointelegraph (updated Oct 30, 2026): Binance confirmed the $6.3bn hack on Friday (30 Oct). Rekt: 'At 20:32 UTC on October 29, Spreek raised the alarm.' The Block (3 Nov newsletter): 'was hacked on Thursday' (29 Oct 2026 was a Thursday). Event date is 2026-10-29, failing the 24 Nov rule.",
+    "field": "Crypto/Markets",
+    "headline": "Binance $6.3bn hot-wallet exploit (29 October 2026) - WRONG DATE for this page",
+    "id": "a6-11",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "Cloud Security Alliance",
+        "unit": "USD billion drained from Binance hot wallets (gross, 29 Oct 2026)",
+        "value": "6.36"
+      },
+      {
+        "source": "Cloud Security Alliance; Cointelegraph",
+        "unit": "USD billion frozen by stablecoin issuers (approx.)",
+        "value": "3.0"
+      }
+    ],
+    "region": "Global",
+    "reject_reason": "A7: Pre-rejected by A6; concur. Event date 29 Oct 2026 (Cloud Security Alliance forensic analysis; Cointelegraph 30 Oct; Rekt 20:32 UTC 29 Oct), not 24 Nov. Fails the event-date rule. Candidate for A8 DATE CHECK box.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Cloud Security Alliance",
+        "url": "https://cloudsecurityalliance.org/blog/2026/11/12/the-6-3-billion-binance-signing-compromise-and-agentic-ai-threat-analysis"
+      },
+      {
+        "independent": true,
+        "outlet": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns"
+      },
+      {
+        "independent": true,
+        "outlet": "The Block",
+        "url": "https://www.theblock.co/newsletters/the-funding/2026-11-03-binance-hack-crypto-capital-impact-432571"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "20:05",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "OFF_DATE",
+    "a8_reasoning": "Binance hot-wallet exploit occurred 29 Oct 2026 (CSA forensic analysis; Cointelegraph updated Oct 30; Rekt 20:32 UTC Oct 29). Correctly filed by A6 as WRONG DATE. DATE CHECK box."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "On 21 November 2026, starting at 18:24 UTC, BepiColombo fired its four axial thrusters 635 km above Mercury's surface and achieved Mercury orbit insertion via 'weak stability capture', the first planetary orbit entry of its kind and only the second mission to orbit Mercury after NASA's MESSENGER (2011-2015). The burn ended early and the spacecraft entered safe mode; the anomaly was traced to a software glitch in attitude guidance/thruster control. The spacecraft is safe in a stable orbit; ESA's MPO and JAXA's Mio orbiters are due to separate on 9 December. ESA's update is dated 23 November. The event is 21 Nov, not 24 Nov.",
+    "dek": "ESA/JAXA's BepiColombo achieved Mercury orbit insertion on 21 November 2026 after an eight-year journey. Filed only so A7/A8 can log the exclusion.",
+    "event_date": "2026-11-21",
+    "evidence_of_date": "ESA official release (23 Nov 2026): 'On 21 November, starting at 18:24 UTC, BepiColombo achieved Mercury orbit insertion (MOI)... traced to a software glitch... after its eight-year journey.' Nature (21 November 2026): 'On 21 November, the European Space Agency (ESA) announced that a European-built module had inserted itself into Mercury's orbit.' Event date is 2026-11-21, failing the 24 Nov rule.",
+    "field": "Science/Space",
+    "headline": "BepiColombo enters Mercury orbit (21 November 2026) - WRONG DATE for this page",
+    "id": "a6-12",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "ESA",
+        "unit": "start of Mercury orbit insertion burn",
+        "value": "18:24 UTC 21 Nov"
+      },
+      {
+        "source": "ESA; Nature",
+        "unit": "years of journey to Mercury",
+        "value": "8"
+      }
+    ],
+    "region": "Global",
+    "reject_reason": "A7: Pre-rejected by A6; concur. Mercury orbit insertion 21 Nov 2026 18:24 UTC (ESA official release 23 Nov; Nature 21 Nov), not 24 Nov. Fails the event-date rule. Candidate for A8 DATE CHECK box.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "ESA (official release)",
+        "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge"
+      },
+      {
+        "independent": true,
+        "outlet": "Nature",
+        "url": "https://www.nature.com/articles/d41586-026-03803-8?error=cookies_not_supported&code=8876c138-4e12-40fa-a1dd-a26a33351a95"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": "18:24",
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "OFF_DATE",
+    "a8_reasoning": "BepiColombo Mercury orbit insertion 21 Nov 2026 from 18:24 UTC (ESA official release 23 Nov; Nature 21 Nov). Correctly filed as WRONG DATE. DATE CHECK box."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "Grand Theft Auto VI launched worldwide on Thursday 19 November 2026 (PS5, Xbox Series X/S). Take-Two/Rockstar announced on Friday 20 November that the game generated an estimated $3.79bn in retail sales through the end of launch day, with 32.5 million copies pre-sold - the biggest entertainment launch in history, nearly five times GTA V's $800m first day in 2013. The only 24 Nov peg found is CD Projekt RED's CEO saying on Tuesday (24 Nov) that GTA VI would have no material Q4 impact on his company (Reuters, 25 Nov). The record-launch event itself is 19-20 Nov, not 24 Nov.",
+    "dek": "Grand Theft Auto VI launched on 19 November 2026 and set the all-time entertainment launch record with $3.79bn in first-day sales, announced 20 November. Filed only so A7/A8 can log the exclusion.",
+    "event_date": "2026-11-19",
+    "evidence_of_date": "WSJ: GTA VI 'grossed nearly $4 billion in sales by the end of its launch day... about $3.79 billion... 32.5 million pre-ordered games... available Thursday' (19 Nov). Reuters (20 Nov): 'raked in $3.79 billion in sales within the first 24 hours of its launch... sold 32.5 million units pre-release, Rockstar Games said on Friday'. Reuters (25 Nov) records the CD Projekt RED comment made 'on Tuesday' (24 Nov) - a secondary peg only. Launch event date is 2026-11-19, failing the 24 Nov rule.",
+    "field": "Technology/Business",
+    "headline": "GTA VI record $3.79bn first-day sales (launched 19 November 2026) - WRONG DATE for this page",
+    "id": "a6-13",
+    "importance": 4,
+    "key_numbers": [
+      {
+        "source": "Take-Two via WSJ; Reuters",
+        "unit": "USD billion first-day retail sales (19 Nov 2026)",
+        "value": "3.79"
+      },
+      {
+        "source": "Take-Two via WSJ; Reuters",
+        "unit": "million copies pre-sold",
+        "value": "32.5"
+      }
+    ],
+    "region": "Americas",
+    "reject_reason": "A7: Pre-rejected by A6; concur. GTA VI launched 19 Nov 2026; $3.79bn first-day sales / 32.5m pre-sold announced 20 Nov (WSJ; Reuters 20 Nov). Not a 24 Nov event. The 24 Nov CD Projekt RED comment (Reuters 25 Nov) is a weak secondary peg only. Candidate for A8 DATE CHECK box.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/business/media/take-twos-grand-theft-auto-vi-hits-nearly-4-billion-in-sales-on-launch-day-a1e35d15"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via MWC Radio)",
+        "url": "https://cpanel.mwcradio.com/news/articles/2026/nov/19/take-two-set-to-shatter-sales-records-as-gta-vi-launches-to-massive-fanfare/1558164/?refer-section=entertainment"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (CD Projekt RED comment, 24 Nov)",
+        "url": "https://www.reuters.com/technology/cd-projekt-red-sees-no-material-fourth-quarter-hit-gta-vi-2026-11-25/"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": null,
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "OFF_DATE",
+    "a8_reasoning": "GTA VI launched Thu 19 Nov 2026; $3.79bn first-24-hours sales (WSJ; Reuters 20 Nov). Correctly filed as WRONG DATE. DATE CHECK box."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "The Pennsylvania Department of Health confirmed on Monday 23 November 2026 that an unvaccinated Centre County resident had died, the state's ninth confirmed measles-associated death of 2026. As of 23 November the state had 1,638 confirmed cases across 46 counties and 330 hospitalizations; all nine deaths were in people unvaccinated or too young to be vaccinated. Deaths by county: Centre 1, Clinton 1, Jefferson 2, Lancaster 3, Mifflin 1, Montour 1. Reports published on 24 November describe the 23 November confirmation; the event is not dated 24 Nov.",
+    "dek": "Pennsylvania health officials confirmed the state's ninth measles-associated death of 2026 on Monday 23 November, with 1,638 cases across 46 counties. Filed only so A7/A8 can log the exclusion.",
+    "event_date": "2026-11-23",
+    "evidence_of_date": "iHeart (957bigfm): 'Pennsylvania health officials confirmed the state's ninth measles-related death of the year on Monday' (article dated 2026-11-24; Monday = 23 Nov). PennWatch (PA DOH release): 'As of November 23, DOH has confirmed nine measles-associated deaths in Pennsylvania this year... 1,638 across 46 counties.' Confirmation date is 2026-11-23, failing the 24 Nov rule.",
+    "field": "Health/Science",
+    "headline": "Pennsylvania confirms ninth measles death (23 November 2026) - WRONG DATE for this page",
+    "id": "a6-14",
+    "importance": 3,
+    "key_numbers": [
+      {
+        "source": "Pennsylvania DOH via PennWatch",
+        "unit": "confirmed measles-associated deaths in Pennsylvania in 2026 (as of 23 Nov)",
+        "value": "9"
+      },
+      {
+        "source": "Pennsylvania DOH via PennWatch",
+        "unit": "confirmed measles cases in Pennsylvania across 46 counties (as of 23 Nov)",
+        "value": "1,638"
+      },
+      {
+        "source": "Pennsylvania DOH via PennWatch",
+        "unit": "measles hospitalizations in Pennsylvania in 2026 (as of 23 Nov)",
+        "value": "330"
+      }
+    ],
+    "region": "Americas",
+    "reject_reason": "A7: Pre-rejected by A6; concur. PA's ninth measles death confirmed Monday 23 Nov 2026 (PA DOH release via PennWatch: 9 deaths, 1,638 cases/46 counties, 330 hospitalisations as of Nov 23), not 24 Nov. Fails the event-date rule. Figures are consistent with the verified a3-11. Candidate for A8 DATE CHECK box.",
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "PennWatch (Pennsylvania DOH release)",
+        "url": "https://pennwatch.org/pennsylvania-department-of-health-confirms-ninth-measles-associated-death/"
+      },
+      {
+        "independent": true,
+        "outlet": "iHeart Radio (957bigfm)",
+        "url": "https://957bigfm.iheart.com/content/2026-11-24-pennsylvania-confirms-9th-measles-related-death/"
+      }
+    ],
+    "status": "rejected",
+    "utc_time": null,
+    "a7_verdict": "REJECTED",
+    "a8_date_verdict": "OFF_DATE",
+    "a8_reasoning": "Pennsylvania ninth measles death confirmed Mon 23 Nov (PA DOH release 'As of November 23'; iHeart 'confirmed on Monday'). Correctly filed as WRONG DATE. DATE CHECK box. Note a3-11 references this as context - must be dated 23 Nov there."
+  },
+  {
+    "id": "gap-01",
+    "region": "Asia-Pacific",
+    "field": "politics",
+    "headline": "Shanghai party chief Chen Jining placed under corruption investigation",
+    "dek": "Politburo member probed for 'suspected serious violations' — the fourth top leader to fall since 2025.",
+    "brief": "China's anti-graft watchdog (Central Commission for Discipline Inspection / National Supervisory Commission) announced on Tuesday 24 November 2026 that Chen Jining, 62, Shanghai party secretary and member of the Politburo, is under investigation for 'suspected serious violations of discipline and law', a standard euphemism for corruption. Xinhua released the announcement on 24 Nov; the Shanghai Municipal Party Committee standing committee met the same day to endorse the investigation. Chen, in the Shanghai post since October 2022 and previously seen as a contender for elevation to the Politburo Standing Committee at next year's party congress, is the fourth sitting Politburo member to be probed since 2025 and the first Shanghai party chief investigated since Chen Liangyu (2002-2006). No details of the allegations were given; Chen has made no statement.",
+    "utc_time": "2026-11-24",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Xinhua News Agency released the investigation announcement on 24 November 2026 (per Wikipedia citing Xinhua, and Reuters' 24 Nov report 'BEIJING, Nov 24 (Reuters) ... unexpectedly announced on Tuesday'). CNN's report is dated 2026/11/24 and says state media announced it 'on Tuesday evening' (Beijing time, still 24 Nov UTC). 24 Nov 2026 was a Tuesday.",
+    "sources": [
+      {
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/china-investigates-politburo-member-chen-jining-xinhua-says-2026-11-24/",
+        "independent": true
+      },
+      {
+        "outlet": "CNN",
+        "url": "https://www.cnn.com/2026/11/24/china/china-chen-jining-investigated-purge-intl-hnk?cid=external-feeds_iluminar_meta",
+        "independent": true
+      }
+    ],
+    "attribution": "confirmed",
+    "key_numbers": [
+      {
+        "value": "4th",
+        "unit": "sitting Politburo member probed since 2025",
+        "source": "Reuters; CNN"
+      },
+      {
+        "value": "62",
+        "unit": "Chen Jining's age",
+        "source": "Reuters; CNN"
+      },
+      {
+        "value": "Oct 2022",
+        "unit": "Chen became Shanghai party secretary",
+        "source": "CNN"
+      }
+    ],
+    "importance": 5,
+    "status": "verified",
+    "reject_reason": null,
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Countersigned ON_DATE by A8 (date_countersign_a8.json, sources opened)."
+  },
+  {
+    "id": "gap-02",
+    "region": "Europe",
+    "field": "business",
+    "headline": "Sanofi agrees to buy US drugmaker Insmed for $41 billion",
+    "dek": "Largest pharma deal of 2026: $175 a share in cash to refill the pipeline ahead of Dupixent's patent loss.",
+    "brief": "Sanofi announced on 24 November 2026 (Paris) an agreement to acquire Insmed Incorporated, a US-based biopharmaceutical company, for $175 per share in cash — a total equity value of approximately $41.0 billion / EUR 37.6 billion. The deal brings two commercialised respiratory medicines, Brinsupri (brensocatib) and Arikayce, plus a phase 3 program (TPIP). Both boards approved the merger; closing is expected in the first half of 2027 subject to shareholder and regulatory approvals, and Sanofi expects the deal to be EPS-accretive by the end of 2028. WSJ called it by far the largest pharmaceutical transaction of 2026, driven by the need to offset looming patent expiration of the blockbuster Dupixent.",
+    "utc_time": "2026-11-24",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Sanofi's own press release is datelined 'Paris, November 24, 2026' (file name 2026-11-24-06-30-00). WSJ and Morningstar/Dow Jones reports are timestamped 24 Nov 2026 (03:06 ET / 08:06 GMT and 04:09 ET / 09:09 GMT).",
+    "sources": [
+      {
+        "outlet": "Sanofi (official press release)",
+        "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-11-24-06-30-00-3409002-en.pdf",
+        "independent": true
+      },
+      {
+        "outlet": "Wall Street Journal",
+        "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d",
+        "independent": true
+      },
+      {
+        "outlet": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+        "independent": true
+      }
+    ],
+    "attribution": "confirmed",
+    "key_numbers": [
+      {
+        "value": "41.0",
+        "unit": "billion USD total equity value (EUR 37.6bn)",
+        "source": "Sanofi press release; WSJ"
+      },
+      {
+        "value": "175",
+        "unit": "USD per Insmed share, cash",
+        "source": "Sanofi press release; WSJ"
+      },
+      {
+        "value": "H1 2027",
+        "unit": "expected closing",
+        "source": "Sanofi press release"
+      }
+    ],
+    "importance": 4,
+    "status": "verified",
+    "reject_reason": null,
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Countersigned ON_DATE by A8 (date_countersign_a8.json, sources opened)."
+  },
+  {
+    "id": "gap-03",
+    "region": "Europe",
+    "field": "war",
+    "headline": "Zaporizhzhia raid — claimed Ukrainian operation at/near the nuclear plant",
+    "dek": "Same-day consensus lead in rival entries; no corroborated Ukrainian operation at or near the ZNPP on 24 Nov.",
+    "brief": "Checked three candidate referents. (1) A Ukrainian operation at/near the Zaporizhzhia Nuclear Power Plant on 24 Nov: no reputable source found; the plant's loss of external power (17th this year, switch to diesel) occurred on 25 November after Russian shelling, per Reuters and h.ua — wrong date and a Russian action, not a Ukrainian raid. (2) A Ukrainian Lasar's Group drone raid in Zaporizhzhia REGION (22 Russian vehicles incl. 14 tanks hit overnight, reported 24 Nov): rests solely on the unit's own Facebook claim relayed by UNITED24 via europesays; no second independent source; location is the wider region, not the plant area. (3) The verified 24 Nov Zaporizhzhia event is a Russian dawn strike on the CITY (2 killed, 40+ wounded incl. 4 children) — well sourced but a different story (Russian attack on civilians, not a Ukrainian raid).",
+    "utc_time": "2026-11-24",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "Plant external-power loss dated 25 Nov 2026 by Reuters (25 Nov report, 'overnight' attack) and h.ua ('lost its external electricity supply on 25 November'). Lasar's Group claim posted 24 Nov per UNITED24/europesays, describing an overnight operation (night of 23-24 Nov at the earliest) — single-source.",
+    "sources": [
+      {
+        "outlet": "Reuters",
+        "url": "https://www.reuters.com/world/europe/russian-attack-damages-ukraines-energy-gas-sites-cuts-power-five-regions-2026-11-25/",
+        "independent": true
+      },
+      {
+        "outlet": "h.ua",
+        "url": "https://en.h.ua/topic/electricity",
+        "independent": true
+      },
+      {
+        "outlet": "UNITED24 Media via europesays.com (Lasar's Group claim)",
+        "url": "https://www.europesays.com/russia/93948/",
+        "independent": false
+      }
+    ],
+    "attribution": "claims",
+    "key_numbers": [
+      {
+        "value": "17th",
+        "unit": "loss of external power at ZNPP this year (25 Nov, not 24 Nov)",
+        "source": "Reuters, citing Deputy Energy Minister Nekrasov"
+      },
+      {
+        "value": "22",
+        "unit": "Russian vehicles claimed hit by Lasar's Group (incl. 14 tanks) — unit's own claim",
+        "source": "Lasar's Group via UNITED24/europesays"
+      }
+    ],
+    "importance": 3,
+    "status": "rejected",
+    "reject_reason": "Unverifiable as framed + wrong date: no Ukrainian operation at/near the Zaporizhzhia nuclear plant on 24 Nov UTC is corroborated by >=2 independent sources. The plant event (external power loss) occurred 25 Nov. The only Ukrainian 'raid' in the region is a single-source unit claim (Lasar's Group via one outlet) and is not plant-related. The well-sourced 24 Nov Zaporizhzhia story is a Russian strike on the city — a separate story; if A1 wants it, file it as its own item, not as this raid."
+  },
+  {
+    "attribution": "confirmed",
+    "brief": "A Russian nighttime glide-bomb attack on the southern Ukrainian city of Zaporizhzhia killed two civilians and wounded 48 others, including four children (aged under 1, 4, 6 and 16), officials said on Tuesday 24 November. The strike, with explosions reported at about 4 a.m. local time in the city's Voznesenivskyi district, destroyed a private house and partially destroyed a five-story apartment building, according to Mykhailo Semikin, head of the Zaporizhzhia Regional Military Administration; other apartment blocks had windows blown out and cars and transport infrastructure were damaged. The wounded count rose through the morning (11, then 22, 32, 40) as rescue teams searched the rubble; Reuters reported 40 wounded in its morning report and AP's final update put the toll at 48. This is the strike on Zaporizhzhia CITY homes, not the Zaporizhzhia nuclear plant (whose external-power loss occurred on 25 November) and not any Ukrainian operation.",
+    "dek": "Glide bombs hit homes in the Voznesenivskyi district before dawn; four children, including a baby under one, among the wounded, officials say.",
+    "event_date": "2026-11-24",
+    "evidence_of_date": "AP (Kyiv, Nov 24; final update timestamped 11/24/2026 11:25 -0500 = 16:25 UTC) reports 'A Russian nighttime attack on the southern Ukrainian city of Zaporizhzhia killed two civilians and wounded 48 others, including four children, officials said Tuesday.' Reuters (Nov 24, published 2026-11-24T13:02+05:30 = 07:32 UTC) reports the attack 'overnight' with the governor speaking 'on Tuesday'. Al Jazeera (published 24 Nov 2026, own staff reporting) calls it a 'dawn raid' on Tuesday. Secondary reports (QNC News, InfoKava) put explosions at about 4 a.m. local in the Voznesenivskyi district; Ukraine is on EET (UTC+2) in November, so ~04:00 local 24 Nov = ~02:00 UTC 24 Nov — safely on-date. The nuclear-plant external-power loss was a separate event on 25 Nov (see gap-03 rejection) and is NOT this story.",
+    "field": "war",
+    "headline": "Russian dawn strike on Zaporizhzhia kills 2, wounds 48",
+    "id": "gap-04",
+    "importance": 5,
+    "key_numbers": [
+      {
+        "source": "AP; Reuters (both citing Zaporizhzhia Regional Military Administration head Mykhailo Semikin)",
+        "unit": "civilians killed",
+        "value": "2"
+      },
+      {
+        "source": "AP, citing officials",
+        "unit": "wounded (final AP update, 16:25 UTC)",
+        "value": "48"
+      },
+      {
+        "source": "Reuters, citing Semikin",
+        "unit": "wounded (earlier Reuters snapshot, 07:32 UTC; count rose 11 -> 22 -> 32 -> 40 -> 44 -> 48 through the day)",
+        "value": "40"
+      },
+      {
+        "source": "AP; Reuters (both citing Semikin)",
+        "unit": "children wounded (ages under 1, 4, 6, 16)",
+        "value": "4"
+      },
+      {
+        "source": "QNC News; InfoKava (secondary; AP/Reuters say overnight/nighttime, Al Jazeera says dawn)",
+        "unit": "explosions reported, Voznesenivskyi district",
+        "value": "~04:00 local (~02:00 UTC)"
+      }
+    ],
+    "region": "Europe",
+    "reject_reason": null,
+    "sources": [
+      {
+        "independent": true,
+        "outlet": "Associated Press (via Compuserve)",
+        "url": "https://webcenters.netscape.compuserve.com/pf/story/0001/20261124/bfff959fb4c7415f9473b34e78a4f750"
+      },
+      {
+        "independent": true,
+        "outlet": "Reuters (via Devdiscourse)",
+        "url": "https://www.devdiscourse.com/article/international/4011214-russian-attack-kills-2-people-in-ukraines-zaporizhzhia-governor-says?amp"
+      }
+    ],
+    "status": "verified",
+    "utc_time": "2026-11-24 (overnight/dawn; explosions reported ~04:00 local EET = ~02:00 UTC)",
+    "a8_date_verdict": "ON_DATE",
+    "a8_reasoning": "Countersigned ON_DATE by A8 (date_countersign_a8.json, sources opened)."
+  }
+]
